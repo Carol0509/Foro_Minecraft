@@ -27,9 +27,12 @@ if (isset($_POST['register'])) {
 <html>
 <head>
     <title>Registro Foro Minecraft</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>¡Registrate!</h1>
+<div class="container">
+    <h1>¡Registrate!</h1>
 
 <?php if ($error): ?>
 <p style="color:red"><?= $error ?></p>
@@ -41,6 +44,7 @@ if (isset($_POST['register'])) {
     <button name="register">Registrarse</button>
 </form>
 
-<p><a href="index.php">Volver al inicio</a></p>
+<p class=""text-center><a href="index.php">Volver al inicio</a></p>
+</div>
 </body>
 </html>
