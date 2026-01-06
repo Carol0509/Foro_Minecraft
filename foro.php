@@ -6,6 +6,7 @@ if (!isset($_SESSION['user'])) {
 }
 
 $user = $_SESSION['user'];
+$avatar = $_SESSION['avatar'] ?? 'avatar1.webp';
 $posts_file = 'posts.json';
 $posts = [];
 
@@ -110,7 +111,7 @@ if (isset($_GET['my_posts'])) {
 <body class="foro">
 <div class="container">
     <div class="user-panel">
-    <img src="default-avatar.png" class="avatar">
+    <img src="avatars/<?= htmlspecialchars($avatar) ?>" class="avatar">
 
     <div class="user-info">
         <p><strong><?= htmlspecialchars($user) ?></strong></p>
@@ -118,7 +119,7 @@ if (isset($_GET['my_posts'])) {
             Posts: <?= count(array_filter($posts, fn($p) => $p['user'] === $user)) ?>
         </p>
         <form method="GET">
-            <button name="my_posts" value="1">Mis publicaciones</button>
+            <a href="perfil.php" class="btn profile-btn">Perfil</a>
         </form>
         <form method="GET" style="display:inline-block;">
             <button>Todos los posts</button>
