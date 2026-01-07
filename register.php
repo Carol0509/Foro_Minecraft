@@ -1,43 +1,53 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['users'])) {
-    $_SESSION['users'] = [];
+// Configuración de la base de datos
+$host = 'localhost';
+$db   = 'minecraft_forum';
+$user_db = 'root'; 
+$pass_db = '';     
+$charset = 'utf8mb4';
+
+$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+$options = [
+    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+];
+
+try {
+     $pdo = new PDO($dsn, $user_db, $pass_db, $options);
+} catch (\PDOException $e) {
+     die("Error de conexión: " . $e->getMessage());
 }
 
 $error = null;
-
-$users_file = 'users.json';
-$users = file_exists($users_file) ? json_decode(file_get_contents($users_file), true) : [];
-if (!is_array($users)) $users = [];
-$avatars = [
-    'avatar1.webp',
-    'avatar2.png',
-    'avatar3.png',
-    'avatar4.webp',
-    'avatar5.jpg'
-];
-
+$avatars = ['avatar1.webp', 'avatar2.png', 'avatar3.png', 'avatar4.webp', 'avatar5.jpg'];
 
 if (isset($_POST['register'])) {
     $user = trim($_POST['username']);
     $pass = trim($_POST['password']);
-    $avatar = $_POST['avatar'] ?? 'avatar1.webp'; //predeterminado
+    $email = $user . "@example.com"; // Email temporal ya que la tabla lo requiere y no está en el form
+    $avatar = $_POST['avatar'] ?? 'avatar1.webp';
 
-    if (isset($users[$user])) {
+    // Verificar si el usuario ya existe
+    $stmt = $pdo->prepare("SELECT COUNT(*) FROM users WHERE username = ?");
+    $stmt->execute([$user]);
+    
+    if ($stmt->fetchColumn() > 0) {
         $error = "Usuario ya existe";
     } else {
-        $users[$user] = [
-            'password' => $pass,
-            'avatar' => $avatar
-        ];
-
-        file_put_contents($users_file, json_encode($users, JSON_PRETTY_PRINT));
-        //inicia sesión automáticamente después de registrarse
-        $_SESSION['user'] = $user;
-        $_SESSION['avatar'] = $avatar;
-        header("Location: foro.php");
-        exit;
+        // Insertar en la base de datos
+        $stmt = $pdo->prepare("INSERT INTO users (username, password, email) VALUES (?, ?, ?)");
+        if ($stmt->execute([$user, $pass, $email])) {
+            $new_id = $pdo->lastInsertId();
+            
+            $_SESSION['user'] = $user;
+            $_SESSION['user_id'] = $new_id; // Vital para evitar el error de foro.php
+            $_SESSION['avatar'] = $avatar;
+            
+            header("Location: foro.php");
+            exit;
+        }
     }
 }
 ?>
@@ -50,26 +60,23 @@ if (isset($_POST['register'])) {
 </head>
 <body>
 <div class="container">
-    <h1>¡Registrate!</h1>
-
-<?php if ($error): ?>
-<p style="color:red"><?= $error ?></p>
-<?php endif; ?>
-
-<form method="POST">
-    <input type="text" name="username" placeholder="Usuario" required><br>
-    <input type="password" name="password" placeholder="Contraseña" required><br>
-    <p>Elige tu avatar:</p>
+    <h1>¡Regístrate!</h1>
+    <?php if ($error): ?>
+        <p style="color:red"><?= $error ?></p>
+    <?php endif; ?>
+    <form method="POST">
+        <input type="text" name="username" placeholder="Usuario" required><br>
+        <input type="password" name="password" placeholder="Contraseña" required><br>
+        <p>Elige tu avatar:</p>
         <?php foreach ($avatars as $a): ?>
             <label>
                 <input type="radio" name="avatar" value="<?= $a ?>" required>
                 <img src="avatars/<?= $a ?>" style="width:50px; height:50px; image-rendering: pixelated;">
             </label>
         <?php endforeach; ?><br>
-    <button name="register">Registrarse</button>
-</form>
-
-<p class=""text-center><a href="index.php">Volver al inicio</a></p>
+        <button name="register">Registrarse</button>
+    </form>
+    <p class="text-center"><a href="index.php">Volver al inicio</a></p>
 </div>
 </body>
 </html>

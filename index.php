@@ -1,28 +1,49 @@
 <?php
 session_start();
 
-// Si ya inició sesión, redigire al foro
+// Si ya inició sesión, redirigir al foro
 if (isset($_SESSION['user'])) {
     header("Location: foro.php");
     exit;
 }
 
-if (!isset($_SESSION['users'])) {
-    $_SESSION['users'] = [];
+// Configuración de la base de datos
+$host = 'localhost';
+$db   = 'minecraft_forum';
+$user_db = 'root'; 
+$pass_db = '';     
+$charset = 'utf8mb4';
+
+$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+$options = [
+    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    PDO::ATTR_EMULATE_PREPARES   => false,
+];
+
+try {
+     $pdo = new PDO($dsn, $user_db, $pass_db, $options);
+} catch (\PDOException $e) {
+     die("Error de conexión: " . $e->getMessage());
 }
+
 $error = null;
 
-$users_file = 'users.json';
-$users = file_exists($users_file) ? json_decode(file_get_contents($users_file), true) : [];
-if (!is_array($users)) $users = [];
-
 if (isset($_POST['login'])) {
-    $user = trim($_POST['username']);
-    $pass = trim($_POST['password']);
+    $user_input = trim($_POST['username']);
+    $pass_input = trim($_POST['password']);
 
-    if (isset($users[$user]) && $users[$user]['password']  === $pass) {
-        $_SESSION['user'] = $user;
-        $_SESSION['avatar'] = $_SESSION['users'][$user]['avatar'];
+    // Consultar el usuario en la base de datos
+    $stmt = $pdo->prepare("SELECT * FROM users WHERE username = ?");
+    $stmt->execute([$user_input]);
+    $user_data = $stmt->fetch();
+
+    // Verificación (Nota: Si usaste password_hash al registrar, usa password_verify)
+    if ($user_data && $user_data['password'] === $pass_input) {
+        $_SESSION['user'] = $user_data['username'];
+        $_SESSION['user_id'] = $user_data['id']; // ESTA ES LA CLAVE PARA EL ERROR
+        $_SESSION['avatar'] = 'avatar1.webp'; // O el campo que tengas para el avatar
+        
         header("Location: foro.php");
         exit;
     } else {
