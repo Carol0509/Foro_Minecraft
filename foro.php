@@ -42,6 +42,7 @@ if (isset($_POST['post_content'])) {
     }
 }
 
+
 // Crear Comentario
 if (isset($_POST['comment_content'], $_POST['post_id'])) {
     $post_id = intval($_POST['post_id']);
@@ -72,19 +73,43 @@ if (isset($_POST['delete_comment'])) {
     exit;
 }
 
-// --- OBTENCIÓN DE DATOS ---
+// --- OBTENCIÓN DE DATOS CON FILTROS ---
 
-// Obtenemos todos los posts con su autor correspondiente
-$query = "SELECT p.*, u.username FROM posts p JOIN users u ON p.user_id = u.id ORDER BY p.created_at DESC";
-if (isset($_GET['my_posts'])) {
-    $query = "SELECT p.*, u.username FROM posts p JOIN users u ON p.user_id = u.id WHERE p.user_id = ? ORDER BY p.created_at DESC";
-    $stmt = $pdo->prepare($query);
-    $stmt->execute([$user_id]);
-} else {
-    $stmt = $pdo->query($query);
+$params = [];
+$where_clauses = [];
+
+// Base de la consulta
+$query = "SELECT p.*, u.username FROM posts p JOIN users u ON p.user_id = u.id";
+
+// Filtro por Usuario (Nombre parcial o exacto)
+if (!empty($_GET['filter_user'])) {
+    $where_clauses[] = "u.username LIKE ?";
+    $params[] = "%" . $_GET['filter_user'] . "%";
 }
-$showPosts = $stmt->fetchAll();
 
+// Filtro por Fecha
+if (!empty($_GET['filter_date'])) {
+    $where_clauses[] = "DATE(p.created_at) = ?";
+    $params[] = $_GET['filter_date'];
+}
+
+// Filtro de "Mis posts" (mantenemos tu lógica anterior)
+if (isset($_GET['my_posts'])) {
+    $where_clauses[] = "p.user_id = ?";
+    $params[] = $user_id;
+}
+
+// Unir las cláusulas WHERE si existen
+if (count($where_clauses) > 0) {
+    $query .= " WHERE " . implode(" AND ", $where_clauses);
+}
+
+// Ordenar siempre por fecha descendente
+$query .= " ORDER BY p.created_at DESC";
+
+$stmt = $pdo->prepare($query);
+$stmt->execute($params);
+$showPosts = $stmt->fetchAll();
 ?>
 <!DOCTYPE html>
 <html>
@@ -118,6 +143,23 @@ $showPosts = $stmt->fetchAll();
         <textarea name="post_content" required placeholder="Escribe tu post..."></textarea><br>
         <button>Publicar</button>
     </form>
+    <br>
+    <div class="filters" style="background: #333; padding: 15px; margin-bottom: 20px; border: 1px dashed #7CFC00;">
+        <h3 style="font-size: 12px; color: #7CFC00;">Filtrar búsqueda</h3>
+        <form method="GET" style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+            
+            <input type="text" name="filter_user" placeholder="Usuario..." 
+                value="<?= htmlspecialchars($_GET['filter_user'] ?? '') ?>" 
+                style="padding: 5px; font-family: 'Press Start 2P'; font-size: 10px;">
+
+            <input type="date" name="filter_date" 
+                value="<?= htmlspecialchars($_GET['filter_date'] ?? '') ?>" 
+                style="padding: 5px; font-family: 'Press Start 2P'; font-size: 10px;">
+
+            <button type="submit" class="btn">Aplicar</button>
+            <a href="foro.php" style="color: #FF6347; font-size: 10px; text-decoration: none;">Limpiar</a>
+        </form>
+    </div>
 
     <h2>Posts recientes</h2>
     <?php foreach ($showPosts as $post): ?>
