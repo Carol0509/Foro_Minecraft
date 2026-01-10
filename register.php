@@ -26,7 +26,6 @@ $avatars = ['avatar1.webp', 'avatar2.png', 'avatar3.png', 'avatar4.webp', 'avata
 if (isset($_POST['register'])) {
     $user = trim($_POST['username']);
     $pass = trim($_POST['password']);
-    $email = $user . "@example.com"; // Email temporal ya que la tabla lo requiere y no está en el form
     $avatar = $_POST['avatar'] ?? 'avatar1.webp';
 
     // Verificar si el usuario ya existe
@@ -37,13 +36,12 @@ if (isset($_POST['register'])) {
         $error = "Usuario ya existe";
     } else {
         // Insertar en la base de datos
-        $stmt = $pdo->prepare("INSERT INTO users (username, password, email) VALUES (?, ?, ?)");
-        if ($stmt->execute([$user, $pass, $email])) {
+        $stmt = $pdo->prepare("INSERT INTO users (username, password) VALUES (?, ?)");
+        if ($stmt->execute([$user, $pass])) {
             $new_id = $pdo->lastInsertId();
             
             $_SESSION['user'] = $user;
-            $_SESSION['user_id'] = $new_id; // Vital para evitar el error de foro.php
-            $_SESSION['avatar'] = $avatar;
+            $_SESSION['user_id'] = $new_id;
             
             header("Location: foro.php");
             exit;

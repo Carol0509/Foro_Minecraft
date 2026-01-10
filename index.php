@@ -38,11 +38,11 @@ if (isset($_POST['login'])) {
     $stmt->execute([$user_input]);
     $user_data = $stmt->fetch();
 
-    // Verificación (Nota: Si usaste password_hash al registrar, usa password_verify)
+    // Verificación
     if ($user_data && $user_data['password'] === $pass_input) {
         $_SESSION['user'] = $user_data['username'];
-        $_SESSION['user_id'] = $user_data['id']; // ESTA ES LA CLAVE PARA EL ERROR
-        $_SESSION['avatar'] = 'avatar1.webp'; // O el campo que tengas para el avatar
+        $_SESSION['user_id'] = $user_data['id'];
+        $_SESSION['avatar'] = 'avatar1.webp';
         
         header("Location: foro.php");
         exit;

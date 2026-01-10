@@ -93,7 +93,7 @@ if (!empty($_GET['filter_date'])) {
     $params[] = $_GET['filter_date'];
 }
 
-// Filtro de "Mis posts" (mantenemos tu lógica anterior)
+// Filtro de "Mis posts"
 if (isset($_GET['my_posts'])) {
     $where_clauses[] = "p.user_id = ?";
     $params[] = $user_id;

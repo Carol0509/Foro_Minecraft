@@ -23,7 +23,7 @@ $user = $_SESSION['user'];
 $user_id = $_SESSION['user_id'];
 $avatar = $_SESSION['avatar'] ?? 'avatar1.webp';
 
-// Cambiar avatar (solo en sesión ya que no hay columna en tu tabla users)
+// Cambiar avatar
 if (isset($_POST['change_avatar'], $_POST['new_avatar'])) {
     $_SESSION['avatar'] = $_POST['new_avatar'];
     $avatar = $_POST['new_avatar'];
@@ -57,7 +57,6 @@ $myPosts = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Mantenemos tus estilos originales */
         .profile-header { display: flex; align-items: center; gap: 20px; margin-bottom: 20px; }
         .profile-avatar { width: 64px; height: 64px; border: 3px solid #000; image-rendering: pixelated; }
         .profile-buttons button { background-color: #7CFC00; border: 3px solid #000; padding: 8px 12px; font-family: 'Press Start 2P', cursive; font-size: 10px; cursor: pointer; margin-right: 10px; box-shadow: 3px 3px 0 #000; }
