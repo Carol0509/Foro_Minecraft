@@ -29,6 +29,7 @@ try {
 
 $error = null;
 
+// Guardar en variables los datos de registro
 if (isset($_POST['login'])) {
     $user_input = trim($_POST['username']);
     $pass_input = trim($_POST['password']);
