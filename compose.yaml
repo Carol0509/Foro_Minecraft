@@ -3,7 +3,8 @@ name: 'escenario_web_IAW'
 services:
   bases:
     container_name: bases
-    image: localhost/bases:v1
+    build: ./bases
+    image: bases:v1
     networks:
       redbridgeIAW:
         ipv4_address: 10.0.1.2
@@ -15,7 +16,8 @@ services:
 
   webserver:
     container_name: webserv
-    image: localhost/webserv:v4
+    build: .
+    image: webserv:v4
     networks:
       redbridgeIAW:
         ipv4_address: 10.0.1.3
