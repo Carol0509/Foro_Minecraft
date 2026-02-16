@@ -1,0 +1,9 @@
+<map id="TheSeer\Tokenizer\Exception" name="TheSeer\Tokenizer\Exception">
+<area shape="rect" id="Node000001" title=" " alt="" coords="140,45,348,70"/>
+<area shape="rect" id="Node000003" href="$classTheSeer_1_1Tokenizer_1_1NamespaceUriException.html" title=" " alt="" coords="409,5,630,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="361,41,408,36,409,41,362,46"/>
+<area shape="rect" id="Node000004" href="$classTheSeer_1_1Tokenizer_1_1TokenCollectionException.html" title=" " alt="" coords="396,69,643,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="362,68,396,72,395,78,361,74"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,45,92,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,55,140,55,140,60,106,60"/>
+</map>

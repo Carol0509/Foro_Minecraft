@@ -1,0 +1,7 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$classSebastianBergmann_1_1CodeCoverage_1_1Driver_1_1Driver.html" title=" " alt="" coords="5,37,257,77"/>
+<area shape="rect" id="Node000001" href="$classSebastianBergmann_1_1CodeCoverage_1_1Driver_1_1PcovDriver.html" title=" " alt="" coords="305,5,557,45"/>
+<area shape="poly" id="edge1325_Node000000_Node000001" title=" " alt="" coords="271,40,305,36,305,41,271,45"/>
+<area shape="rect" id="Node000002" href="$classSebastianBergmann_1_1CodeCoverage_1_1Driver_1_1XdebugDriver.html" title=" " alt="" coords="305,69,557,109"/>
+<area shape="poly" id="edge1326_Node000000_Node000002" title=" " alt="" coords="271,70,305,73,305,79,271,75"/>
+</map>

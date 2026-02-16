@@ -1,0 +1,11 @@
+<map id="PHPUnit\Runner\ErrorException" name="PHPUnit\Runner\ErrorException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,229,251"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="20,152,73,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,185,108,223,104,227,66,189"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Exception.html" title=" " alt="" coords="97,152,281,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,189,131,227,127,223,166,185"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Exception.html" title=" " alt="" coords="118,79,261,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="192,118,192,152,187,152,187,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="144,5,235,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="192,44,192,79,187,79,187,44"/>
+</map>

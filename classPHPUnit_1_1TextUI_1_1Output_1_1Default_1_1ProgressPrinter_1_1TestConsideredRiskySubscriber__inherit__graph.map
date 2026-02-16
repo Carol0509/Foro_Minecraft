@@ -1,0 +1,9 @@
+<map id="PHPUnit\TextUI\Output\Default\ProgressPrinter\TestConsideredRiskySubscriber" name="PHPUnit\TextUI\Output\Default\ProgressPrinter\TestConsideredRiskySubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="492,41,720,96"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1TextUI_1_1Output_1_1Default_1_1ProgressPrinter_1_1Subscriber.html" title=" " alt="" coords="254,5,431,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,44,492,50,492,56,445,49"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Test_1_1ConsideredRiskySubscriber.html" title=" " alt="" coords="241,85,444,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="457,86,491,82,492,87,458,92"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="5,92,193,117"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="207,102,241,102,241,107,207,107"/>
+</map>

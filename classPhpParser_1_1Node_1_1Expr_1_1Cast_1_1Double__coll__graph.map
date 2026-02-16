@@ -1,0 +1,16 @@
+<map id="PhpParser\Node\Expr\Cast\Double" name="PhpParser\Node\Expr\Cast\Double">
+<area shape="rect" id="Node000001" title=" " alt="" coords="137,360,294,400"/>
+<area shape="rect" id="Node000002" href="$classPhpParser_1_1Node_1_1Expr_1_1Cast.html" title=" " alt="" coords="47,243,237,268"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,278,206,358,202,361,154,281"/>
+<area shape="rect" id="Node000003" href="$classPhpParser_1_1Node_1_1Expr.html" title=" " alt="" coords="63,155,221,180"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="143,194,142,204,143,242,138,243,137,204,137,194"/>
+<area shape="poly" id="edge6_Node000002_Node000003" title=" " alt="" coords="145,194,145,242,139,242,139,194"/>
+<area shape="rect" id="Node000004" href="$classPhpParser_1_1NodeAbstract.html" title=" " alt="" coords="53,80,231,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="145,120,145,154,139,154,139,120"/>
+<area shape="rect" id="Node000005" href="$interfacePhpParser_1_1Node.html" title=" " alt="" coords="5,5,129,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="91,38,132,78,128,81,87,42"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="154,5,279,31"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="197,42,156,81,152,78,193,38"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="261,243,319,268"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="278,281,229,361,225,358,274,278"/>
+</map>

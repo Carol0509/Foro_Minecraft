@@ -1,0 +1,9 @@
+<map id="PHPUnit\Runner\Baseline\TestTriggeredWarningSubscriber" name="PHPUnit\Runner\Baseline\TestTriggeredWarningSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="91,167,324,207"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Runner_1_1Baseline_1_1Subscriber.html" title=" " alt="" coords="5,79,191,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,125,185,164,181,169,131,129"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Test_1_1WarningTriggeredSubscriber.html" title=" " alt="" coords="215,79,421,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="284,129,233,169,230,164,281,125"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="224,5,412,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="321,44,321,79,315,79,315,44"/>
+</map>

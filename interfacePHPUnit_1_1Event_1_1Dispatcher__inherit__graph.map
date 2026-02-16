@@ -1,0 +1,11 @@
+<map id="PHPUnit\Event\Dispatcher" name="PHPUnit\Event\Dispatcher">
+<area shape="rect" id="Node000001" title=" " alt="" coords="112,5,303,31"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Event_1_1CollectingDispatcher.html" title=" " alt="" coords="5,79,191,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,41,126,81,123,76,179,36"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1SubscribableDispatcher.html" title=" " alt="" coords="215,79,418,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,36,292,76,289,81,233,41"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Event_1_1DeferringDispatcher.html" title=" " alt="" coords="59,167,310,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="275,128,206,169,203,164,272,123"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Event_1_1DirectDispatcher.html" title=" " alt="" coords="334,167,563,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="361,123,431,164,428,169,359,128"/>
+</map>

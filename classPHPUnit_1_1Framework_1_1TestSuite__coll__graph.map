@@ -1,0 +1,16 @@
+<map id="PHPUnit\Framework\TestSuite" name="PHPUnit\Framework\TestSuite">
+<area shape="rect" id="Node000001" title=" " alt="" coords="507,119,721,144"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="263,5,401,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="415,28,484,49,548,83,597,116,594,121,545,87,482,54,413,33"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Framework_1_1Reorderable.html" title=" " alt="" coords="215,119,449,144"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="463,129,506,129,506,134,463,134"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="12,75,87,100"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="101,85,183,86,320,91,458,103,544,116,544,121,457,109,320,97,183,91,101,90"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="101,97,118,101,217,116,216,121,117,106,100,102"/>
+<area shape="rect" id="Node000005" href="$interfacePHPUnit_1_1Framework_1_1SelfDescribing.html" title=" " alt="" coords="207,168,457,193"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="418,163,540,141,541,147,419,168"/>
+<area shape="rect" id="Node000006" href="$interfacePHPUnit_1_1Framework_1_1Test.html" title=" " alt="" coords="241,217,423,243"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="428,212,456,203,531,173,590,142,592,146,533,178,458,209,429,217"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,217,93,243"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="107,227,241,227,241,233,107,233"/>
+</map>

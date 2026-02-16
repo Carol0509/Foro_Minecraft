@@ -1,0 +1,12 @@
+<map id="PhpParser\Node\Stmt\ElseIf_" name="PhpParser\Node\Stmt\ElseIf_">
+<area shape="rect" id="Node000001" title=" " alt="" coords="27,243,185,283"/>
+<area shape="rect" id="Node000002" href="$classPhpParser_1_1Node_1_1Stmt.html" title=" " alt="" coords="109,168,268,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,205,127,245,124,241,165,201"/>
+<area shape="rect" id="Node000003" href="$classPhpParser_1_1NodeAbstract.html" title=" " alt="" coords="105,80,283,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="195,119,192,168,187,167,190,119"/>
+<area shape="rect" id="Node000004" href="$interfacePhpParser_1_1Node.html" title=" " alt="" coords="5,5,129,31"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="74,44,106,242,100,243,69,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="101,35,175,77,172,82,98,40"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="154,5,279,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="211,45,200,80,195,79,206,43"/>
+</map>

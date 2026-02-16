@@ -1,0 +1,19 @@
+<map id="SebastianBergmann\CodeUnit\CodeUnit" name="SebastianBergmann\CodeUnit\CodeUnit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,223,269"/>
+<area shape="rect" id="Node000002" href="$classSebastianBergmann_1_1CodeUnit_1_1ClassMethodUnit.html" title=" " alt="" coords="271,5,488,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,216,154,179,185,136,224,92,269,55,291,43,294,48,272,60,228,96,190,139,158,182,135,219"/>
+<area shape="rect" id="Node000003" href="$classSebastianBergmann_1_1CodeUnit_1_1ClassUnit.html" title=" " alt="" coords="271,69,488,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,218,198,167,233,141,269,119,296,107,299,112,272,124,236,146,202,171,146,221"/>
+<area shape="rect" id="Node000004" href="$classSebastianBergmann_1_1CodeUnit_1_1FileUnit.html" title=" " alt="" coords="271,133,488,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,221,270,183,306,171,307,176,272,188,174,226"/>
+<area shape="rect" id="Node000005" href="$classSebastianBergmann_1_1CodeUnit_1_1FunctionUnit.html" title=" " alt="" coords="271,197,488,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="236,232,270,228,271,233,237,237"/>
+<area shape="rect" id="Node000006" href="$classSebastianBergmann_1_1CodeUnit_1_1InterfaceMethodUnit.html" title=" " alt="" coords="271,261,488,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="237,261,271,266,270,271,236,267"/>
+<area shape="rect" id="Node000007" href="$classSebastianBergmann_1_1CodeUnit_1_1InterfaceUnit.html" title=" " alt="" coords="271,325,488,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="174,272,272,311,307,323,306,328,270,316,172,277"/>
+<area shape="rect" id="Node000008" href="$classSebastianBergmann_1_1CodeUnit_1_1TraitMethodUnit.html" title=" " alt="" coords="271,389,488,429"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="146,277,202,327,236,353,272,375,299,387,296,392,269,380,233,357,198,331,142,281"/>
+<area shape="rect" id="Node000009" href="$classSebastianBergmann_1_1CodeUnit_1_1TraitUnit.html" title=" " alt="" coords="271,453,488,493"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="135,280,158,317,190,360,228,403,272,439,294,451,291,456,269,444,224,406,185,363,154,320,130,283"/>
+</map>

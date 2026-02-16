@@ -1,0 +1,9 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$classPharIo_1_1Manifest_1_1Type.html" title=" " alt="" coords="5,55,164,80"/>
+<area shape="rect" id="Node000001" href="$classPharIo_1_1Manifest_1_1Application.html" title=" " alt="" coords="212,5,413,31"/>
+<area shape="poly" id="edge229_Node000000_Node000001" title=" " alt="" coords="157,49,253,28,254,33,158,54"/>
+<area shape="rect" id="Node000002" href="$classPharIo_1_1Manifest_1_1Extension.html" title=" " alt="" coords="217,55,409,80"/>
+<area shape="poly" id="edge230_Node000000_Node000002" title=" " alt="" coords="178,65,217,65,217,70,178,70"/>
+<area shape="rect" id="Node000003" href="$classPharIo_1_1Manifest_1_1Library.html" title=" " alt="" coords="226,104,399,129"/>
+<area shape="poly" id="edge231_Node000000_Node000003" title=" " alt="" coords="158,80,254,101,253,107,157,86"/>
+</map>

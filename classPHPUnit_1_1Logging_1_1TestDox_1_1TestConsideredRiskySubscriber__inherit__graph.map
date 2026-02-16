@@ -1,0 +1,9 @@
+<map id="PHPUnit\Logging\TestDox\TestConsideredRiskySubscriber" name="PHPUnit\Logging\TestDox\TestConsideredRiskySubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="94,167,322,207"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Logging_1_1TestDox_1_1Subscriber.html" title=" " alt="" coords="5,79,192,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,125,185,164,182,169,132,129"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Test_1_1ConsideredRiskySubscriber.html" title=" " alt="" coords="216,79,419,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="284,129,234,169,231,164,281,125"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="223,5,411,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="320,44,320,79,315,79,315,44"/>
+</map>

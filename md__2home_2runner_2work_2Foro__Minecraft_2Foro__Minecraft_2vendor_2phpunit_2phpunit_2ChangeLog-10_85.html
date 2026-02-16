@@ -1,0 +1,695 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>minecraft_forum: Changes in PHPUnit 10.5</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">minecraft_forum<span id="projectnumber">&#160;0.1</span>
+   </div>
+   <div id="projectbrief">Para probar GitHub Actions</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div><div class="header">
+  <div class="headertitle"><div class="title">Changes in PHPUnit 10.5</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="autotoc_md226"></a> All notable changes of the <a class="el" href="namespacePHPUnit.html">PHPUnit</a> 10.5 release series are documented in this file using the <a href="https://keepachangelog.com/">Keep a CHANGELOG</a> principles.</p>
+<h1><a class="anchor" id="autotoc_md227"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.62...10.5.63" &gt;10.5.63&lt;/a&gt; - 2026-01-27</h1>
+<h2><a class="anchor" id="autotoc_md228"></a>
+Fixed</h2>
+<ul>
+<li>Regression introduced in <a class="el" href="namespacePHPUnit.html">PHPUnit</a> 9.6.33</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md229"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.61...10.5.62" &gt;10.5.62&lt;/a&gt; - 2026-01-27</h1>
+<h2><a class="anchor" id="autotoc_md230"></a>
+Changed</h2>
+<ul>
+<li>To prevent Poisoned Pipeline Execution (PPE) attacks using prepared <code>.coverage</code> files in pull requests, a PHPT test will no longer be run if the temporary file for writing code coverage information already exists before the test runs</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md231"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.60...10.5.61" &gt;10.5.61&lt;/a&gt; - 2026-01-24</h1>
+<h2><a class="anchor" id="autotoc_md232"></a>
+Changed</h2>
+<ul>
+<li><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Framework\MockObject</code> exceptions are now subtypes of <code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Exception</code></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md233"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.59...10.5.60" &gt;10.5.60&lt;/a&gt; - 2025-12-06</h1>
+<ul>
+<li>No changes; <code>phpunit.phar</code> rebuilt with PHP 8.4 to work around PHP-Scoper issue <a href="https://github.com/humbug/php-scoper/issues/1139">#1139</a></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md234"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.58...10.5.59" &gt;10.5.59&lt;/a&gt; - 2025-12-01</h1>
+<h2><a class="anchor" id="autotoc_md235"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/6338">#6338</a>: Removed code from <code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Runner\TestSuiteSorter</code> that was only used in the tests for this class</li>
+<li>Updated list of deprecated PHP configuration settings for PHP 8.4, PHP 8.5, and PHP 8.6</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md236"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.57...10.5.58" &gt;10.5.58&lt;/a&gt; - 2025-09-28</h1>
+<h2><a class="anchor" id="autotoc_md237"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6368">#6368</a>: <code>failOnPhpunitWarning="false"</code> has no effect</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md238"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.56...10.5.57" &gt;10.5.57&lt;/a&gt; - 2025-09-24</h1>
+<ul>
+<li>No changes; <code>phpunit.phar</code> rebuilt with updated dependencies</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md239"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.55...10.5.56" &gt;10.5.56&lt;/a&gt; - 2025-09-23</h1>
+<ul>
+<li>No changes; <code>phpunit.phar</code> rebuilt with updated dependencies</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md240"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.54...10.5.55" &gt;10.5.55&lt;/a&gt; - 2025-09-14</h1>
+<h2><a class="anchor" id="autotoc_md241"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6366">#6366</a>: Exclude <code>__sleep()</code> and <code>__wakeup()</code> from test double code generation on PHP &gt;= 8.5</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md242"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.53...10.5.54" &gt;10.5.54&lt;/a&gt; - 2025-09-11</h1>
+<h2><a class="anchor" id="autotoc_md243"></a>
+Changed</h2>
+<ul>
+<li>Do not use <code>__sleep()</code> method (which will be deprecated in PHP 8.5)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md244"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.52...10.5.53" &gt;10.5.53&lt;/a&gt; - 2025-08-20</h1>
+<h2><a class="anchor" id="autotoc_md245"></a>
+Changed</h2>
+<ul>
+<li>Do not configure <code>report_memleaks</code> setting (which will be deprecated in PHP 8.5) for PHPT processes</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md246"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.51...10.5.52" &gt;10.5.52&lt;/a&gt; - 2025-08-16</h1>
+<h2><a class="anchor" id="autotoc_md247"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6321">#6321</a>: Allow <code>error_reporting=E_ALL</code> for <code>--check-php-configuration</code></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md248"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.50...10.5.51" &gt;10.5.51&lt;/a&gt; - 2025-08-12</h1>
+<h2><a class="anchor" id="autotoc_md249"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/6308">#6308</a>: Improve output of <code>--check-php-configuration</code></li>
+<li>The version number for the test result cache file has been incremented to reflect that its structure for <a class="el" href="namespacePHPUnit.html">PHPUnit</a> 10.5 is not compatible with its structure for <a class="el" href="namespacePHPUnit.html">PHPUnit</a> 8.5 and <a class="el" href="namespacePHPUnit.html">PHPUnit</a> 9.6</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md250"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.49...10.5.50" &gt;10.5.50&lt;/a&gt; - 2025-08-10</h1>
+<h2><a class="anchor" id="autotoc_md251"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6300">#6300</a>: Emit warning when the name of a data provider method begins with <code>test</code></li>
+<li>Do not use <code>SplObjectStorage</code> methods that will be deprecated in PHP 8.5</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md252"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.48...10.5.49" &gt;10.5.49&lt;/a&gt; - 2025-08-09</h1>
+<h2><a class="anchor" id="autotoc_md253"></a>
+Added</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6297">#6297</a>: <code>--check-php-configuration</code> CLI option for checking whether PHP is configured for testing</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md254"></a>
+Fixed</h2>
+<ul>
+<li>Errors due to invalid data provided using <code>#[TestWith]</code> or <code>#[TestWithJson]</code> attributes are now properly reported</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md255"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.47...10.5.48" &gt;10.5.48&lt;/a&gt; - 2025-07-11</h1>
+<h2><a class="anchor" id="autotoc_md256"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6254">#6254</a>: <code>defects,random</code>configuration is supported by implementation, but it is not allowed by the XML configuration file schema</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md257"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.46...10.5.47" &gt;10.5.47&lt;/a&gt; - 2025-06-20</h1>
+<h2><a class="anchor" id="autotoc_md258"></a>
+Added</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6236">#6236</a>: <code>failOnPhpunitWarning</code> attribute on the <code>&lt;phpunit&gt;</code> element of the XML configuration file and <code>--fail-on-phpunit-warning</code> CLI option for controlling whether <a class="el" href="namespacePHPUnit.html">PHPUnit</a> should fail on <a class="el" href="namespacePHPUnit.html">PHPUnit</a> warnings (default: <code>true</code>)</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6239">#6239</a>: <code>--do-not-fail-on-deprecation</code>, <code>--do-not-fail-on-phpunit-warning</code>, <code>--do-not-fail-on-phpunit-deprecation</code>, <code>--do-not-fail-on-empty-test-suite</code>, <code>--do-not-fail-on-incomplete</code>, <code>--do-not-fail-on-notice</code>, <code>--do-not-fail-on-risky</code>, <code>--do-not-fail-on-skipped</code>, and <code>--do-not-fail-on-warning</code> CLI options</li>
+<li><code>--do-not-report-useless-tests</code> CLI option as a replacement for <code>--dont-report-useless-tests</code></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md259"></a>
+Deprecated</h2>
+<ul>
+<li><code>--dont-report-useless-tests</code> CLI option (use <code>--do-not-report-useless-tests</code> instead)</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md260"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6243">#6243</a>: Constraints cannot be implemented without using internal class <code>ExpectationFailedException</code></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md261"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.45...10.5.46" &gt;10.5.46&lt;/a&gt; - 2025-05-02</h1>
+<h2><a class="anchor" id="autotoc_md262"></a>
+Added</h2>
+<ul>
+<li><code>displayDetailsOnAllIssues</code> attribute on the <code>&lt;phpunit&gt;</code> element of the XML configuration file and <code>--display-all-issues</code> CLI option for controlling whether <a class="el" href="namespacePHPUnit.html">PHPUnit</a> should display details on all issues that are triggered (default: <code>false</code>)</li>
+<li><code>failOnAllIssues</code> attribute on the <code>&lt;phpunit&gt;</code> element of the XML configuration file and <code>--fail-on-all-issues</code> CLI option for controlling whether <a class="el" href="namespacePHPUnit.html">PHPUnit</a> should fail on all issues that are triggered (default: <code>false</code>)</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md263"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5956">#5956</a>: Improved handling of deprecated <code>E_STRICT</code> constant</li>
+<li>Improved message when test is considered risky for printing unexpected output</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md264"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.44...10.5.45" &gt;10.5.45&lt;/a&gt; - 2025-02-06</h1>
+<h2><a class="anchor" id="autotoc_md265"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6117">#6117</a>: Include source location information for issues triggered during test in <code>--debug</code> output</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6119">#6119</a>: Improve message for errors that occur while parsing attributes</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md266"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.43...10.5.44" &gt;10.5.44&lt;/a&gt; - 2025-01-31</h1>
+<h2><a class="anchor" id="autotoc_md267"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6115">#6115</a>: Backed enumerations with values not of type <code>string</code> cannot be used in customized TestDox output</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md268"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.42...10.5.43" &gt;10.5.43&lt;/a&gt; - 2025-01-29</h1>
+<h2><a class="anchor" id="autotoc_md269"></a>
+Changed</h2>
+<ul>
+<li>Do not skip execution of test that depends on a test that is larger than itself</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md270"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.41...10.5.42" &gt;10.5.42&lt;/a&gt; - 2025-01-28</h1>
+<h2><a class="anchor" id="autotoc_md271"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6103">#6103</a>: Output from test run in separate process is printed twice</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6109">#6109</a>: Skipping a test in a before-class method crashes JUnit XML logger</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6111">#6111</a>: Deprecations cause <code>SourceMapper</code> to scan all <code>&lt;source/&gt;</code> files</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md272"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.40...10.5.41" &gt;10.5.41&lt;/a&gt; - 2025-01-13</h1>
+<h2><a class="anchor" id="autotoc_md273"></a>
+Added</h2>
+<ul>
+<li><code>Test\AfterLastTestMethodErrored</code>, <code>Test\AfterTestMethodErrored</code>, <code>Test\BeforeTestMethodErrored</code>, <code>Test\PostConditionErrored</code>, and <code>Test\PreConditionErrored</code> events</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md274"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6094">#6094</a>: Errors in after-last-test methods are not reported</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6095">#6095</a>: Expectation is not counted correctly when a doubled method is called more often than is expected</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6098">#6098</a>: No <code>system-out</code> element in JUnit XML logfile</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md275"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.39...10.5.40" &gt;10.5.40&lt;/a&gt; - 2024-12-21</h1>
+<h2><a class="anchor" id="autotoc_md276"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6082">#6082</a>: <code>assertArrayHasKey()</code>, <code>assertArrayNotHasKey()</code>, <code>arrayHasKey()</code>, and <code>ArrayHasKey::__construct()</code> do not support all possible key types</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/6087">#6087</a>: <code>--migrate-configuration</code> does not remove <code>beStrictAboutTodoAnnotatedTests</code> attribute from XML configuration file</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md277"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.38...10.5.39" &gt;10.5.39&lt;/a&gt; - 2024-12-11</h1>
+<h2><a class="anchor" id="autotoc_md278"></a>
+Added</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/6081">#6081</a>: <code>DefaultResultCache::mergeWith()</code> for merging result cache instances</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md279"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/6066">#6066</a>: TeamCity logger does not handle error/skipped events in before-class methods correctly</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md280"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.37...10.5.38" &gt;10.5.38&lt;/a&gt; - 2024-10-28</h1>
+<h2><a class="anchor" id="autotoc_md281"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/6012">#6012</a>: Remove empty lines between TeamCity events</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md282"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.36...10.5.37" &gt;10.5.37&lt;/a&gt; - 2024-10-19</h1>
+<h2><a class="anchor" id="autotoc_md283"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5982">#5982</a>: Typo in exception message</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md284"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.35...10.5.36" &gt;10.5.36&lt;/a&gt; - 2024-10-08</h1>
+<h2><a class="anchor" id="autotoc_md285"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5957">#5957</a>: Skip data provider build when requirements are not satisfied</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5969">#5969</a>: Check for requirements before creating a separate process</li>
+<li>Updated regular expressions used by <code>StringMatchesFormatDescription</code> constraint to be consistent with PHP's <code>run-tests.php</code></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md286"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5965">#5965</a>: <code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Framework\Exception</code> does not handle string error codes (<code>PDOException</code> with error code &lsquo;'HY000&rsquo;`, for example)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md287"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.34...10.5.35" &gt;10.5.35&lt;/a&gt; - 2024-09-19</h1>
+<h2><a class="anchor" id="autotoc_md288"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5956">#5956</a>: Deprecation of the <code>E_STRICT</code> constant in PHP 8.4</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md289"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5950">#5950</a>: TestDox text should not be <code>trim()</code>med when it contains <code>$</code> character</li>
+<li>The attribute parser will no longer try to instantiate attribute classes that do not exist</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md290"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.33...10.5.34" &gt;10.5.34&lt;/a&gt; - 2024-09-13</h1>
+<h2><a class="anchor" id="autotoc_md291"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5931">#5931</a>: Reverted addition of <code>name</code> property on <code>&lt;testsuites&gt;</code> element in JUnit XML logfile</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5946">#5946</a>: <code>Callback</code> throws a <code>TypeError</code> when checking a <code>callable</code> has variadic parameters</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md292"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.32...10.5.33" &gt;10.5.33&lt;/a&gt; - 2024-09-09</h1>
+<h2><a class="anchor" id="autotoc_md293"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/4584">#4584</a>: <code>assertJsonStringEqualsJsonString()</code> considers objects with sequential numeric keys equal to be arrays</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/4625">#4625</a>: Generator yielding keys that are neither integer or string leads to hard-to-understand error message when used as data provider</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/4674">#4674</a>: JSON assertions should treat objects as unordered</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5891">#5891</a>: <code>Callback</code> constraint does not handle variadic arguments correctly when used for mock object expectations</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5929">#5929</a>: TestDox output containing <code>$</code> at the beginning gets truncated when used with a data provider</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md294"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.31...10.5.32" &gt;10.5.32&lt;/a&gt; - 2024-09-04</h1>
+<h2><a class="anchor" id="autotoc_md295"></a>
+Added</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5937">#5937</a>: <code>failOnPhpunitDeprecation</code> attribute on the <code>&lt;phpunit&gt;</code> element of the XML configuration file and <code>--fail-on-phpunit-deprecation</code> CLI option for controlling whether <a class="el" href="namespacePHPUnit.html">PHPUnit</a> deprecations should be considered when determining the test runner's shell exit code (default: do not consider)</li>
+<li><code>displayDetailsOnPhpunitDeprecations</code> attribute on the <code>&lt;phpunit&gt;</code> element of the XML configuration file and <code>--display-phpunit-deprecations</code> CLI option for controlling whether details on <a class="el" href="namespacePHPUnit.html">PHPUnit</a> deprecations should be displayed (default: do not display)</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md296"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5937">#5937</a>: <a class="el" href="namespacePHPUnit.html">PHPUnit</a> deprecations will, by default, no longer affect the test runner's shell exit code. This can optionally be turned back on using the <code>--fail-on-phpunit-deprecation</code> CLI option or the <code>failOnPhpunitDeprecation="true"</code> attribute on the <code>&lt;phpunit&gt;</code> element of the XML configuration file.</li>
+<li>Details for <a class="el" href="namespacePHPUnit.html">PHPUnit</a> deprecations will, by default, no longer be displayed. This can optionally be turned back on using the <code>--display-phpunit-deprecations</code> CLI option or the <code>displayDetailsOnPhpunitDeprecations</code> attribute on the <code>&lt;phpunit&gt;</code> element of the XML configuration file.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md297"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.30...10.5.31" &gt;10.5.31&lt;/a&gt; - 2024-09-03</h1>
+<h2><a class="anchor" id="autotoc_md298"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5931">#5931</a>: <code>name</code> property on <code>&lt;testsuites&gt;</code> element in JUnit XML logfile</li>
+<li>Removed <code>.phpstorm.meta.php</code> file as methods such as <code>TestCase::createStub()</code> use generics / template types for their return types and PhpStorm, for example, uses that information</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md299"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5884">#5884</a>: TestDox printer does not consider that issues can be suppressed by attribute, baseline, source location, or <code>@</code> operator</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md300"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.29...10.5.30" &gt;10.5.30&lt;/a&gt; - 2024-08-13</h1>
+<h2><a class="anchor" id="autotoc_md301"></a>
+Changed</h2>
+<ul>
+<li>Improved error message when stubbed method is called more often than return values were configured for it</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md302"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.28...10.5.29" &gt;10.5.29&lt;/a&gt; - 2024-07-30</h1>
+<h2><a class="anchor" id="autotoc_md303"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5887">#5887</a>: Issue baseline generator does not correctly handle ignoring suppressed issues</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5908">#5908</a>: <code>--list-tests</code> and <code>--list-tests-xml</code> CLI options do not report error when data provider method throws exception</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md304"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.27...10.5.28" &gt;10.5.28&lt;/a&gt; - 2024-07-18</h1>
+<h2><a class="anchor" id="autotoc_md305"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5898">#5898</a>: <code>Test\Passed</code> event is not emitted for PHPT tests</li>
+<li><code>--coverage-filter</code> CLI option could not be used multiple times</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md306"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.26...10.5.27" &gt;10.5.27&lt;/a&gt; - 2024-07-10</h1>
+<h2><a class="anchor" id="autotoc_md307"></a>
+Changed</h2>
+<ul>
+<li>Updated dependencies (so that users that install using <a class="el" href="namespaceComposer.html">Composer</a>'s <code>--prefer-lowest</code> CLI option also get recent versions)</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md308"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5892">#5892</a>: Errors during write of <code>phpunit.xml</code> are not handled correctly when <code>--generate-configuration</code> is used</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md309"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.25...10.5.26" &gt;10.5.26&lt;/a&gt; - 2024-07-08</h1>
+<h2><a class="anchor" id="autotoc_md310"></a>
+Added</h2>
+<ul>
+<li><code>--only-summary-for-coverage-text</code> CLI option to reduce the code coverage report in text format to a summary</li>
+<li><code>--show-uncovered-for-coverage-text</code> CLI option to expand the code coverage report in text format to include a list of uncovered files</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md311"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.24...10.5.25" &gt;10.5.25&lt;/a&gt; - 2024-07-03</h1>
+<h2><a class="anchor" id="autotoc_md312"></a>
+Changed</h2>
+<ul>
+<li>Updated dependencies for PHAR distribution</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md313"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.23...10.5.24" &gt;10.5.24&lt;/a&gt; - 2024-06-20</h1>
+<h2><a class="anchor" id="autotoc_md314"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5877">#5877</a>: Use <code>array_pop()</code> instead of <code>array_shift()</code> for processing <code>Test</code> objects in <code>TestSuite::run()</code> and optimize <code>TestSuite::isEmpty()</code></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md315"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.22...10.5.23" &gt;10.5.23&lt;/a&gt; - 2024-06-20</h1>
+<h2><a class="anchor" id="autotoc_md316"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5875">#5875</a>: Also destruct <code>TestCase</code> objects early that use a data provider</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md317"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.21...10.5.22" &gt;10.5.22&lt;/a&gt; - 2024-06-19</h1>
+<h2><a class="anchor" id="autotoc_md318"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5871">#5871</a>: Do not collect unnecessary information using <code>debug_backtrace()</code></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md319"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.20...10.5.21" &gt;10.5.21&lt;/a&gt; - 2024-06-15</h1>
+<h2><a class="anchor" id="autotoc_md320"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5861">#5861</a>: Destroy <code>TestCase</code> object after its test was run</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md321"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.19...10.5.20" &gt;10.5.20&lt;/a&gt; - 2024-04-24</h1>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5771">#5771</a>: JUnit XML logger may crash when test that is run in separate process exits unexpectedly</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5819">#5819</a>: Duplicate keys from different data providers are not handled properly</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md322"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.18...10.5.19" &gt;10.5.19&lt;/a&gt; - 2024-04-17</h1>
+<h2><a class="anchor" id="autotoc_md323"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5818">#5818</a>: Calling <code>method()</code> on a test stub created using <code>createStubForIntersectionOfInterfaces()</code> throws an unexpected exception</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md324"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.17...10.5.18" &gt;10.5.18&lt;/a&gt; - 2024-04-14</h1>
+<h2><a class="anchor" id="autotoc_md325"></a>
+Deprecated</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5812">#5812</a>: Support for string array keys in data sets returned by data provider methods that do not match the parameter names of the test method(s) that use(s) them</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md326"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5795">#5795</a>: Using <code>@testWith</code> annotation may generate <code>PHP Warning: Uninitialized string offset 0</code></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md327"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.16...10.5.17" &gt;10.5.17&lt;/a&gt; - 2024-04-05</h1>
+<h2><a class="anchor" id="autotoc_md328"></a>
+Changed</h2>
+<ul>
+<li>The namespaces of dependencies are now prefixed with <code>PHPUnitPHAR</code> instead of just <code><a class="el" href="namespacePHPUnit.html">PHPUnit</a></code> for the PHAR distribution of <a class="el" href="namespacePHPUnit.html">PHPUnit</a></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md329"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.15...10.5.16" &gt;10.5.16&lt;/a&gt; - 2024-03-28</h1>
+<h2><a class="anchor" id="autotoc_md330"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5766">#5766</a>: Do not use a shell in <code>proc_open()</code> if not really needed</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5772">#5772</a>: Cleanup process handling after dropping temp-file handling</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md331"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5570">#5570</a>: Windows does not support exclusive locks on stdout</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md332"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.14...10.5.15" &gt;10.5.15&lt;/a&gt; - 2024-03-22</h1>
+<h2><a class="anchor" id="autotoc_md333"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5765">#5765</a>: Be more forgiving with error handlers that do not respect error suppression</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md334"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.13...10.5.14" &gt;10.5.14&lt;/a&gt; - 2024-03-21</h1>
+<h2><a class="anchor" id="autotoc_md335"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5747">#5747</a>: Cache result of <code>Groups::groups()</code></li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5748">#5748</a>: Improve performance of <code>NamePrettifier::prettifyTestMethodName()</code></li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5750">#5750</a>: Micro-optimize <code>NamePrettifier::prettifyTestMethodName()</code> once again</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md336"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5760">#5760</a>: TestDox printer does not display details about exceptions raised in before-test methods</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md337"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.12...10.5.13" &gt;10.5.13&lt;/a&gt; - 2024-03-12</h1>
+<h2><a class="anchor" id="autotoc_md338"></a>
+Changed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5727">#5727</a>: Prevent duplicate call of <code>NamePrettifier::prettifyTestMethodName()</code></li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5739">#5739</a>: Micro-optimize <code>NamePrettifier::prettifyTestMethodName()</code></li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5740">#5740</a>: Micro-optimize <code>TestRunner::runTestWithTimeout()</code></li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5741">#5741</a>: Save call to <code>Telemetry\System::snapshot()</code></li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5742">#5742</a>: Prevent file IO when not strictly necessary</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5743">#5743</a>: Prevent unnecessary <code>ExecutionOrderDependency::getTarget()</code> call</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5744">#5744</a>: Simplify <code>NamePrettifier::prettifyTestMethodName()</code></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md339"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5351">#5351</a>: Incorrect code coverage metadata does not prevent code coverage data from being collected</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5746">#5746</a>: Using <code>-d</code> CLI option multiple times triggers warning</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md340"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.11...10.5.12" &gt;10.5.12&lt;/a&gt; - 2024-03-09</h1>
+<h2><a class="anchor" id="autotoc_md341"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5652">#5652</a>: <code>HRTime::duration()</code> throws <code>InvalidArgumentException</code></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md342"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.10...10.5.11" &gt;10.5.11&lt;/a&gt; - 2024-02-25</h1>
+<h2><a class="anchor" id="autotoc_md343"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5704#issuecomment-1951105254">#5704</a>: No warning when CLI options are used multiple times</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5707">#5707</a>: <code>--fail-on-empty-test-suite</code> CLI option is not documented in <code>--help</code> output</li>
+<li>No warning when the <code>#[CoversClass]</code> and <code>#[UsesClass]</code> attributes are used with the name of an interface</li>
+<li>Resource usage information is printed when the <code>--debug</code> CLI option is used</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md344"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.9...10.5.10" &gt;10.5.10&lt;/a&gt; - 2024-02-04</h1>
+<h2><a class="anchor" id="autotoc_md345"></a>
+Changed</h2>
+<ul>
+<li>Improve output of <code>--check-version</code> CLI option</li>
+<li>Improve description of <code>--check-version</code> CLI option</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md346"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5692">#5692</a>: <code>--log-events-text</code> and <code>--log-events-verbose-text</code> require the destination file to exit</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md347"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.8...10.5.9" &gt;10.5.9&lt;/a&gt; - 2024-01-22</h1>
+<h2><a class="anchor" id="autotoc_md348"></a>
+Changed</h2>
+<ul>
+<li>Show help for <code>--manifest</code>, <code>--sbom</code>, and <code>--composer-lock</code> when the PHAR is used</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md349"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5676">#5676</a>: <a class="el" href="namespacePHPUnit.html">PHPUnit</a>'s test runner overwrites custom error handler registered using <code>set_error_handler()</code> in bootstrap script</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md350"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.7...10.5.8" &gt;10.5.8&lt;/a&gt; - 2024-01-19</h1>
+<h2><a class="anchor" id="autotoc_md351"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5673">#5673</a>: Confusing error message when migration of a configuration is requested that does not need to be migrated</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md352"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.6...10.5.7" &gt;10.5.7&lt;/a&gt; - 2024-01-14</h1>
+<h2><a class="anchor" id="autotoc_md353"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5662">#5662</a>: <a class="el" href="namespacePHPUnit.html">PHPUnit</a> errors out on startup when the <code>ctype</code> extension is not loaded but a polyfill for it was installed</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md354"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.5...10.5.6" &gt;10.5.6&lt;/a&gt; - 2024-01-13</h1>
+<h2><a class="anchor" id="autotoc_md355"></a>
+Added</h2>
+<ul>
+<li>Added the <code>--debug</code> CLI option as an alias for <code>--no-output --log-events-text php://stdout</code></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md356"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5455">#5455</a>: <code>willReturnCallback()</code> does not pass unknown named variadic arguments to callback</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5488">#5488</a>: Details about tests that are considered risky are not displayed when the TestDox result printer is used</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5516">#5516</a>: Assertions that use the <code>LogicalNot</code> constraint (<code>assertNotEquals()</code>, <code>assertStringNotContainsString()</code>, ...) can generate confusing failure messages</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5518">#5518</a>: Details about deprecations, notices, and warnings are not displayed when the TestDox result printer is used</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5574">#5574</a>: Wrong backtrace line is reported</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5633">#5633</a>: <code>--log-events-text</code> and <code>--log-events-verbose-text</code> CLI options do not handle absolute and relative paths</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5634">#5634</a>: Exceptions in the destructor of a test double are ignored</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5641">#5641</a>: The <code>TestSuite</code> value object returned by <code>TestSuite\Filtered::testSuite()</code> contains all tests instead of only the filtered tests</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md357"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.4...10.5.5" &gt;10.5.5&lt;/a&gt; - 2023-12-27</h1>
+<h2><a class="anchor" id="autotoc_md358"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5619">#5619</a>: Reverted change introduced in <a class="el" href="namespacePHPUnit.html">PHPUnit</a> 10.5.4 that broke backward compatibility</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md359"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.3...10.5.4" &gt;10.5.4&lt;/a&gt; - 2023-12-27</h1>
+<h2><a class="anchor" id="autotoc_md360"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5592">#5592</a>: Error Handler prevents <code>error_get_last()</code> usage in tests</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5592">#5592</a>: <code>E_USER_ERROR</code> does not abort test execution</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5612">#5612</a>: Empty <code>&lt;coverage&gt;</code> element in XML configuration after migrating configuration</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5616">#5616</a>: Values from data provider are not shown for failed test</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/pull/5619">#5619</a>: Check and restore error/exception global handlers</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5621">#5621</a>: Name of data set is missing from TeamCity output</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md361"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.2...10.5.3" &gt;10.5.3&lt;/a&gt; - 2023-12-13</h1>
+<h2><a class="anchor" id="autotoc_md362"></a>
+Changed</h2>
+<ul>
+<li>Make PHAR build reproducible (the only remaining differences were in the timestamps for the files in the PHAR)</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md363"></a>
+Deprecated</h2>
+<ul>
+<li><code>Test\AssertionFailed</code> and <code>Test\AssertionSucceeded</code> events</li>
+<li><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Runner\Extension\Facade::requireExportOfObjects()</code> and <code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Runner\Extension\Facade::requiresExportOfObjects()</code></li>
+<li><code>registerMockObjectsFromTestArgumentsRecursively</code> attribute on the <code>&lt;phpunit&gt;</code> element of the XML configuration file</li>
+<li><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::registerMockObjectsFromTestArgumentsRecursively()</code></li>
+</ul>
+<h2><a class="anchor" id="autotoc_md364"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5614">#5614</a>: Infinite recursion when data provider provides recursive array</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md365"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.1...10.5.2" &gt;10.5.2&lt;/a&gt; - 2023-12-05</h1>
+<h2><a class="anchor" id="autotoc_md366"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5561">#5561</a>: JUnit XML logger does not handle assertion failures in before-test methods</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5567">#5567</a>: Infinite recursion when recursive / self-referencing arrays are checked whether they contain only scalar values</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md367"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.5.0...10.5.1" &gt;10.5.1&lt;/a&gt; - 2023-12-01</h1>
+<h2><a class="anchor" id="autotoc_md368"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5593">#5593</a>: Return Value Generator fails to correctly create test stub for method with <code>static</code> return type declaration when used recursively</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5596">#5596</a>: <code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Framework\TestCase</code> has <code>@internal</code> annotation in PHAR</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md369"></a>
+&lt;a href="https://github.com/sebastianbergmann/phpunit/compare/10.4.2...10.5.0" &gt;10.5.0&lt;/a&gt; - 2023-12-01</h1>
+<h2><a class="anchor" id="autotoc_md370"></a>
+Added</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5532">#5532</a>: <code>#[IgnoreDeprecations]</code> attribute to ignore <code>E_(USER_)DEPRECATED</code> issues on test class and test method level</li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5551">#5551</a>: Support for omitting parameter default values for <code>willReturnMap()</code></li>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5577">#5577</a>: <code>--composer-lock</code> CLI option for PHAR binary that displays the <code>composer.lock</code> used to build the PHAR</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md371"></a>
+Changed</h2>
+<ul>
+<li><code>MockBuilder::disableAutoReturnValueGeneration()</code> and <code>MockBuilder::enableAutoReturnValueGeneration()</code> are no longer deprecated</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md372"></a>
+Fixed</h2>
+<ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit/issues/5563">#5563</a>: <code>createMockForIntersectionOfInterfaces()</code> does not automatically register mock object for expectation verification </li>
+</ul>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>

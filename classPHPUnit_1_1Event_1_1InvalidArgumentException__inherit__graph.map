@@ -1,0 +1,11 @@
+<map id="PHPUnit\Event\InvalidArgumentException" name="PHPUnit\Event\InvalidArgumentException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="95,225,323,265"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,152,200,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,183,185,223,182,227,128,188"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Exception.html" title=" " alt="" coords="224,152,408,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,188,237,227,233,223,288,183"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Exception.html" title=" " alt="" coords="245,79,387,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="319,118,319,152,313,152,313,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="271,5,361,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="319,44,319,79,313,79,313,44"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="PHPUnit\Runner\PhptTestCase" name="PHPUnit\Runner\PhptTestCase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="440,55,656,80"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Framework_1_1Reorderable.html" title=" " alt="" coords="149,5,384,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="354,30,475,52,474,57,353,36"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Framework_1_1SelfDescribing.html" title=" " alt="" coords="141,55,392,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="406,65,440,65,440,70,406,70"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Framework_1_1Test.html" title=" " alt="" coords="175,104,358,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="353,99,474,77,475,83,354,104"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,104,93,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="107,114,175,114,175,119,107,119"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="PHPUnit\Framework\TestStatus\TestStatus" name="PHPUnit\Framework\TestStatus\TestStatus">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,293,228,333"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Framework_1_1TestStatus_1_1Known.html" title=" " alt="" coords="276,261,499,301"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,296,276,292,276,297,242,301"/>
+<area shape="rect" id="Node000012" href="$classPHPUnit_1_1Framework_1_1TestStatus_1_1Unknown.html" title=" " alt="" coords="276,325,499,365"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="242,325,276,330,276,335,241,331"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Framework_1_1TestStatus_1_1Deprecation.html" title=" " alt="" coords="547,5,769,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="401,247,423,204,455,152,496,100,545,55,566,43,569,48,548,59,500,103,459,155,428,206,405,250"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Framework_1_1TestStatus_1_1Error.html" title=" " alt="" coords="547,69,769,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="409,248,466,183,504,149,545,119,570,107,573,112,548,124,507,153,470,187,414,252"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Framework_1_1TestStatus_1_1Failure.html" title=" " alt="" coords="547,133,769,173"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="426,251,481,216,546,183,577,171,579,176,548,188,484,221,429,256"/>
+<area shape="rect" id="Node000006" href="$classPHPUnit_1_1Framework_1_1TestStatus_1_1Incomplete.html" title=" " alt="" coords="547,197,769,237"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="485,255,572,235,574,240,487,261"/>
+<area shape="rect" id="Node000007" href="$classPHPUnit_1_1Framework_1_1TestStatus_1_1Notice.html" title=" " alt="" coords="547,261,769,301"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="512,279,546,279,546,284,512,284"/>
+<area shape="rect" id="Node000008" href="$classPHPUnit_1_1Framework_1_1TestStatus_1_1Risky.html" title=" " alt="" coords="547,325,769,365"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="487,302,574,323,572,328,485,307"/>
+<area shape="rect" id="Node000009" href="$classPHPUnit_1_1Framework_1_1TestStatus_1_1Skipped.html" title=" " alt="" coords="547,389,769,429"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="491,305,500,311,517,327,525,344,533,360,548,375,569,387,567,391,545,379,529,363,520,347,512,331,497,315,488,310"/>
+<area shape="rect" id="Node000010" href="$classPHPUnit_1_1Framework_1_1TestStatus_1_1Success.html" title=" " alt="" coords="547,453,769,493"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="495,307,501,311,514,328,521,344,525,377,529,409,536,424,548,439,565,451,562,455,545,443,531,427,524,410,520,378,516,346,509,330,497,315,492,311"/>
+<area shape="rect" id="Node000011" href="$classPHPUnit_1_1Framework_1_1TestStatus_1_1Warning.html" title=" " alt="" coords="547,517,769,557"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="497,308,501,312,518,336,526,361,527,385,525,410,523,433,525,457,532,480,549,503,563,515,560,519,545,507,527,483,519,458,518,433,520,409,522,385,521,362,513,338,497,315,493,312"/>
+</map>

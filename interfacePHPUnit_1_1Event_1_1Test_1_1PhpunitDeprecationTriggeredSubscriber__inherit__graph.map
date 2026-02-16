@@ -1,0 +1,11 @@
+<map id="PHPUnit\Event\Test\PhpunitDeprecationTriggeredSubscriber" name="PHPUnit\Event\Test\PhpunitDeprecationTriggeredSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="241,84,456,139"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Logging_1_1TestDox_1_1TestTriggeredPhpunitDeprecationSubscriber.html" title=" " alt="" coords="504,5,744,60"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="458,78,527,58,528,63,459,83"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1TestRunner_1_1TestResult_1_1TestTriggeredPhpunitDeprecationSubscriber.html" title=" " alt="" coords="508,84,740,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="470,109,508,109,508,114,470,114"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1TextUI_1_1Output_1_1Default_1_1ProgressPrinter_1_1TestTriggeredPhpunitDeprecationSubscriber.html" title=" " alt="" coords="504,163,744,233"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="450,140,514,161,513,166,448,145"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="5,99,193,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,109,241,109,241,114,207,114"/>
+</map>

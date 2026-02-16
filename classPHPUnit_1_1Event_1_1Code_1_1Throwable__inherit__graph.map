@@ -1,0 +1,17 @@
+<map id="PHPUnit\Event\Code\Throwable" name="PHPUnit\Event\Code\Throwable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,101,159,141"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Framework_1_1IncompleteTest.html" title=" " alt="" coords="207,37,461,62"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,95,288,59,289,65,167,100"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Framework_1_1SkippedTest.html" title=" " alt="" coords="217,109,451,134"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,119,216,119,216,124,172,124"/>
+<area shape="rect" id="Node000008" href="$interfacePHPUnit_1_1TextUI_1_1Exception.html" title=" " alt="" coords="240,158,428,183"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="173,136,269,155,268,161,172,142"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Framework_1_1IncompleteTestError.html" title=" " alt="" coords="509,5,739,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="475,35,509,32,509,37,475,40"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Framework_1_1InvalidDependencyException.html" title=" " alt="" coords="524,69,724,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="462,105,523,98,524,103,463,110"/>
+<area shape="rect" id="Node000006" href="$classPHPUnit_1_1Framework_1_1SkippedTestSuiteError.html" title=" " alt="" coords="520,133,728,173"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="463,133,520,139,519,144,463,138"/>
+<area shape="rect" id="Node000007" href="$classPHPUnit_1_1Framework_1_1SkippedWithMessageException.html" title=" " alt="" coords="520,197,728,237"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="444,136,463,143,478,153,487,163,497,173,511,183,537,195,535,200,508,188,493,177,484,167,474,157,460,148,442,141"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="PHPUnit\TextUI\Configuration\NoConfigurationFileException" name="PHPUnit\TextUI\Configuration\NoConfigurationFileException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="204,299,423,339"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Event_1_1RuntimeException.html" title=" " alt="" coords="115,225,354,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,259,296,297,292,300,254,262"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,147,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,180,210,223,208,228,113,185"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Event_1_1Exception.html" title=" " alt="" coords="171,152,355,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="255,191,242,226,237,224,251,189"/>
+<area shape="rect" id="Node000005" href="$interfacePHPUnit_1_1Exception.html" title=" " alt="" coords="255,79,398,104"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="348,113,360,131,369,151,377,179,380,202,377,224,369,252,355,278,336,300,332,297,350,275,364,250,372,223,374,202,371,180,364,153,356,134,344,116"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="309,116,275,154,271,150,305,113"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="281,5,372,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="329,44,329,79,324,79,324,44"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="PHPUnit\Framework\MockObject\Rule\InvocationOrder" name="PHPUnit\Framework\MockObject\Rule\InvocationOrder">
+<area shape="rect" id="Node000001" title=" " alt="" coords="304,133,537,173"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Framework_1_1MockObject_1_1Rule_1_1AnyInvokedCount.html" title=" " alt="" coords="585,5,819,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="461,124,518,88,584,55,617,43,619,48,586,60,520,93,463,128"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Framework_1_1MockObject_1_1Rule_1_1InvokedAtLeastCount.html" title=" " alt="" coords="585,69,819,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="522,128,613,107,614,112,523,133"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Framework_1_1MockObject_1_1Rule_1_1InvokedAtLeastOnce.html" title=" " alt="" coords="585,133,819,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="551,151,585,151,585,156,551,156"/>
+<area shape="rect" id="Node000006" href="$classPHPUnit_1_1Framework_1_1MockObject_1_1Rule_1_1InvokedAtMostCount.html" title=" " alt="" coords="585,197,819,237"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="523,174,614,195,613,200,522,179"/>
+<area shape="rect" id="Node000007" href="$classPHPUnit_1_1Framework_1_1MockObject_1_1Rule_1_1InvokedCount.html" title=" " alt="" coords="585,261,819,301"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="463,179,520,214,586,247,619,259,617,264,584,252,518,218,461,183"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Framework_1_1SelfDescribing.html" title=" " alt="" coords="5,141,256,166"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,151,304,151,304,156,270,156"/>
+</map>

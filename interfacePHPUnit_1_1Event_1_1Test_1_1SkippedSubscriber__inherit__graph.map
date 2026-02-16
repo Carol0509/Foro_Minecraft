@@ -1,0 +1,21 @@
+<map id="PHPUnit\Event\Test\SkippedSubscriber" name="PHPUnit\Event\Test\SkippedSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="241,229,388,269"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestSkippedSubscriber.html" title=" " alt="" coords="471,5,643,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="325,215,342,178,365,134,396,92,434,55,470,37,472,42,438,60,400,95,370,137,347,180,330,217"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Logging_1_1TeamCity_1_1TestSkippedSubscriber.html" title=" " alt="" coords="460,69,655,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="335,217,377,166,404,141,435,119,459,107,461,112,437,124,408,145,381,170,339,220"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Logging_1_1TeamCity_1_1TestSuiteSkippedSubscriber.html" title=" " alt="" coords="455,133,660,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="359,220,435,183,470,171,472,176,437,188,362,225"/>
+<area shape="rect" id="Node000006" href="$classPHPUnit_1_1Logging_1_1TestDox_1_1TestSkippedSubscriber.html" title=" " alt="" coords="464,197,651,237"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="401,235,463,227,464,232,402,241"/>
+<area shape="rect" id="Node000007" href="$classPHPUnit_1_1Runner_1_1ResultCache_1_1TestSkippedSubscriber.html" title=" " alt="" coords="452,261,663,301"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="402,258,452,265,451,270,401,263"/>
+<area shape="rect" id="Node000008" href="$classPHPUnit_1_1TestRunner_1_1TestResult_1_1TestSkippedSubscriber.html" title=" " alt="" coords="436,325,679,365"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="362,274,437,311,472,323,470,328,435,316,359,279"/>
+<area shape="rect" id="Node000009" href="$classPHPUnit_1_1TestRunner_1_1TestResult_1_1TestSuiteSkippedSubscriber.html" title=" " alt="" coords="453,390,661,445"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="340,279,382,328,409,353,437,375,460,387,458,392,435,380,405,357,378,332,336,282"/>
+<area shape="rect" id="Node000010" href="$classPHPUnit_1_1TextUI_1_1Output_1_1Default_1_1ProgressPrinter_1_1TestSkippedSubscriber.html" title=" " alt="" coords="469,469,646,523"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="329,282,345,322,368,368,399,415,438,455,470,474,467,478,434,459,395,419,364,371,340,324,324,284"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="5,237,193,262"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,247,241,247,241,252,207,252"/>
+</map>

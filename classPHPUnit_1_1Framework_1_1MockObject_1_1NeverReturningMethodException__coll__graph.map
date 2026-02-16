@@ -1,0 +1,20 @@
+<map id="PHPUnit\Framework\MockObject\NeverReturningMethodException" name="PHPUnit\Framework\MockObject\NeverReturningMethodException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="79,460,320,500"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Framework_1_1MockObject_1_1RuntimeException.html" title=" " alt="" coords="5,372,239,412"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,420,184,458,180,462,146,424"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="47,152,189,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,191,124,372,119,372,116,191"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Event_1_1RuntimeException.html" title=" " alt="" coords="157,225,396,251"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="157,180,252,223,250,228,155,185"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Framework_1_1Exception.html" title=" " alt="" coords="167,299,387,324"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="275,338,267,374,252,413,237,439,219,461,215,458,232,436,248,411,262,373,270,337"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="243,333,161,374,158,369,241,328"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="279,264,279,299,274,299,274,264"/>
+<area shape="rect" id="Node000006" href="$interfacePHPUnit_1_1Event_1_1Exception.html" title=" " alt="" coords="213,152,397,177"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="297,191,284,226,279,224,293,189"/>
+<area shape="rect" id="Node000007" href="$interfacePHPUnit_1_1Exception.html" title=" " alt="" coords="297,79,440,104"/>
+<area shape="poly" id="edge9_Node000004_Node000007" title=" " alt="" coords="390,113,402,131,411,151,425,203,423,226,411,252,396,269,378,283,337,301,335,296,375,278,393,266,406,249,418,225,420,203,406,153,398,134,386,116"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="351,116,317,154,313,150,347,113"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="323,5,414,31"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="371,44,371,79,366,79,366,44"/>
+</map>

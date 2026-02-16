@@ -1,0 +1,7 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$interfaceSebastianBergmann_1_1CodeCoverage_1_1StaticAnalysis_1_1FileAnalyser.html" title=" " alt="" coords="5,37,257,77"/>
+<area shape="rect" id="Node000001" href="$classSebastianBergmann_1_1CodeCoverage_1_1StaticAnalysis_1_1CachingFileAnalyser.html" title=" " alt="" coords="305,5,560,45"/>
+<area shape="poly" id="edge1333_Node000000_Node000001" title=" " alt="" coords="271,40,305,36,305,42,271,45"/>
+<area shape="rect" id="Node000002" href="$classSebastianBergmann_1_1CodeCoverage_1_1StaticAnalysis_1_1ParsingFileAnalyser.html" title=" " alt="" coords="307,69,559,109"/>
+<area shape="poly" id="edge1334_Node000000_Node000002" title=" " alt="" coords="271,69,307,73,306,79,271,75"/>
+</map>

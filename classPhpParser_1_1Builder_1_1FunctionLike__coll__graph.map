@@ -1,0 +1,9 @@
+<map id="PhpParser\Builder\FunctionLike" name="PhpParser\Builder\FunctionLike">
+<area shape="rect" id="Node000001" title=" " alt="" coords="146,168,367,193"/>
+<area shape="rect" id="Node000002" href="$classPhpParser_1_1Builder_1_1Declaration.html" title=" " alt="" coords="5,80,220,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,110,238,165,236,170,142,115"/>
+<area shape="rect" id="Node000003" href="$interfacePhpParser_1_1Builder.html" title=" " alt="" coords="45,5,181,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,45,115,80,110,80,110,45"/>
+<area shape="rect" id="Node000004" href="$interfacePhpParser_1_1Node.html" title=" " alt="" coords="244,80,368,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="295,119,266,169,261,166,290,116"/>
+</map>

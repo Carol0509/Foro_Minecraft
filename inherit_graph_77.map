@@ -1,0 +1,7 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$interfacePHPUnit_1_1Event_1_1Telemetry_1_1GarbageCollectorStatusProvider.html" title=" " alt="" coords="5,53,240,93"/>
+<area shape="rect" id="Node000001" href="$classPHPUnit_1_1Event_1_1Telemetry_1_1Php81GarbageCollectorStatusProvider.html" title=" " alt="" coords="288,5,508,60"/>
+<area shape="poly" id="edge657_Node000000_Node000001" title=" " alt="" coords="253,51,287,46,288,51,254,56"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Event_1_1Telemetry_1_1Php83GarbageCollectorStatusProvider.html" title=" " alt="" coords="288,84,508,139"/>
+<area shape="poly" id="edge658_Node000000_Node000002" title=" " alt="" coords="254,88,288,93,287,99,253,94"/>
+</map>

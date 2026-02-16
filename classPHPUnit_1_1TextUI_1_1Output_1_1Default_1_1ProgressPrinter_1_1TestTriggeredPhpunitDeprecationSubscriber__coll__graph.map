@@ -1,0 +1,9 @@
+<map id="PHPUnit\TextUI\Output\Default\ProgressPrinter\TestTriggeredPhpunitDeprecationSubscriber" name="PHPUnit\TextUI\Output\Default\ProgressPrinter\TestTriggeredPhpunitDeprecationSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="504,38,744,107"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1TextUI_1_1Output_1_1Default_1_1ProgressPrinter_1_1Subscriber.html" title=" " alt="" coords="260,5,437,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="451,45,504,53,504,58,451,50"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Test_1_1PhpunitDeprecationTriggeredSubscriber.html" title=" " alt="" coords="241,84,456,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="469,92,503,87,504,92,470,97"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="5,99,193,124"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="207,109,241,109,241,114,207,114"/>
+</map>

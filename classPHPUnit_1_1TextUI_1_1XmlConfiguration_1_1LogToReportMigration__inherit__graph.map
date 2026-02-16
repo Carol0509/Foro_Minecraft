@@ -1,0 +1,17 @@
+<map id="PHPUnit\TextUI\XmlConfiguration\LogToReportMigration" name="PHPUnit\TextUI\XmlConfiguration\LogToReportMigration">
+<area shape="rect" id="Node000001" title=" " alt="" coords="291,165,528,205"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoverageCloverToReport.html" title=" " alt="" coords="576,5,813,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="439,154,499,103,536,77,575,55,604,43,606,48,577,60,539,82,502,107,443,158"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoverageCrap4jToReport.html" title=" " alt="" coords="576,69,813,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="470,158,575,119,615,107,616,112,577,124,472,163"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoverageHtmlToReport.html" title=" " alt="" coords="576,133,813,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="541,168,576,164,576,169,542,173"/>
+<area shape="rect" id="Node000006" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoveragePhpToReport.html" title=" " alt="" coords="576,197,813,237"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="542,197,576,201,576,207,541,203"/>
+<area shape="rect" id="Node000007" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoverageTextToReport.html" title=" " alt="" coords="576,261,813,301"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="472,208,577,247,616,259,615,264,575,252,470,213"/>
+<area shape="rect" id="Node000008" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoverageXmlToReport.html" title=" " alt="" coords="576,325,813,365"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="443,213,502,263,539,289,577,311,606,323,604,328,575,316,536,293,499,267,439,217"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1TextUI_1_1XmlConfiguration_1_1Migration.html" title=" " alt="" coords="5,165,243,205"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,183,290,183,290,188,256,188"/>
+</map>

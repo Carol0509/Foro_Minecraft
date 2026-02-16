@@ -1,0 +1,9 @@
+<map id="PHPUnit\TextUI\Output\Default\ProgressPrinter\BeforeTestClassMethodErroredSubscriber" name="PHPUnit\TextUI\Output\Default\ProgressPrinter\BeforeTestClassMethodErroredSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="508,45,803,100"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1TextUI_1_1Output_1_1Default_1_1ProgressPrinter_1_1Subscriber.html" title=" " alt="" coords="262,5,439,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="453,43,508,51,507,56,452,49"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Test_1_1BeforeFirstTestMethodErroredSubscriber.html" title=" " alt="" coords="241,84,460,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="473,93,507,89,508,94,474,98"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="5,99,193,124"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="207,109,241,109,241,114,207,114"/>
+</map>

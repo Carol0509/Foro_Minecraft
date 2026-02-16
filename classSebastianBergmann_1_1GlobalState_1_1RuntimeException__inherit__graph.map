@@ -1,0 +1,9 @@
+<map id="SebastianBergmann\GlobalState\RuntimeException" name="SebastianBergmann\GlobalState\RuntimeException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="74,167,273,207"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,86,147,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,118,154,165,150,169,97,122"/>
+<area shape="rect" id="Node000003" href="$interfaceSebastianBergmann_1_1GlobalState_1_1Exception.html" title=" " alt="" coords="171,79,370,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,130,197,168,193,164,237,126"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="225,5,316,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="273,44,273,79,268,79,268,44"/>
+</map>

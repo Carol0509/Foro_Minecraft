@@ -1,0 +1,29 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1TokenEmulator.html" title=" " alt="" coords="5,229,231,269"/>
+<area shape="rect" id="Node000001" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1AsymmetricVisibilityTokenEmulator.html" title=" " alt="" coords="279,5,537,45"/>
+<area shape="poly" id="edge260_Node000000_Node000001" title=" " alt="" coords="135,216,159,178,191,135,231,91,277,55,301,43,304,48,280,60,235,95,195,138,163,181,139,219"/>
+<area shape="rect" id="Node000002" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1AttributeEmulator.html" title=" " alt="" coords="295,69,521,109"/>
+<area shape="poly" id="edge261_Node000000_Node000002" title=" " alt="" coords="146,218,204,167,240,141,277,119,307,107,309,112,280,124,242,145,207,171,150,222"/>
+<area shape="rect" id="Node000003" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1ExplicitOctalEmulator.html" title=" " alt="" coords="295,133,521,173"/>
+<area shape="poly" id="edge262_Node000000_Node000003" title=" " alt="" coords="176,222,278,183,319,171,321,176,280,188,178,227"/>
+<area shape="rect" id="Node000004" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1KeywordEmulator.html" title=" " alt="" coords="295,197,521,237"/>
+<area shape="poly" id="edge263_Node000000_Node000004" title=" " alt="" coords="244,233,295,227,296,232,245,238"/>
+<area shape="rect" id="Node000010" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1NullsafeTokenEmulator.html" title=" " alt="" coords="295,261,521,301"/>
+<area shape="poly" id="edge269_Node000000_Node000010" title=" " alt="" coords="245,261,296,266,295,272,244,266"/>
+<area shape="rect" id="Node000011" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1PipeOperatorEmulator.html" title=" " alt="" coords="295,325,521,365"/>
+<area shape="poly" id="edge270_Node000000_Node000011" title=" " alt="" coords="178,272,280,311,321,323,319,328,278,316,176,277"/>
+<area shape="rect" id="Node000012" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1ReverseEmulator.html" title=" " alt="" coords="295,389,521,429"/>
+<area shape="poly" id="edge271_Node000000_Node000012" title=" " alt="" coords="150,277,207,328,242,353,280,375,309,387,307,392,277,380,240,358,204,332,146,281"/>
+<area shape="rect" id="Node000013" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1VoidCastEmulator.html" title=" " alt="" coords="295,453,521,493"/>
+<area shape="poly" id="edge272_Node000000_Node000013" title=" " alt="" coords="139,280,163,317,195,361,235,403,280,439,304,451,301,456,277,444,231,407,191,364,159,321,135,283"/>
+<area shape="rect" id="Node000005" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1EnumTokenEmulator.html" title=" " alt="" coords="592,69,817,109"/>
+<area shape="poly" id="edge264_Node000004_Node000005" title=" " alt="" coords="526,189,536,183,551,168,559,152,567,135,584,119,606,107,608,112,587,123,572,139,564,155,555,171,539,187,529,194"/>
+<area shape="rect" id="Node000006" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1MatchTokenEmulator.html" title=" " alt="" coords="592,133,817,173"/>
+<area shape="poly" id="edge265_Node000004_Node000006" title=" " alt="" coords="514,192,611,171,612,176,515,197"/>
+<area shape="rect" id="Node000007" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1PropertyTokenEmulator.html" title=" " alt="" coords="592,197,817,237"/>
+<area shape="poly" id="edge266_Node000004_Node000007" title=" " alt="" coords="535,215,592,215,592,220,535,220"/>
+<area shape="rect" id="Node000008" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1ReadonlyFunctionTokenEmulator.html" title=" " alt="" coords="585,261,824,301"/>
+<area shape="poly" id="edge267_Node000004_Node000008" title=" " alt="" coords="515,238,612,259,611,264,514,243"/>
+<area shape="rect" id="Node000009" href="$classPhpParser_1_1Lexer_1_1TokenEmulator_1_1ReadonlyTokenEmulator.html" title=" " alt="" coords="592,325,817,365"/>
+<area shape="poly" id="edge268_Node000004_Node000009" title=" " alt="" coords="529,241,539,247,555,263,564,280,572,296,587,311,608,323,606,327,584,315,567,299,559,282,551,266,536,251,526,246"/>
+</map>

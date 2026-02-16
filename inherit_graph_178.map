@@ -1,0 +1,11 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$interfacePHPUnit_1_1Metadata_1_1Parser_1_1Parser.html" title=" " alt="" coords="5,101,191,141"/>
+<area shape="rect" id="Node000001" href="$classPHPUnit_1_1Metadata_1_1Parser_1_1AnnotationParser.html" title=" " alt="" coords="239,5,424,45"/>
+<area shape="poly" id="edge1253_Node000000_Node000001" title=" " alt="" coords="151,93,238,55,269,43,271,48,240,60,154,98"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Metadata_1_1Parser_1_1AttributeParser.html" title=" " alt="" coords="239,69,424,109"/>
+<area shape="poly" id="edge1254_Node000000_Node000002" title=" " alt="" coords="204,104,238,99,239,105,205,109"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Metadata_1_1Parser_1_1CachingParser.html" title=" " alt="" coords="239,133,424,173"/>
+<area shape="poly" id="edge1255_Node000000_Node000003" title=" " alt="" coords="205,133,239,138,238,143,204,139"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Metadata_1_1Parser_1_1ParserChain.html" title=" " alt="" coords="239,197,424,237"/>
+<area shape="poly" id="edge1256_Node000000_Node000004" title=" " alt="" coords="154,145,240,183,271,195,269,200,238,188,151,150"/>
+</map>

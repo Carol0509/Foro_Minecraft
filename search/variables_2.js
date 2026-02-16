@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['try_0',['try',['../foro_8php.html#abe4cc9788f52e49485473dc699537388',1,'try:&#160;foro.php'],['../index_8php.html#abe4cc9788f52e49485473dc699537388',1,'try:&#160;index.php'],['../perfil_8php.html#abe4cc9788f52e49485473dc699537388',1,'try:&#160;perfil.php'],['../register_8php.html#abe4cc9788f52e49485473dc699537388',1,'try:&#160;register.php'],['../web_2foro_8php.html#abe4cc9788f52e49485473dc699537388',1,'try:&#160;foro.php'],['../web_2index_8php.html#abe4cc9788f52e49485473dc699537388',1,'try:&#160;index.php'],['../web_2perfil_8php.html#abe4cc9788f52e49485473dc699537388',1,'try:&#160;perfil.php'],['../web_2register_8php.html#abe4cc9788f52e49485473dc699537388',1,'try:&#160;register.php']]]
+  ['abstract_0',['ABSTRACT',['../classPhpParser_1_1Modifiers.html#a51416de441eaea8b75cda3c9fa4ec2f9',1,'PhpParser::Modifiers']]],
+  ['added_1',['added',['../classSebastianBergmann_1_1Diff_1_1Differ.html#a6698151918f0ae3967c437cc2ce4b9f3',1,'SebastianBergmann\Diff\Differ\ADDED'],['../classSebastianBergmann_1_1Diff_1_1Line.html#a94797145d34189e17edab920d9fb18f3',1,'SebastianBergmann\Diff\Line\ADDED']]]
 ];

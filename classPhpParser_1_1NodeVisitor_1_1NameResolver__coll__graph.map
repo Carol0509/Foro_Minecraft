@@ -1,0 +1,21 @@
+<map id="PhpParser\NodeVisitor\NameResolver" name="PhpParser\NodeVisitor\NameResolver">
+<area shape="rect" id="Node000001" title=" " alt="" coords="143,417,309,457"/>
+<area shape="rect" id="Node000002" href="$classPhpParser_1_1NodeVisitorAbstract.html" title=" " alt="" coords="5,329,225,355"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,361,205,415,202,419,137,365"/>
+<area shape="rect" id="Node000003" href="$interfacePhpParser_1_1NodeVisitor.html" title=" " alt="" coords="32,241,199,267"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,281,118,329,113,329,113,281"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="87,80,144,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="118,119,118,241,113,241,113,119"/>
+<area shape="rect" id="Node000005" href="$classPhpParser_1_1NameContext.html" title=" " alt="" coords="249,329,429,355"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="317,365,251,419,247,415,313,361"/>
+<area shape="rect" id="Node000006" href="$classPhpParser_1_1Node_1_1Name.html" title=" " alt="" coords="249,241,416,267"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="337,280,341,329,336,329,332,281"/>
+<area shape="rect" id="Node000007" href="$classPhpParser_1_1NodeAbstract.html" title=" " alt="" coords="243,80,422,105"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="335,119,335,241,330,241,330,119"/>
+<area shape="rect" id="Node000008" href="$interfacePhpParser_1_1Node.html" title=" " alt="" coords="196,5,320,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="282,38,322,78,319,81,278,42"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="345,5,470,31"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="387,42,347,81,343,78,384,38"/>
+<area shape="rect" id="Node000010" href="$interfacePhpParser_1_1ErrorHandler.html" title=" " alt="" coords="440,241,612,267"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="495,276,431,308,372,332,370,327,429,303,493,271"/>
+</map>

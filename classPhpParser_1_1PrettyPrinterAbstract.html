@@ -1,0 +1,1990 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>minecraft_forum: Referencia de la clase PhpParser\PrettyPrinterAbstract</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">minecraft_forum<span id="projectnumber">&#160;0.1</span>
+   </div>
+   <div id="projectbrief">Para probar GitHub Actions</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacePhpParser.html">PhpParser</a></li><li class="navelem"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html">PrettyPrinterAbstract</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="classPhpParser_1_1PrettyPrinterAbstract-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle"><div class="title">Referencia de la clase PhpParser\PrettyPrinterAbstract</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Diagrama de herencia de PhpParser\PrettyPrinterAbstract</div>
+<div class="dyncontent">
+<div class="center"><img src="classPhpParser_1_1PrettyPrinterAbstract__inherit__graph.png" border="0" usemap="#aPhpParser_0cPrettyPrinterAbstract_inherit__map" alt="Inheritance graph"/></div>
+<map name="aPhpParser_0cPrettyPrinterAbstract_inherit__map" id="aPhpParser_0cPrettyPrinterAbstract_inherit__map">
+<area shape="rect" title=" " alt="" coords="5,79,232,104"/>
+<area shape="rect" href="classPhpParser_1_1PrettyPrinter_1_1Standard.html" title=" " alt="" coords="33,152,205,192"/>
+<area shape="poly" title=" " alt="" coords="121,118,121,152,116,152,116,118"/>
+<area shape="rect" href="interfacePhpParser_1_1PrettyPrinter.html" title=" " alt="" coords="33,5,205,31"/>
+<area shape="poly" title=" " alt="" coords="121,44,121,79,116,79,116,44"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">leyenda</a>]</span></center></div>
+<div class="dynheader">
+Diagrama de colaboración de PhpParser\PrettyPrinterAbstract:</div>
+<div class="dyncontent">
+<div class="center"><img src="classPhpParser_1_1PrettyPrinterAbstract__coll__graph.png" border="0" usemap="#aPhpParser_0cPrettyPrinterAbstract_coll__map" alt="Collaboration graph"/></div>
+<map name="aPhpParser_0cPrettyPrinterAbstract_coll__map" id="aPhpParser_0cPrettyPrinterAbstract_coll__map">
+<area shape="rect" title=" " alt="" coords="376,263,603,288"/>
+<area shape="rect" href="interfacePhpParser_1_1PrettyPrinter.html" title=" " alt="" coords="5,5,177,31"/>
+<area shape="poly" title=" " alt="" coords="191,5,232,6,274,12,315,24,353,42,383,66,409,94,430,125,448,157,474,218,487,262,482,263,469,220,443,160,426,128,404,97,379,70,351,47,313,29,273,17,231,12,191,10"/>
+<area shape="rect" title=" " alt="" coords="63,213,120,239"/>
+<area shape="poly" title=" " alt="" coords="134,228,352,255,389,260,389,265,352,261,133,234"/>
+<area shape="rect" href="classPhpParser_1_1PhpVersion.html" title=" " alt="" coords="10,263,173,288"/>
+<area shape="poly" title=" " alt="" coords="186,273,376,273,376,278,186,278"/>
+<area shape="rect" href="classPhpParser_1_1Internal_1_1TokenStream.html" title=" " alt="" coords="21,313,161,353"/>
+<area shape="poly" title=" " alt="" coords="174,318,352,293,402,285,402,291,352,298,175,324"/>
+<area shape="rect" href="classPhpParser_1_1Internal_1_1Differ.html" title=" " alt="" coords="21,377,161,417"/>
+<area shape="poly" title=" " alt="" coords="174,379,260,360,351,334,412,310,462,286,465,291,414,315,353,339,262,365,175,385"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">leyenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a77f775d68bff16cf400b39f63ac75d64" id="r_a77f775d68bff16cf400b39f63ac75d64"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a77f775d68bff16cf400b39f63ac75d64">__construct</a> (array $options=[])</td></tr>
+<tr class="separator:a77f775d68bff16cf400b39f63ac75d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b1428b163de2816905d70b78e4bd88" id="r_a66b1428b163de2816905d70b78e4bd88"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a66b1428b163de2816905d70b78e4bd88">prettyPrint</a> (array $stmts)</td></tr>
+<tr class="separator:a66b1428b163de2816905d70b78e4bd88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa15cf5dae04e4a8a6371b529d2d7feae" id="r_aa15cf5dae04e4a8a6371b529d2d7feae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#aa15cf5dae04e4a8a6371b529d2d7feae">prettyPrintExpr</a> (<a class="el" href="classPhpParser_1_1Node_1_1Expr.html">Expr</a> $node)</td></tr>
+<tr class="separator:aa15cf5dae04e4a8a6371b529d2d7feae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98762601cd86a51dac0f00bbbf8b25e4" id="r_a98762601cd86a51dac0f00bbbf8b25e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a98762601cd86a51dac0f00bbbf8b25e4">prettyPrintFile</a> (array $stmts)</td></tr>
+<tr class="separator:a98762601cd86a51dac0f00bbbf8b25e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954d65cbbf50331a235bd75aa4e67417" id="r_a954d65cbbf50331a235bd75aa4e67417"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a954d65cbbf50331a235bd75aa4e67417">printFormatPreserving</a> (array $stmts, array $origStmts, array $origTokens)</td></tr>
+<tr class="separator:a954d65cbbf50331a235bd75aa4e67417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a1339ca6312a9f18d3a6e8200c4bba7b3" id="r_a1339ca6312a9f18d3a6e8200c4bba7b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a1339ca6312a9f18d3a6e8200c4bba7b3">resetState</a> ()</td></tr>
+<tr class="separator:a1339ca6312a9f18d3a6e8200c4bba7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa336c67b55f650e8f432e71997a3b16f" id="r_aa336c67b55f650e8f432e71997a3b16f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#aa336c67b55f650e8f432e71997a3b16f">setIndentLevel</a> (int $level)</td></tr>
+<tr class="separator:aa336c67b55f650e8f432e71997a3b16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2122978dd76bee2c68f9470d0a987783" id="r_a2122978dd76bee2c68f9470d0a987783"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a2122978dd76bee2c68f9470d0a987783">indent</a> ()</td></tr>
+<tr class="separator:a2122978dd76bee2c68f9470d0a987783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46b6ca374a6b76d95d1df752b7efcb79" id="r_a46b6ca374a6b76d95d1df752b7efcb79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a46b6ca374a6b76d95d1df752b7efcb79">outdent</a> ()</td></tr>
+<tr class="separator:a46b6ca374a6b76d95d1df752b7efcb79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67f53cb46a25516b71b0ebb9ded5042" id="r_ab67f53cb46a25516b71b0ebb9ded5042"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#ab67f53cb46a25516b71b0ebb9ded5042">preprocessNodes</a> (array $nodes)</td></tr>
+<tr class="separator:ab67f53cb46a25516b71b0ebb9ded5042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296fbb458dbb6d2224d80aa87856bd14" id="r_a296fbb458dbb6d2224d80aa87856bd14"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a296fbb458dbb6d2224d80aa87856bd14">handleMagicTokens</a> (string $str)</td></tr>
+<tr class="separator:a296fbb458dbb6d2224d80aa87856bd14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87ca2a0f26a20332f83687ae860c931e" id="r_a87ca2a0f26a20332f83687ae860c931e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a87ca2a0f26a20332f83687ae860c931e">pStmts</a> (array $nodes, bool $<a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a2122978dd76bee2c68f9470d0a987783">indent</a>=<a class="el" href="namespacePhpParser.html#aff4017df172aaa03f9dbf9772e29fdfe">true</a>)</td></tr>
+<tr class="separator:a87ca2a0f26a20332f83687ae860c931e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ed2d0ab567b2a87cdd374ac57b987b" id="r_a27ed2d0ab567b2a87cdd374ac57b987b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a27ed2d0ab567b2a87cdd374ac57b987b">pInfixOp</a> (string $class, <a class="el" href="interfacePhpParser_1_1Node.html">Node</a> $leftNode, string $operatorString, <a class="el" href="interfacePhpParser_1_1Node.html">Node</a> $rightNode, int $precedence, int $lhsPrecedence)</td></tr>
+<tr class="separator:a27ed2d0ab567b2a87cdd374ac57b987b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5fc16f72c72ac0f3b7a9c5408105f0a" id="r_ab5fc16f72c72ac0f3b7a9c5408105f0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#ab5fc16f72c72ac0f3b7a9c5408105f0a">pPrefixOp</a> (string $class, string $operatorString, <a class="el" href="interfacePhpParser_1_1Node.html">Node</a> $node, int $precedence, int $lhsPrecedence)</td></tr>
+<tr class="separator:ab5fc16f72c72ac0f3b7a9c5408105f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af272eef96f25bf8521d946be95abc552" id="r_af272eef96f25bf8521d946be95abc552"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#af272eef96f25bf8521d946be95abc552">pPostfixOp</a> (string $class, <a class="el" href="interfacePhpParser_1_1Node.html">Node</a> $node, string $operatorString, int $precedence, int $lhsPrecedence)</td></tr>
+<tr class="separator:af272eef96f25bf8521d946be95abc552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84cf3fe6a3ef914185fbc44673aab07b" id="r_a84cf3fe6a3ef914185fbc44673aab07b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a84cf3fe6a3ef914185fbc44673aab07b">pImplode</a> (array $nodes, string $glue='')</td></tr>
+<tr class="separator:a84cf3fe6a3ef914185fbc44673aab07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58936d696b9eed86a067deb52372070d" id="r_a58936d696b9eed86a067deb52372070d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a58936d696b9eed86a067deb52372070d">pCommaSeparated</a> (array $nodes)</td></tr>
+<tr class="separator:a58936d696b9eed86a067deb52372070d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9800048e320e25af3bd44cefd6a87fbe" id="r_a9800048e320e25af3bd44cefd6a87fbe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a9800048e320e25af3bd44cefd6a87fbe">pCommaSeparatedMultiline</a> (array $nodes, bool $trailingComma)</td></tr>
+<tr class="separator:a9800048e320e25af3bd44cefd6a87fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af853f3a2796c098cfb2fe78b058d52f9" id="r_af853f3a2796c098cfb2fe78b058d52f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#af853f3a2796c098cfb2fe78b058d52f9">pComments</a> (array $comments)</td></tr>
+<tr class="separator:af853f3a2796c098cfb2fe78b058d52f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affc72326fc48d0a99d4a368ef015000f" id="r_affc72326fc48d0a99d4a368ef015000f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#affc72326fc48d0a99d4a368ef015000f">pFallback</a> (<a class="el" href="interfacePhpParser_1_1Node.html">Node</a> $node, int $precedence, int $lhsPrecedence)</td></tr>
+<tr class="separator:affc72326fc48d0a99d4a368ef015000f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3045fa00884ef6ca96c4a5df29132fa3" id="r_a3045fa00884ef6ca96c4a5df29132fa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a3045fa00884ef6ca96c4a5df29132fa3">pFixup</a> (int $fixup, <a class="el" href="interfacePhpParser_1_1Node.html">Node</a> $subNode, ?string $parentClass, int $subStartPos, int $subEndPos)</td></tr>
+<tr class="separator:a3045fa00884ef6ca96c4a5df29132fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7da8595366dbbf0b851e1734f7ffef4" id="r_ab7da8595366dbbf0b851e1734f7ffef4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#ab7da8595366dbbf0b851e1734f7ffef4">safeAppend</a> (string &amp;$str, string $append)</td></tr>
+<tr class="separator:ab7da8595366dbbf0b851e1734f7ffef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8568aec136b79c2eb920829bab0f5484" id="r_a8568aec136b79c2eb920829bab0f5484"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a8568aec136b79c2eb920829bab0f5484">callLhsRequiresParens</a> (<a class="el" href="interfacePhpParser_1_1Node.html">Node</a> $node)</td></tr>
+<tr class="separator:a8568aec136b79c2eb920829bab0f5484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafdafc7549827997357cf846ca307145" id="r_aafdafc7549827997357cf846ca307145"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#aafdafc7549827997357cf846ca307145">dereferenceLhsRequiresParens</a> (<a class="el" href="interfacePhpParser_1_1Node.html">Node</a> $node)</td></tr>
+<tr class="separator:aafdafc7549827997357cf846ca307145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e3f40b4712d972b9c143b632709fdc" id="r_a79e3f40b4712d972b9c143b632709fdc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a79e3f40b4712d972b9c143b632709fdc">staticDereferenceLhsRequiresParens</a> (<a class="el" href="interfacePhpParser_1_1Node.html">Node</a> $node)</td></tr>
+<tr class="separator:a79e3f40b4712d972b9c143b632709fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392aee677da425d075e2d33e5a8a3ede" id="r_a392aee677da425d075e2d33e5a8a3ede"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a392aee677da425d075e2d33e5a8a3ede">newOperandRequiresParens</a> (<a class="el" href="interfacePhpParser_1_1Node.html">Node</a> $node)</td></tr>
+<tr class="separator:a392aee677da425d075e2d33e5a8a3ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b33b3c31eb3d9cbe3fa26af44e5a109" id="r_a1b33b3c31eb3d9cbe3fa26af44e5a109"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a1b33b3c31eb3d9cbe3fa26af44e5a109">pModifiers</a> (int $modifiers)</td></tr>
+<tr class="separator:a1b33b3c31eb3d9cbe3fa26af44e5a109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22e34a461693b1aaff97c690801e2a3a" id="r_a22e34a461693b1aaff97c690801e2a3a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a22e34a461693b1aaff97c690801e2a3a">pStatic</a> (bool $static)</td></tr>
+<tr class="separator:a22e34a461693b1aaff97c690801e2a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af583580c41227be463cfe2f6b792c6f7" id="r_af583580c41227be463cfe2f6b792c6f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#af583580c41227be463cfe2f6b792c6f7">isMultiline</a> (array $nodes)</td></tr>
+<tr class="separator:af583580c41227be463cfe2f6b792c6f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:a52de88f5ea39db7415ab4f4f1cbd8476" id="r_a52de88f5ea39db7415ab4f4f1cbd8476"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a52de88f5ea39db7415ab4f4f1cbd8476">FIXUP_PREC_LEFT</a> = 0</td></tr>
+<tr class="separator:a52de88f5ea39db7415ab4f4f1cbd8476"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab629cde477a86fbd5fb63a3c2a47e57f" id="r_ab629cde477a86fbd5fb63a3c2a47e57f"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#ab629cde477a86fbd5fb63a3c2a47e57f">FIXUP_PREC_RIGHT</a> = 1</td></tr>
+<tr class="separator:ab629cde477a86fbd5fb63a3c2a47e57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e1970defdb6d9155aad391dc46fc154" id="r_a8e1970defdb6d9155aad391dc46fc154"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a8e1970defdb6d9155aad391dc46fc154">FIXUP_PREC_UNARY</a> = 2</td></tr>
+<tr class="separator:a8e1970defdb6d9155aad391dc46fc154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab982ff585fb34ae8d951c318a4e1dfc4" id="r_ab982ff585fb34ae8d951c318a4e1dfc4"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#ab982ff585fb34ae8d951c318a4e1dfc4">FIXUP_CALL_LHS</a> = 3</td></tr>
+<tr class="separator:ab982ff585fb34ae8d951c318a4e1dfc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac861109c75747420947aff7e7d37bf08" id="r_ac861109c75747420947aff7e7d37bf08"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#ac861109c75747420947aff7e7d37bf08">FIXUP_DEREF_LHS</a> = 4</td></tr>
+<tr class="separator:ac861109c75747420947aff7e7d37bf08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafad662b1d81f86fcbf709f73339827d" id="r_aafad662b1d81f86fcbf709f73339827d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#aafad662b1d81f86fcbf709f73339827d">FIXUP_STATIC_DEREF_LHS</a> = 5</td></tr>
+<tr class="separator:aafad662b1d81f86fcbf709f73339827d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb2be47f0f4d28faeeb27770ba04647a" id="r_adb2be47f0f4d28faeeb27770ba04647a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#adb2be47f0f4d28faeeb27770ba04647a">FIXUP_BRACED_NAME</a> = 6</td></tr>
+<tr class="separator:adb2be47f0f4d28faeeb27770ba04647a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af99fbdc7176ad6d13531cf334a87dc53" id="r_af99fbdc7176ad6d13531cf334a87dc53"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#af99fbdc7176ad6d13531cf334a87dc53">FIXUP_VAR_BRACED_NAME</a> = 7</td></tr>
+<tr class="separator:af99fbdc7176ad6d13531cf334a87dc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af424b27259dc1031385838208cfb8d2d" id="r_af424b27259dc1031385838208cfb8d2d"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#af424b27259dc1031385838208cfb8d2d">FIXUP_ENCAPSED</a> = 8</td></tr>
+<tr class="separator:af424b27259dc1031385838208cfb8d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80ad08a31ddcdbd9539cb91552457867" id="r_a80ad08a31ddcdbd9539cb91552457867"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a80ad08a31ddcdbd9539cb91552457867">FIXUP_NEW</a> = 9</td></tr>
+<tr class="separator:a80ad08a31ddcdbd9539cb91552457867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4f11907cd9fdebc4bb8f71d08f733a9" id="r_ae4f11907cd9fdebc4bb8f71d08f733a9"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#ae4f11907cd9fdebc4bb8f71d08f733a9">MAX_PRECEDENCE</a> = 1000</td></tr>
+<tr class="separator:ae4f11907cd9fdebc4bb8f71d08f733a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9755476ccf053b208360be3ce374bcdf" id="r_a9755476ccf053b208360be3ce374bcdf"><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a9755476ccf053b208360be3ce374bcdf">$precedenceMap</a></td></tr>
+<tr class="separator:a9755476ccf053b208360be3ce374bcdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef433412a1182c4a93d3d248675a0d1f" id="r_aef433412a1182c4a93d3d248675a0d1f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#aef433412a1182c4a93d3d248675a0d1f">$indentLevel</a></td></tr>
+<tr class="separator:aef433412a1182c4a93d3d248675a0d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d820c2fc1903bb0060e9740358b60c" id="r_ad3d820c2fc1903bb0060e9740358b60c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#ad3d820c2fc1903bb0060e9740358b60c">$newline</a></td></tr>
+<tr class="separator:ad3d820c2fc1903bb0060e9740358b60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ef9e2d796ddd2f24c8e6d60d1f59ef6" id="r_a9ef9e2d796ddd2f24c8e6d60d1f59ef6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a9ef9e2d796ddd2f24c8e6d60d1f59ef6">$nl</a></td></tr>
+<tr class="separator:a9ef9e2d796ddd2f24c8e6d60d1f59ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4732d5ffbbfb41226027b3e06ac2b94" id="r_ac4732d5ffbbfb41226027b3e06ac2b94"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#ac4732d5ffbbfb41226027b3e06ac2b94">$docStringEndToken</a></td></tr>
+<tr class="separator:ac4732d5ffbbfb41226027b3e06ac2b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe9c8dbc65c6c4a10f1c5132a24003d0" id="r_afe9c8dbc65c6c4a10f1c5132a24003d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#afe9c8dbc65c6c4a10f1c5132a24003d0">$canUseSemicolonNamespaces</a></td></tr>
+<tr class="separator:afe9c8dbc65c6c4a10f1c5132a24003d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a851a57cb063b3e83983c9f00e9dc68f7" id="r_a851a57cb063b3e83983c9f00e9dc68f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a851a57cb063b3e83983c9f00e9dc68f7">$shortArraySyntax</a></td></tr>
+<tr class="separator:a851a57cb063b3e83983c9f00e9dc68f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af009c4b8a43035d1fb3740a208c2e20d" id="r_af009c4b8a43035d1fb3740a208c2e20d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhpParser_1_1PhpVersion.html">PhpVersion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#af009c4b8a43035d1fb3740a208c2e20d">$phpVersion</a></td></tr>
+<tr class="separator:af009c4b8a43035d1fb3740a208c2e20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a162a0b24ce0878e4bfd1852e79d5dfd0" id="r_a162a0b24ce0878e4bfd1852e79d5dfd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhpParser_1_1Internal_1_1TokenStream.html">TokenStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a162a0b24ce0878e4bfd1852e79d5dfd0">$origTokens</a></td></tr>
+<tr class="separator:a162a0b24ce0878e4bfd1852e79d5dfd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab6ddc737d9037493d9b7d41de7d79f2" id="r_aab6ddc737d9037493d9b7d41de7d79f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhpParser_1_1Internal_1_1Differ.html">Differ</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#aab6ddc737d9037493d9b7d41de7d79f2">$nodeListDiffer</a></td></tr>
+<tr class="separator:aab6ddc737d9037493d9b7d41de7d79f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b45753eaef71891aeff9111571101ad" id="r_a3b45753eaef71891aeff9111571101ad"><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a3b45753eaef71891aeff9111571101ad">$labelCharMap</a></td></tr>
+<tr class="separator:a3b45753eaef71891aeff9111571101ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a738322b117ff0792b66bfa9d52077e67" id="r_a738322b117ff0792b66bfa9d52077e67"><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a738322b117ff0792b66bfa9d52077e67">$fixupMap</a></td></tr>
+<tr class="separator:a738322b117ff0792b66bfa9d52077e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a580ac3431295f9df27079f3fb84ead61" id="r_a580ac3431295f9df27079f3fb84ead61"><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a580ac3431295f9df27079f3fb84ead61">$removalMap</a></td></tr>
+<tr class="separator:a580ac3431295f9df27079f3fb84ead61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49ee5365a373aee93163939abd6385b4" id="r_a49ee5365a373aee93163939abd6385b4"><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a49ee5365a373aee93163939abd6385b4">$insertionMap</a></td></tr>
+<tr class="separator:a49ee5365a373aee93163939abd6385b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d5828af84b34f81166774fa25c7e207" id="r_a8d5828af84b34f81166774fa25c7e207"><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#a8d5828af84b34f81166774fa25c7e207">$listInsertionMap</a></td></tr>
+<tr class="separator:a8d5828af84b34f81166774fa25c7e207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad21e23161c4b97f1cf82942e6ed09abb" id="r_ad21e23161c4b97f1cf82942e6ed09abb"><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#ad21e23161c4b97f1cf82942e6ed09abb">$emptyListInsertionMap</a></td></tr>
+<tr class="separator:ad21e23161c4b97f1cf82942e6ed09abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac78f5c1c521de11ee3732df7eb3ab5" id="r_aeac78f5c1c521de11ee3732df7eb3ab5"><td class="memItemLeft" align="right" valign="top">array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhpParser_1_1PrettyPrinterAbstract.html#aeac78f5c1c521de11ee3732df7eb3ab5">$modifierChangeMap</a></td></tr>
+<tr class="separator:aeac78f5c1c521de11ee3732df7eb3ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentación de constructores y destructores</h2>
+<a id="a77f775d68bff16cf400b39f63ac75d64" name="a77f775d68bff16cf400b39f63ac75d64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77f775d68bff16cf400b39f63ac75d64">&#9670;&#160;</a></span>__construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::__construct </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$options</em> = <code>[]</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a pretty printer instance using the given options.</p>
+<p>Supported options:</p><ul>
+<li>PhpVersion $phpVersion: The PHP version to target (default to PHP 7.4). This option controls compatibility of the generated code with older PHP versions in cases where a simple stylistic choice exists (e.g. array() vs []). It is safe to pretty-print an AST for a newer PHP version while specifying an older target (but the result will of course not be compatible with the older version in that case).</li>
+<li>string $newline: The newline style to use. Should be "\n" (default) or "\r\n".</li>
+<li>string $indent: The indentation to use. Should either be all spaces or a single tab. Defaults to four spaces ("    ").</li>
+<li>bool $shortArraySyntax: Whether to use [] instead of array() as the default array syntax, if the node does not specify a format. Defaults to whether the phpVersion support short array syntax.</li>
+</ul>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">array{</td><td>phpVersion?: PhpVersion, newline?: string, indent?: string, shortArraySyntax?: bool } $options Dictionary of formatting options </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de funciones miembro</h2>
+<a id="a8568aec136b79c2eb920829bab0f5484" name="a8568aec136b79c2eb920829bab0f5484"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8568aec136b79c2eb920829bab0f5484">&#9670;&#160;</a></span>callLhsRequiresParens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::callLhsRequiresParens </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacePhpParser_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>$node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines whether the LHS of a call must be wrapped in parenthesis.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node</td><td class="paramname">$node</td><td>LHS of a call</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>bool Whether parentheses are required </dd></dl>
+
+</div>
+</div>
+<a id="aafdafc7549827997357cf846ca307145" name="aafdafc7549827997357cf846ca307145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafdafc7549827997357cf846ca307145">&#9670;&#160;</a></span>dereferenceLhsRequiresParens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::dereferenceLhsRequiresParens </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacePhpParser_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>$node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines whether the LHS of an array/object operation must be wrapped in parentheses.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node</td><td class="paramname">$node</td><td>LHS of dereferencing operation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>bool Whether parentheses are required </dd></dl>
+
+</div>
+</div>
+<a id="a296fbb458dbb6d2224d80aa87856bd14" name="a296fbb458dbb6d2224d80aa87856bd14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a296fbb458dbb6d2224d80aa87856bd14">&#9670;&#160;</a></span>handleMagicTokens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::handleMagicTokens </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Handles (and removes) doc-string-end tokens. </p>
+
+</div>
+</div>
+<a id="a2122978dd76bee2c68f9470d0a987783" name="a2122978dd76bee2c68f9470d0a987783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2122978dd76bee2c68f9470d0a987783">&#9670;&#160;</a></span>indent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::indent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Increase indentation level. </p>
+
+</div>
+</div>
+<a id="af583580c41227be463cfe2f6b792c6f7" name="af583580c41227be463cfe2f6b792c6f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af583580c41227be463cfe2f6b792c6f7">&#9670;&#160;</a></span>isMultiline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::isMultiline </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$nodes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determine whether a list of nodes uses multiline formatting.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">(Node|null)[]</td><td>$nodes Node list</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>bool Whether multiline formatting is used </dd></dl>
+
+</div>
+</div>
+<a id="a392aee677da425d075e2d33e5a8a3ede" name="a392aee677da425d075e2d33e5a8a3ede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a392aee677da425d075e2d33e5a8a3ede">&#9670;&#160;</a></span>newOperandRequiresParens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::newOperandRequiresParens </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacePhpParser_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>$node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines whether an expression used in "new" or "instanceof" requires parentheses.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node</td><td class="paramname">$node</td><td>New or instanceof operand</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>bool Whether parentheses are required </dd></dl>
+
+</div>
+</div>
+<a id="a46b6ca374a6b76d95d1df752b7efcb79" name="a46b6ca374a6b76d95d1df752b7efcb79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b6ca374a6b76d95d1df752b7efcb79">&#9670;&#160;</a></span>outdent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::outdent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Decrease indentation level. </p>
+
+</div>
+</div>
+<a id="a58936d696b9eed86a067deb52372070d" name="a58936d696b9eed86a067deb52372070d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58936d696b9eed86a067deb52372070d">&#9670;&#160;</a></span>pCommaSeparated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pCommaSeparated </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$nodes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pretty prints an array of nodes and implodes the printed values with commas.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node[]</td><td class="paramname">$nodes</td><td>Array of Nodes to be printed</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Comma separated pretty printed nodes </dd></dl>
+
+</div>
+</div>
+<a id="a9800048e320e25af3bd44cefd6a87fbe" name="a9800048e320e25af3bd44cefd6a87fbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9800048e320e25af3bd44cefd6a87fbe">&#9670;&#160;</a></span>pCommaSeparatedMultiline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pCommaSeparatedMultiline </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$nodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>$trailingComma</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pretty prints a comma-separated list of nodes in multiline style, including comments.</p>
+<p>The result includes a leading newline and one level of indentation (same as pStmts).</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node[]</td><td class="paramname">$nodes</td><td>Array of Nodes to be printed </td></tr>
+    <tr><td class="paramtype">bool</td><td class="paramname">$trailingComma</td><td>Whether to use a trailing comma</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Comma separated pretty printed nodes in multiline style </dd></dl>
+
+</div>
+</div>
+<a id="af853f3a2796c098cfb2fe78b058d52f9" name="af853f3a2796c098cfb2fe78b058d52f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af853f3a2796c098cfb2fe78b058d52f9">&#9670;&#160;</a></span>pComments()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pComments </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$comments</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Prints reformatted text of the passed comments.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Comment[]</td><td class="paramname">$comments</td><td>List of comments</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Reformatted text of comments </dd></dl>
+
+</div>
+</div>
+<a id="affc72326fc48d0a99d4a368ef015000f" name="affc72326fc48d0a99d4a368ef015000f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affc72326fc48d0a99d4a368ef015000f">&#9670;&#160;</a></span>pFallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pFallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacePhpParser_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>$node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$precedence</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$lhsPrecedence</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3045fa00884ef6ca96c4a5df29132fa3" name="a3045fa00884ef6ca96c4a5df29132fa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3045fa00884ef6ca96c4a5df29132fa3">&#9670;&#160;</a></span>pFixup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pFixup </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$fixup</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfacePhpParser_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>$subNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">?string&#160;</td>
+          <td class="paramname"><em>$parentClass</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$subStartPos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$subEndPos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Print node with fixups.</p>
+<p>Fixups here refer to the addition of extra parentheses, braces or other characters, that are required to preserve program semantics in a certain context (e.g. to maintain precedence or because only certain expressions are allowed in certain places).</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$fixup</td><td>Fixup type </td></tr>
+    <tr><td class="paramtype">Node</td><td class="paramname">$subNode</td><td>Subnode to print </td></tr>
+    <tr><td class="paramtype">string&#160;|&#160;null</td><td class="paramname">$parentClass</td><td>Class of parent node </td></tr>
+    <tr><td class="paramtype">int</td><td class="paramname">$subStartPos</td><td>Original start pos of subnode </td></tr>
+    <tr><td class="paramtype">int</td><td class="paramname">$subEndPos</td><td>Original end pos of subnode</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Result of fixed-up print of subnode </dd></dl>
+
+</div>
+</div>
+<a id="a84cf3fe6a3ef914185fbc44673aab07b" name="a84cf3fe6a3ef914185fbc44673aab07b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84cf3fe6a3ef914185fbc44673aab07b">&#9670;&#160;</a></span>pImplode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pImplode </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$nodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$glue</em> = <code>''</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pretty prints an array of nodes and implodes the printed values.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node[]</td><td class="paramname">$nodes</td><td>Array of Nodes to be printed </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$glue</td><td>Character to implode with</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Imploded pretty printed nodes&gt; $pre </dd></dl>
+
+</div>
+</div>
+<a id="a27ed2d0ab567b2a87cdd374ac57b987b" name="a27ed2d0ab567b2a87cdd374ac57b987b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ed2d0ab567b2a87cdd374ac57b987b">&#9670;&#160;</a></span>pInfixOp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pInfixOp </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$class</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfacePhpParser_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>$leftNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$operatorString</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfacePhpParser_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>$rightNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$precedence</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$lhsPrecedence</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pretty-print an infix operation while taking precedence into account.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$class</td><td>Node class of operator </td></tr>
+    <tr><td class="paramtype">Node</td><td class="paramname">$leftNode</td><td>Left-hand side node </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$operatorString</td><td>String representation of the operator </td></tr>
+    <tr><td class="paramtype">Node</td><td class="paramname">$rightNode</td><td>Right-hand side node </td></tr>
+    <tr><td class="paramtype">int</td><td class="paramname">$precedence</td><td>Precedence of parent operator </td></tr>
+    <tr><td class="paramtype">int</td><td class="paramname">$lhsPrecedence</td><td>Precedence for unary operator on LHS of binary operator</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Pretty printed infix operation </dd></dl>
+
+</div>
+</div>
+<a id="a1b33b3c31eb3d9cbe3fa26af44e5a109" name="a1b33b3c31eb3d9cbe3fa26af44e5a109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b33b3c31eb3d9cbe3fa26af44e5a109">&#9670;&#160;</a></span>pModifiers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pModifiers </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$modifiers</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Print modifiers, including trailing whitespace.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$modifiers</td><td>Modifier mask to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Printed modifiers </dd></dl>
+
+</div>
+</div>
+<a id="af272eef96f25bf8521d946be95abc552" name="af272eef96f25bf8521d946be95abc552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af272eef96f25bf8521d946be95abc552">&#9670;&#160;</a></span>pPostfixOp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pPostfixOp </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$class</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfacePhpParser_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>$node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$operatorString</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$precedence</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$lhsPrecedence</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pretty-print a postfix operation while taking precedence into account.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$class</td><td>Node class of operator </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$operatorString</td><td>String representation of the operator </td></tr>
+    <tr><td class="paramtype">Node</td><td class="paramname">$node</td><td>Node </td></tr>
+    <tr><td class="paramtype">int</td><td class="paramname">$precedence</td><td>Precedence of parent operator </td></tr>
+    <tr><td class="paramtype">int</td><td class="paramname">$lhsPrecedence</td><td>Precedence for unary operator on LHS of binary operator</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Pretty printed postfix operation </dd></dl>
+
+</div>
+</div>
+<a id="ab5fc16f72c72ac0f3b7a9c5408105f0a" name="ab5fc16f72c72ac0f3b7a9c5408105f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5fc16f72c72ac0f3b7a9c5408105f0a">&#9670;&#160;</a></span>pPrefixOp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pPrefixOp </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$class</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$operatorString</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfacePhpParser_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>$node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$precedence</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$lhsPrecedence</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pretty-print a prefix operation while taking precedence into account.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$class</td><td>Node class of operator </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$operatorString</td><td>String representation of the operator </td></tr>
+    <tr><td class="paramtype">Node</td><td class="paramname">$node</td><td>Node </td></tr>
+    <tr><td class="paramtype">int</td><td class="paramname">$precedence</td><td>Precedence of parent operator </td></tr>
+    <tr><td class="paramtype">int</td><td class="paramname">$lhsPrecedence</td><td>Precedence for unary operator on LHS of binary operator</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Pretty printed prefix operation </dd></dl>
+
+</div>
+</div>
+<a id="ab67f53cb46a25516b71b0ebb9ded5042" name="ab67f53cb46a25516b71b0ebb9ded5042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab67f53cb46a25516b71b0ebb9ded5042">&#9670;&#160;</a></span>preprocessNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::preprocessNodes </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$nodes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Preprocesses the top-level nodes to initialize pretty printer state.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node[]</td><td class="paramname">$nodes</td><td>Array of nodes </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a66b1428b163de2816905d70b78e4bd88" name="a66b1428b163de2816905d70b78e4bd88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66b1428b163de2816905d70b78e4bd88">&#9670;&#160;</a></span>prettyPrint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::prettyPrint </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$stmts</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Pretty prints an array of statements.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node[]</td><td class="paramname">$stmts</td><td>Array of statements</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Pretty printed statements </dd></dl>
+
+<p>Implementa <a class="el" href="interfacePhpParser_1_1PrettyPrinter.html#a19c5a67ff248dcb8e66136663c811e8c">PhpParser\PrettyPrinter</a>.</p>
+
+</div>
+</div>
+<a id="aa15cf5dae04e4a8a6371b529d2d7feae" name="aa15cf5dae04e4a8a6371b529d2d7feae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa15cf5dae04e4a8a6371b529d2d7feae">&#9670;&#160;</a></span>prettyPrintExpr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::prettyPrintExpr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPhpParser_1_1Node_1_1Expr.html">Expr</a>&#160;</td>
+          <td class="paramname"><em>$node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Pretty prints an expression.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Expr</td><td class="paramname">$node</td><td>Expression node</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Pretty printed node </dd></dl>
+
+<p>Implementa <a class="el" href="interfacePhpParser_1_1PrettyPrinter.html#a40cee16fba8e53a7fbf13eda5539ccb0">PhpParser\PrettyPrinter</a>.</p>
+
+</div>
+</div>
+<a id="a98762601cd86a51dac0f00bbbf8b25e4" name="a98762601cd86a51dac0f00bbbf8b25e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98762601cd86a51dac0f00bbbf8b25e4">&#9670;&#160;</a></span>prettyPrintFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::prettyPrintFile </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$stmts</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Pretty prints a file of statements (includes the opening &lt;?php tag if it is required).</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node[]</td><td class="paramname">$stmts</td><td>Array of statements</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Pretty printed statements </dd></dl>
+
+<p>Implementa <a class="el" href="interfacePhpParser_1_1PrettyPrinter.html#a6eed5805ea262ec6578da244d069481c">PhpParser\PrettyPrinter</a>.</p>
+
+</div>
+</div>
+<a id="a954d65cbbf50331a235bd75aa4e67417" name="a954d65cbbf50331a235bd75aa4e67417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a954d65cbbf50331a235bd75aa4e67417">&#9670;&#160;</a></span>printFormatPreserving()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::printFormatPreserving </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$stmts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$origStmts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$origTokens</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Perform a format-preserving pretty print of an AST.</p>
+<p>The format preservation is best effort. For some changes to the AST the formatting will not be preserved (at least not locally).</p>
+<p>In order to use this method a number of prerequisites must be satisfied:</p><ul>
+<li>The startTokenPos and endTokenPos attributes in the lexer must be enabled.</li>
+<li>The CloningVisitor must be run on the AST prior to modification.</li>
+<li>The original tokens must be provided, using the getTokens() method on the lexer.</li>
+</ul>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node[]</td><td class="paramname">$stmts</td><td>Modified AST with links to original AST </td></tr>
+    <tr><td class="paramtype">Node[]</td><td class="paramname">$origStmts</td><td>Original AST with token offset information </td></tr>
+    <tr><td class="paramtype">Token[]</td><td class="paramname">$origTokens</td><td>Tokens of the original code </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfacePhpParser_1_1PrettyPrinter.html#ab9b0c63141d6462e419d6dbfb8053b0a">PhpParser\PrettyPrinter</a>.</p>
+
+</div>
+</div>
+<a id="a22e34a461693b1aaff97c690801e2a3a" name="a22e34a461693b1aaff97c690801e2a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22e34a461693b1aaff97c690801e2a3a">&#9670;&#160;</a></span>pStatic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pStatic </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>$static</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87ca2a0f26a20332f83687ae860c931e" name="a87ca2a0f26a20332f83687ae860c931e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87ca2a0f26a20332f83687ae860c931e">&#9670;&#160;</a></span>pStmts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::pStmts </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$nodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>$indent</em> = <code><a class="el" href="namespacePhpParser.html#aff4017df172aaa03f9dbf9772e29fdfe">true</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pretty prints an array of nodes (statements) and indents them optionally.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node[]</td><td class="paramname">$nodes</td><td>Array of nodes </td></tr>
+    <tr><td class="paramtype">bool</td><td class="paramname">$indent</td><td>Whether to indent the printed nodes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>string Pretty printed statements </dd></dl>
+
+</div>
+</div>
+<a id="a1339ca6312a9f18d3a6e8200c4bba7b3" name="a1339ca6312a9f18d3a6e8200c4bba7b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1339ca6312a9f18d3a6e8200c4bba7b3">&#9670;&#160;</a></span>resetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::resetState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Reset pretty printing state. </p>
+
+</div>
+</div>
+<a id="ab7da8595366dbbf0b851e1734f7ffef4" name="ab7da8595366dbbf0b851e1734f7ffef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7da8595366dbbf0b851e1734f7ffef4">&#9670;&#160;</a></span>safeAppend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::safeAppend </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>$str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$append</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Appends to a string, ensuring whitespace between label characters.</p>
+<p>Example: "echo" and "$x" result in "echo$x", but "echo" and "x" result in "echo x". Without safeAppend the result would be "echox", which does not preserve semantics. </p>
+
+</div>
+</div>
+<a id="aa336c67b55f650e8f432e71997a3b16f" name="aa336c67b55f650e8f432e71997a3b16f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa336c67b55f650e8f432e71997a3b16f">&#9670;&#160;</a></span>setIndentLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::setIndentLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>$level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set indentation level</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$level</td><td>Level in number of spaces </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a79e3f40b4712d972b9c143b632709fdc" name="a79e3f40b4712d972b9c143b632709fdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79e3f40b4712d972b9c143b632709fdc">&#9670;&#160;</a></span>staticDereferenceLhsRequiresParens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhpParser\PrettyPrinterAbstract::staticDereferenceLhsRequiresParens </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacePhpParser_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>$node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines whether the LHS of a static operation must be wrapped in parentheses.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Node</td><td class="paramname">$node</td><td>LHS of dereferencing operation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>bool Whether parentheses are required </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de datos miembro</h2>
+<a id="afe9c8dbc65c6c4a10f1c5132a24003d0" name="afe9c8dbc65c6c4a10f1c5132a24003d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe9c8dbc65c6c4a10f1c5132a24003d0">&#9670;&#160;</a></span>$canUseSemicolonNamespaces</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhpParser\PrettyPrinterAbstract::$canUseSemicolonNamespaces</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4732d5ffbbfb41226027b3e06ac2b94" name="ac4732d5ffbbfb41226027b3e06ac2b94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4732d5ffbbfb41226027b3e06ac2b94">&#9670;&#160;</a></span>$docStringEndToken</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string PhpParser\PrettyPrinterAbstract::$docStringEndToken</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad21e23161c4b97f1cf82942e6ed09abb" name="ad21e23161c4b97f1cf82942e6ed09abb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad21e23161c4b97f1cf82942e6ed09abb">&#9670;&#160;</a></span>$emptyListInsertionMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">array PhpParser\PrettyPrinterAbstract::$emptyListInsertionMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a738322b117ff0792b66bfa9d52077e67" name="a738322b117ff0792b66bfa9d52077e67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a738322b117ff0792b66bfa9d52077e67">&#9670;&#160;</a></span>$fixupMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">array PhpParser\PrettyPrinterAbstract::$fixupMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef433412a1182c4a93d3d248675a0d1f" name="aef433412a1182c4a93d3d248675a0d1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef433412a1182c4a93d3d248675a0d1f">&#9670;&#160;</a></span>$indentLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PhpParser\PrettyPrinterAbstract::$indentLevel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49ee5365a373aee93163939abd6385b4" name="a49ee5365a373aee93163939abd6385b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49ee5365a373aee93163939abd6385b4">&#9670;&#160;</a></span>$insertionMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">array PhpParser\PrettyPrinterAbstract::$insertionMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b45753eaef71891aeff9111571101ad" name="a3b45753eaef71891aeff9111571101ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b45753eaef71891aeff9111571101ad">&#9670;&#160;</a></span>$labelCharMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">array PhpParser\PrettyPrinterAbstract::$labelCharMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d5828af84b34f81166774fa25c7e207" name="a8d5828af84b34f81166774fa25c7e207"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d5828af84b34f81166774fa25c7e207">&#9670;&#160;</a></span>$listInsertionMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">array PhpParser\PrettyPrinterAbstract::$listInsertionMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeac78f5c1c521de11ee3732df7eb3ab5" name="aeac78f5c1c521de11ee3732df7eb3ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeac78f5c1c521de11ee3732df7eb3ab5">&#9670;&#160;</a></span>$modifierChangeMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">array PhpParser\PrettyPrinterAbstract::$modifierChangeMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3d820c2fc1903bb0060e9740358b60c" name="ad3d820c2fc1903bb0060e9740358b60c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d820c2fc1903bb0060e9740358b60c">&#9670;&#160;</a></span>$newline</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string PhpParser\PrettyPrinterAbstract::$newline</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ef9e2d796ddd2f24c8e6d60d1f59ef6" name="a9ef9e2d796ddd2f24c8e6d60d1f59ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ef9e2d796ddd2f24c8e6d60d1f59ef6">&#9670;&#160;</a></span>$nl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string PhpParser\PrettyPrinterAbstract::$nl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab6ddc737d9037493d9b7d41de7d79f2" name="aab6ddc737d9037493d9b7d41de7d79f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab6ddc737d9037493d9b7d41de7d79f2">&#9670;&#160;</a></span>$nodeListDiffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhpParser_1_1Internal_1_1Differ.html">Differ</a> PhpParser\PrettyPrinterAbstract::$nodeListDiffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a162a0b24ce0878e4bfd1852e79d5dfd0" name="a162a0b24ce0878e4bfd1852e79d5dfd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a162a0b24ce0878e4bfd1852e79d5dfd0">&#9670;&#160;</a></span>$origTokens</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhpParser_1_1Internal_1_1TokenStream.html">TokenStream</a> PhpParser\PrettyPrinterAbstract::$origTokens</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af009c4b8a43035d1fb3740a208c2e20d" name="af009c4b8a43035d1fb3740a208c2e20d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af009c4b8a43035d1fb3740a208c2e20d">&#9670;&#160;</a></span>$phpVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhpParser_1_1PhpVersion.html">PhpVersion</a> PhpParser\PrettyPrinterAbstract::$phpVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9755476ccf053b208360be3ce374bcdf" name="a9755476ccf053b208360be3ce374bcdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9755476ccf053b208360be3ce374bcdf">&#9670;&#160;</a></span>$precedenceMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">array PhpParser\PrettyPrinterAbstract::$precedenceMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a580ac3431295f9df27079f3fb84ead61" name="a580ac3431295f9df27079f3fb84ead61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a580ac3431295f9df27079f3fb84ead61">&#9670;&#160;</a></span>$removalMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">array PhpParser\PrettyPrinterAbstract::$removalMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a851a57cb063b3e83983c9f00e9dc68f7" name="a851a57cb063b3e83983c9f00e9dc68f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a851a57cb063b3e83983c9f00e9dc68f7">&#9670;&#160;</a></span>$shortArraySyntax</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhpParser\PrettyPrinterAbstract::$shortArraySyntax</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb2be47f0f4d28faeeb27770ba04647a" name="adb2be47f0f4d28faeeb27770ba04647a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb2be47f0f4d28faeeb27770ba04647a">&#9670;&#160;</a></span>FIXUP_BRACED_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PhpParser\PrettyPrinterAbstract::FIXUP_BRACED_NAME = 6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab982ff585fb34ae8d951c318a4e1dfc4" name="ab982ff585fb34ae8d951c318a4e1dfc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab982ff585fb34ae8d951c318a4e1dfc4">&#9670;&#160;</a></span>FIXUP_CALL_LHS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PhpParser\PrettyPrinterAbstract::FIXUP_CALL_LHS = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac861109c75747420947aff7e7d37bf08" name="ac861109c75747420947aff7e7d37bf08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac861109c75747420947aff7e7d37bf08">&#9670;&#160;</a></span>FIXUP_DEREF_LHS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PhpParser\PrettyPrinterAbstract::FIXUP_DEREF_LHS = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af424b27259dc1031385838208cfb8d2d" name="af424b27259dc1031385838208cfb8d2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af424b27259dc1031385838208cfb8d2d">&#9670;&#160;</a></span>FIXUP_ENCAPSED</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PhpParser\PrettyPrinterAbstract::FIXUP_ENCAPSED = 8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80ad08a31ddcdbd9539cb91552457867" name="a80ad08a31ddcdbd9539cb91552457867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80ad08a31ddcdbd9539cb91552457867">&#9670;&#160;</a></span>FIXUP_NEW</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PhpParser\PrettyPrinterAbstract::FIXUP_NEW = 9</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52de88f5ea39db7415ab4f4f1cbd8476" name="a52de88f5ea39db7415ab4f4f1cbd8476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52de88f5ea39db7415ab4f4f1cbd8476">&#9670;&#160;</a></span>FIXUP_PREC_LEFT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PhpParser\PrettyPrinterAbstract::FIXUP_PREC_LEFT = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab629cde477a86fbd5fb63a3c2a47e57f" name="ab629cde477a86fbd5fb63a3c2a47e57f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab629cde477a86fbd5fb63a3c2a47e57f">&#9670;&#160;</a></span>FIXUP_PREC_RIGHT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PhpParser\PrettyPrinterAbstract::FIXUP_PREC_RIGHT = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e1970defdb6d9155aad391dc46fc154" name="a8e1970defdb6d9155aad391dc46fc154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e1970defdb6d9155aad391dc46fc154">&#9670;&#160;</a></span>FIXUP_PREC_UNARY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PhpParser\PrettyPrinterAbstract::FIXUP_PREC_UNARY = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aafad662b1d81f86fcbf709f73339827d" name="aafad662b1d81f86fcbf709f73339827d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafad662b1d81f86fcbf709f73339827d">&#9670;&#160;</a></span>FIXUP_STATIC_DEREF_LHS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PhpParser\PrettyPrinterAbstract::FIXUP_STATIC_DEREF_LHS = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af99fbdc7176ad6d13531cf334a87dc53" name="af99fbdc7176ad6d13531cf334a87dc53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af99fbdc7176ad6d13531cf334a87dc53">&#9670;&#160;</a></span>FIXUP_VAR_BRACED_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PhpParser\PrettyPrinterAbstract::FIXUP_VAR_BRACED_NAME = 7</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4f11907cd9fdebc4bb8f71d08f733a9" name="ae4f11907cd9fdebc4bb8f71d08f733a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4f11907cd9fdebc4bb8f71d08f733a9">&#9670;&#160;</a></span>MAX_PRECEDENCE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const PhpParser\PrettyPrinterAbstract::MAX_PRECEDENCE = 1000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación de esta clase está generada del siguiente archivo:<ul>
+<li>/home/runner/work/Foro_Minecraft/Foro_Minecraft/vendor/nikic/php-parser/lib/PhpParser/<a class="el" href="PrettyPrinterAbstract_8php.html">PrettyPrinterAbstract.php</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>

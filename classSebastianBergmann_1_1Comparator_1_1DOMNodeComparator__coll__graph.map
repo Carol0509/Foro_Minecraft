@@ -1,0 +1,9 @@
+<map id="SebastianBergmann\Comparator\DOMNodeComparator" name="SebastianBergmann\Comparator\DOMNodeComparator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,269,240,309"/>
+<area shape="rect" id="Node000002" href="$classSebastianBergmann_1_1Comparator_1_1ObjectComparator.html" title=" " alt="" coords="5,181,240,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,235,125,269,120,269,120,235"/>
+<area shape="rect" id="Node000003" href="$classSebastianBergmann_1_1Comparator_1_1ArrayComparator.html" title=" " alt="" coords="5,93,240,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,147,125,181,120,181,120,147"/>
+<area shape="rect" id="Node000004" href="$classSebastianBergmann_1_1Comparator_1_1Comparator.html" title=" " alt="" coords="5,5,240,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,59,125,93,120,93,120,59"/>
+</map>

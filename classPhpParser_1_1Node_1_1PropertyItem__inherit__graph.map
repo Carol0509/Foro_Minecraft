@@ -1,0 +1,9 @@
+<map id="PhpParser\Node\PropertyItem" name="PhpParser\Node\PropertyItem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="35,152,249,177"/>
+<area shape="rect" id="Node000002" href="$classPhpParser_1_1NodeAbstract.html" title=" " alt="" coords="53,79,231,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,118,145,152,139,152,139,118"/>
+<area shape="rect" id="Node000003" href="$interfacePhpParser_1_1Node.html" title=" " alt="" coords="5,5,129,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,38,132,77,128,80,87,42"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="154,5,279,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="197,42,156,80,152,77,193,38"/>
+</map>

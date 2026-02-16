@@ -1,0 +1,9 @@
+<map id="PHPUnit\TestRunner\TestResult\BeforeTestClassMethodErroredSubscriber" name="PHPUnit\TestRunner\TestResult\BeforeTestClassMethodErroredSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="508,34,709,89"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1TestRunner_1_1TestResult_1_1Subscriber.html" title=" " alt="" coords="268,5,433,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="447,36,508,45,507,50,447,41"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Test_1_1BeforeFirstTestMethodErroredSubscriber.html" title=" " alt="" coords="241,70,460,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="473,78,507,73,508,78,474,83"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="5,85,193,110"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="207,95,241,95,241,100,207,100"/>
+</map>

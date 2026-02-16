@@ -1,0 +1,7 @@
+<map id="PHPUnit\Event\DeferringDispatcher" name="PHPUnit\Event\DeferringDispatcher">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,167,256,192"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Event_1_1SubscribableDispatcher.html" title=" " alt="" coords="29,79,232,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,132,133,166,128,166,128,132"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Dispatcher.html" title=" " alt="" coords="35,5,226,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,44,133,79,128,79,128,44"/>
+</map>

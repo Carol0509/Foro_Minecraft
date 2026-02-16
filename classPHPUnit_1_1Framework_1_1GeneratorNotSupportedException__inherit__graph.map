@@ -1,0 +1,11 @@
+<map id="PHPUnit\Framework\GeneratorNotSupportedException" name="PHPUnit\Framework\GeneratorNotSupportedException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="116,255,337,295"/>
+<area shape="rect" id="Node000002" href="$classSebastianBergmann_1_1CodeCoverage_1_1InvalidArgumentException.html" title=" " alt="" coords="101,167,353,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,221,229,254,224,254,224,221"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,86,200,111"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,117,201,164,198,169,129,121"/>
+<area shape="rect" id="Node000004" href="$interfaceSebastianBergmann_1_1CodeCoverage_1_1Exception.html" title=" " alt="" coords="225,79,477,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="313,129,256,169,253,164,310,124"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="305,5,396,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="353,44,353,79,348,79,348,44"/>
+</map>

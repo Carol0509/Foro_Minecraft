@@ -1,0 +1,18 @@
+<map id="PharIo\Version\Exception" name="PharIo\Version\Exception">
+<area shape="rect" id="Node000001" title=" " alt="" coords="144,141,327,166"/>
+<area shape="rect" id="Node000003" href="$classPharIo_1_1Version_1_1InvalidPreReleaseSuffixException.html" title=" " alt="" coords="388,5,572,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="272,131,319,98,374,67,438,43,439,48,376,72,322,103,275,135"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="252,129,305,85,373,43,387,37,389,42,376,48,308,89,256,133"/>
+<area shape="rect" id="Node000004" href="$classPharIo_1_1Version_1_1InvalidVersionException.html" title=" " alt="" coords="375,69,585,109"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="298,134,402,107,403,112,299,140"/>
+<area shape="rect" id="Node000005" href="$classPharIo_1_1Version_1_1NoBuildMetaDataException.html" title=" " alt="" coords="379,133,581,173"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="340,160,378,160,378,165,340,165"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="340,142,378,142,378,147,340,147"/>
+<area shape="rect" id="Node000006" href="$classPharIo_1_1Version_1_1NoPreReleaseSuffixException.html" title=" " alt="" coords="375,197,585,237"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="276,168,375,196,373,201,274,173"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="331,167,431,195,430,200,329,172"/>
+<area shape="rect" id="Node000007" href="$classPharIo_1_1Version_1_1UnsupportedVersionConstraintException.html" title=" " alt="" coords="379,261,581,301"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="264,173,314,210,376,247,404,259,402,264,373,252,311,215,261,177"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,141,96,166"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,151,144,151,144,156,110,156"/>
+</map>

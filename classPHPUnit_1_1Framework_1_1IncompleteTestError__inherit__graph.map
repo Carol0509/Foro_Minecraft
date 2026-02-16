@@ -1,0 +1,17 @@
+<map id="PHPUnit\Framework\IncompleteTestError" name="PHPUnit\Framework\IncompleteTestError">
+<area shape="rect" id="Node000001" title=" " alt="" coords="936,77,1165,117"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Framework_1_1AssertionFailedError.html" title=" " alt="" coords="652,47,869,87"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="883,77,936,82,936,88,882,82"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Exception.html" title=" " alt="" coords="368,5,552,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="552,30,652,47,652,52,551,36"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Exception.html" title=" " alt="" coords="144,5,287,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="301,15,368,15,368,21,301,21"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,5,96,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="110,15,144,15,144,21,110,21"/>
+<area shape="rect" id="Node000006" href="$interfacePHPUnit_1_1Framework_1_1SelfDescribing.html" title=" " alt="" coords="335,55,585,80"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="599,65,652,65,652,70,599,70"/>
+<area shape="rect" id="Node000007" href="$interfacePHPUnit_1_1Framework_1_1IncompleteTest.html" title=" " alt="" coords="633,112,888,137"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="901,108,935,105,936,110,902,114"/>
+<area shape="rect" id="Node000008" href="$classPHPUnit_1_1Event_1_1Code_1_1Throwable.html" title=" " alt="" coords="383,105,537,145"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="551,122,633,122,633,127,551,127"/>
+</map>

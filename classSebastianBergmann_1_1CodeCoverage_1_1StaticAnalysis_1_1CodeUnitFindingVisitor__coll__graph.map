@@ -1,0 +1,9 @@
+<map id="SebastianBergmann\CodeCoverage\StaticAnalysis\CodeUnitFindingVisitor" name="SebastianBergmann\CodeCoverage\StaticAnalysis\CodeUnitFindingVisitor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,316,276,356"/>
+<area shape="rect" id="Node000002" href="$classPhpParser_1_1NodeVisitorAbstract.html" title=" " alt="" coords="31,241,251,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,280,143,316,138,316,138,280"/>
+<area shape="rect" id="Node000003" href="$interfacePhpParser_1_1NodeVisitor.html" title=" " alt="" coords="57,167,224,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="143,206,143,241,138,241,138,206"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="112,5,169,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="143,44,143,166,138,166,138,44"/>
+</map>

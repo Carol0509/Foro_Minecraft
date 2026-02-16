@@ -1,0 +1,27 @@
+<map id="PHPUnit\TextUI\Command\Command" name="PHPUnit\TextUI\Command\Command">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,357,196,397"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1TextUI_1_1Command_1_1AtLeastVersionCommand.html" title=" " alt="" coords="282,5,473,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,343,118,281,143,203,161,163,184,123,211,87,242,55,261,43,281,34,283,39,263,48,246,59,215,90,188,126,166,165,148,205,123,283,110,344"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1TextUI_1_1Command_1_1CheckPhpConfigurationCommand.html" title=" " alt="" coords="255,69,499,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="108,343,126,293,153,232,192,171,215,143,242,119,262,107,265,112,246,123,219,147,196,174,158,235,131,295,114,345"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1TextUI_1_1Command_1_1GenerateConfigurationCommand.html" title=" " alt="" coords="257,133,497,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,343,135,306,164,262,200,219,243,183,265,171,267,176,245,188,204,223,168,265,140,308,120,346"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1TextUI_1_1Command_1_1ListGroupsCommand.html" title=" " alt="" coords="282,197,473,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="126,345,176,294,208,269,243,247,281,232,283,236,245,252,211,273,180,298,129,349"/>
+<area shape="rect" id="Node000006" href="$classPHPUnit_1_1TextUI_1_1Command_1_1ListTestSuitesCommand.html" title=" " alt="" coords="282,261,473,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="153,349,243,311,283,299,285,304,245,316,155,354"/>
+<area shape="rect" id="Node000007" href="$classPHPUnit_1_1TextUI_1_1Command_1_1ListTestsAsTextCommand.html" title=" " alt="" coords="281,325,473,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="210,362,281,354,281,359,210,367"/>
+<area shape="rect" id="Node000008" href="$classPHPUnit_1_1TextUI_1_1Command_1_1ListTestsAsXmlCommand.html" title=" " alt="" coords="282,389,473,429"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="210,387,282,396,282,401,210,393"/>
+<area shape="rect" id="Node000009" href="$classPHPUnit_1_1TextUI_1_1Command_1_1MigrateConfigurationCommand.html" title=" " alt="" coords="262,453,493,493"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="155,401,245,439,285,451,283,456,243,444,153,406"/>
+<area shape="rect" id="Node000010" href="$classPHPUnit_1_1TextUI_1_1Command_1_1ShowHelpCommand.html" title=" " alt="" coords="282,517,473,557"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="129,406,180,456,211,482,245,503,283,518,281,523,243,508,208,486,176,460,126,410"/>
+<area shape="rect" id="Node000011" href="$classPHPUnit_1_1TextUI_1_1Command_1_1ShowVersionCommand.html" title=" " alt="" coords="282,581,473,621"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="120,409,140,446,168,489,204,532,245,567,283,585,281,590,243,572,200,535,164,492,135,449,115,411"/>
+<area shape="rect" id="Node000012" href="$classPHPUnit_1_1TextUI_1_1Command_1_1VersionCheckCommand.html" title=" " alt="" coords="282,645,473,685"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="114,410,131,460,158,520,196,580,219,608,246,631,283,650,281,655,242,636,215,611,192,584,153,522,126,462,108,412"/>
+<area shape="rect" id="Node000013" href="$classPHPUnit_1_1TextUI_1_1Command_1_1WarmCodeCoverageCacheCommand.html" title=" " alt="" coords="244,709,511,749"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="110,410,123,472,148,549,166,590,188,628,215,664,246,695,263,707,260,711,242,699,211,668,184,631,161,592,143,551,118,473,104,412"/>
+</map>

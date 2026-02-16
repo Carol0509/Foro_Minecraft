@@ -1,0 +1,13 @@
+<map id="PHPUnit\Event\Test\PhpDeprecationTriggeredSubscriber" name="PHPUnit\Event\Test\PhpDeprecationTriggeredSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="241,131,499,171"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Logging_1_1TestDox_1_1TestTriggeredPhpDeprecationSubscriber.html" title=" " alt="" coords="581,5,795,60"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="422,123,481,95,546,69,580,58,581,63,548,74,483,100,424,128"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Runner_1_1Baseline_1_1TestTriggeredPhpDeprecationSubscriber.html" title=" " alt="" coords="581,84,795,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="512,131,580,122,581,127,512,136"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1TestRunner_1_1TestResult_1_1TestTriggeredPhpDeprecationSubscriber.html" title=" " alt="" coords="585,163,791,217"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="512,166,585,175,584,180,512,171"/>
+<area shape="rect" id="Node000006" href="$classPHPUnit_1_1TextUI_1_1Output_1_1Default_1_1ProgressPrinter_1_1TestTriggeredPhpDeprecationSubscriber.html" title=" " alt="" coords="547,241,829,296"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="425,175,548,228,581,239,580,244,546,232,422,180"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="5,139,193,164"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,149,241,149,241,154,207,154"/>
+</map>

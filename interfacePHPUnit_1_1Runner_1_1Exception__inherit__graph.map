@@ -1,0 +1,11 @@
+<map id="PHPUnit\Runner\Exception" name="PHPUnit\Runner\Exception">
+<area shape="rect" id="Node000001" title=" " alt="" coords="335,45,528,70"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Runner_1_1Baseline_1_1CannotLoadBaselineException.html" title=" " alt="" coords="580,5,803,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="541,41,580,36,580,42,542,46"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Runner_1_1Baseline_1_1FileDoesNotHaveLineException.html" title=" " alt="" coords="576,69,807,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="542,68,576,73,576,78,541,74"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Exception.html" title=" " alt="" coords="144,45,287,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="301,55,335,55,335,60,301,60"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,45,96,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,55,144,55,144,60,110,60"/>
+</map>

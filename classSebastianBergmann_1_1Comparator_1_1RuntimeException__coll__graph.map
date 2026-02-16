@@ -1,0 +1,9 @@
+<map id="SebastianBergmann\Comparator\RuntimeException" name="SebastianBergmann\Comparator\RuntimeException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="64,181,299,221"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,101,147,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,133,160,179,156,183,99,137"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Framework_1_1MockObject_1_1Stub_1_1Exception.html" title=" " alt="" coords="171,93,405,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,144,207,183,203,179,252,140"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Framework_1_1MockObject_1_1Stub_1_1Stub.html" title=" " alt="" coords="171,5,405,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="291,59,291,93,285,93,285,59"/>
+</map>

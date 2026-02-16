@@ -1,0 +1,67 @@
+<map id="PhpParser\Node\Expr\BinaryOp" name="PhpParser\Node\Expr\BinaryOp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="611,869,768,909"/>
+<area shape="rect" id="Node000006" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1BitwiseAnd.html" title=" " alt="" coords="830,5,993,45"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="689,856,695,689,713,450,729,327,750,214,778,121,795,84,814,56,828,43,832,47,818,59,800,87,783,123,756,215,734,328,718,451,700,689,694,856"/>
+<area shape="rect" id="Node000007" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1BitwiseOr.html" title=" " alt="" coords="833,69,990,109"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="689,856,697,701,717,481,733,368,754,265,781,179,796,146,814,120,831,105,834,109,818,123,801,148,786,181,759,266,738,369,722,482,702,701,694,856"/>
+<area shape="rect" id="Node000008" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1BitwiseXor.html" title=" " alt="" coords="831,133,991,173"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="690,855,699,712,721,512,737,409,758,315,783,238,798,207,814,184,830,170,833,174,818,187,802,210,788,240,763,317,742,410,726,512,705,712,695,856"/>
+<area shape="rect" id="Node000009" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1BooleanAnd.html" title=" " alt="" coords="827,197,995,237"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="690,855,702,724,725,542,741,450,761,366,785,296,799,269,814,248,828,236,831,240,818,251,804,271,790,298,766,367,746,451,730,543,707,724,696,856"/>
+<area shape="rect" id="Node000010" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1BooleanOr.html" title=" " alt="" coords="832,261,991,301"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="691,856,704,736,729,573,745,491,765,416,788,355,814,312,830,298,834,302,818,315,793,357,770,418,751,493,734,574,710,736,696,856"/>
+<area shape="rect" id="Node000011" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Coalesce.html" title=" " alt="" coords="833,325,990,365"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="692,855,707,747,733,604,750,532,769,467,790,413,814,376,831,362,834,366,818,379,795,415,774,469,755,534,738,605,712,748,697,856"/>
+<area shape="rect" id="Node000012" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Concat.html" title=" " alt="" coords="833,389,990,429"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="687,855,691,773,698,719,708,662,724,602,746,544,776,489,814,439,831,426,834,431,818,443,780,491,751,546,729,604,713,663,703,720,697,773,693,856"/>
+<area shape="rect" id="Node000013" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Div.html" title=" " alt="" coords="833,453,990,493"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="689,855,697,783,716,689,732,639,754,590,781,544,814,503,831,491,834,495,818,507,785,547,758,593,737,641,722,690,702,784,695,856"/>
+<area shape="rect" id="Node000014" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Equal.html" title=" " alt="" coords="833,517,990,557"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="692,855,703,794,725,717,741,677,761,637,785,600,814,567,831,555,834,559,818,571,789,603,765,640,746,679,730,719,708,795,697,856"/>
+<area shape="rect" id="Node000015" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Greater.html" title=" " alt="" coords="833,581,990,621"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="696,855,710,806,734,746,768,685,790,656,814,631,832,619,835,624,818,635,794,660,773,688,739,748,715,808,701,857"/>
+<area shape="rect" id="Node000016" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1GreaterOrEqual.html" title=" " alt="" coords="816,645,1007,685"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="702,855,720,818,744,775,776,732,814,695,834,683,837,688,818,699,780,736,749,778,724,820,707,857"/>
+<area shape="rect" id="Node000017" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Identical.html" title=" " alt="" coords="833,709,990,749"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="712,857,756,807,784,781,815,759,838,747,840,752,817,764,788,786,760,811,716,860"/>
+<area shape="rect" id="Node000018" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1LogicalAnd.html" title=" " alt="" coords="831,773,992,813"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="738,860,815,823,846,811,848,816,817,828,740,865"/>
+<area shape="rect" id="Node000019" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1LogicalOr.html" title=" " alt="" coords="833,837,990,877"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="782,873,832,866,833,871,782,879"/>
+<area shape="rect" id="Node000020" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1LogicalXor.html" title=" " alt="" coords="832,901,991,941"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="782,900,832,907,832,913,781,905"/>
+<area shape="rect" id="Node000021" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Minus.html" title=" " alt="" coords="833,965,990,1005"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="740,914,817,951,848,963,846,968,815,956,738,918"/>
+<area shape="rect" id="Node000022" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Mod.html" title=" " alt="" coords="833,1029,990,1069"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="716,918,760,968,788,993,817,1015,840,1027,838,1032,815,1020,784,997,756,972,712,922"/>
+<area shape="rect" id="Node000023" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Mul.html" title=" " alt="" coords="833,1093,990,1133"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="707,921,724,958,749,1001,780,1043,818,1079,837,1091,834,1095,814,1083,776,1046,744,1003,720,961,702,924"/>
+<area shape="rect" id="Node000024" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1NotEqual.html" title=" " alt="" coords="833,1157,990,1197"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="701,922,715,971,739,1030,773,1091,794,1119,818,1143,835,1155,832,1159,814,1147,790,1122,768,1094,734,1033,710,973,696,924"/>
+<area shape="rect" id="Node000025" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1NotIdentical.html" title=" " alt="" coords="827,1221,996,1261"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="697,923,708,983,730,1060,746,1100,765,1139,789,1175,818,1207,833,1219,830,1223,814,1211,785,1178,761,1141,741,1102,725,1061,703,984,692,924"/>
+<area shape="rect" id="Node000026" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Pipe.html" title=" " alt="" coords="833,1285,990,1325"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="695,923,702,995,722,1088,737,1138,758,1186,785,1231,818,1271,834,1284,831,1288,814,1275,781,1234,754,1188,732,1139,716,1090,697,996,689,924"/>
+<area shape="rect" id="Node000027" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Plus.html" title=" " alt="" coords="833,1349,990,1389"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="693,923,697,1006,703,1059,713,1116,729,1175,751,1233,780,1287,818,1335,834,1348,831,1352,814,1339,776,1290,746,1235,724,1176,708,1117,698,1059,691,1006,687,923"/>
+<area shape="rect" id="Node000028" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Pow.html" title=" " alt="" coords="833,1413,990,1453"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="697,923,712,1030,738,1173,755,1245,774,1310,795,1363,818,1400,834,1412,831,1417,814,1403,790,1366,769,1312,750,1246,733,1174,707,1031,692,923"/>
+<area shape="rect" id="Node000029" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1ShiftLeft.html" title=" " alt="" coords="833,1477,990,1517"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="696,923,710,1042,734,1204,751,1286,770,1361,793,1422,818,1464,834,1477,831,1481,814,1467,788,1424,765,1362,745,1287,729,1205,704,1043,691,923"/>
+<area shape="rect" id="Node000030" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1ShiftRight.html" title=" " alt="" coords="833,1541,990,1581"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="696,923,707,1054,730,1236,746,1328,766,1411,790,1481,804,1507,818,1528,834,1541,831,1545,814,1531,799,1510,785,1483,761,1413,741,1329,725,1236,702,1055,690,923"/>
+<area shape="rect" id="Node000031" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Smaller.html" title=" " alt="" coords="833,1605,990,1645"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="695,923,705,1066,726,1266,742,1369,763,1462,788,1539,802,1569,818,1592,834,1605,831,1609,814,1595,798,1572,783,1541,758,1464,737,1370,721,1267,699,1067,690,923"/>
+<area shape="rect" id="Node000032" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1SmallerOrEqual.html" title=" " alt="" coords="816,1669,1007,1709"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="694,923,702,1078,722,1297,738,1410,759,1513,786,1598,801,1630,818,1656,831,1667,828,1671,814,1659,796,1633,781,1600,754,1514,733,1411,717,1298,697,1078,689,923"/>
+<area shape="rect" id="Node000033" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp_1_1Spaceship.html" title=" " alt="" coords="833,1733,990,1773"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="694,923,700,1089,718,1328,734,1451,756,1563,783,1656,800,1692,818,1720,834,1733,831,1737,814,1723,795,1695,778,1658,750,1564,729,1451,713,1328,695,1089,689,923"/>
+<area shape="rect" id="Node000002" href="$classPhpParser_1_1Node_1_1Expr.html" title=" " alt="" coords="405,877,563,902"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="577,887,610,887,610,892,577,892"/>
+<area shape="rect" id="Node000003" href="$classPhpParser_1_1NodeAbstract.html" title=" " alt="" coords="179,877,357,902"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,887,405,887,405,892,371,892"/>
+<area shape="rect" id="Node000004" href="$interfacePhpParser_1_1Node.html" title=" " alt="" coords="6,851,130,877"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="144,871,179,875,178,881,143,876"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,901,131,926"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="144,902,178,897,179,903,144,907"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="PHPUnit\Logging\TeamCity\TestConsideredRiskySubscriber" name="PHPUnit\Logging\TeamCity\TestConsideredRiskySubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="99,167,327,207"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Logging_1_1TeamCity_1_1Subscriber.html" title=" " alt="" coords="5,79,200,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,125,190,164,187,169,137,129"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Test_1_1ConsideredRiskySubscriber.html" title=" " alt="" coords="224,79,427,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,129,240,169,237,164,288,125"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="231,5,419,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="328,44,328,79,323,79,323,44"/>
+</map>

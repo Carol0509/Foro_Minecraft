@@ -1,0 +1,9 @@
+<map id="PharIo\Manifest\NoEmailAddressException" name="PharIo\Manifest\NoEmailAddressException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="93,152,328,192"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,200,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,110,186,150,183,154,128,114"/>
+<area shape="rect" id="Node000003" href="$interfacePharIo_1_1Manifest_1_1Exception.html" title=" " alt="" coords="224,79,416,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="295,114,239,154,235,150,291,110"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="275,5,365,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="323,44,323,79,317,79,317,44"/>
+</map>

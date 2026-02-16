@@ -1,0 +1,9 @@
+<map id="PHPUnit\Logging\TeamCity\TestMarkedIncompleteSubscriber" name="PHPUnit\Logging\TeamCity\TestMarkedIncompleteSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="97,167,338,207"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Logging_1_1TeamCity_1_1Subscriber.html" title=" " alt="" coords="5,79,200,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,125,194,164,190,169,137,129"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Test_1_1MarkedIncompleteSubscriber.html" title=" " alt="" coords="225,79,439,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="297,129,244,169,241,164,294,125"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="238,5,426,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="335,44,335,79,329,79,329,44"/>
+</map>

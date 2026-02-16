@@ -1,0 +1,10 @@
+<map id="PHPUnit\Framework\MockObject\MockObjectInternal" name="PHPUnit\Framework\MockObject\MockObjectInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="133,167,367,207"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Framework_1_1MockObject_1_1MockObject.html" title=" " alt="" coords="5,79,239,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,124,223,164,220,169,160,129"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Framework_1_1MockObject_1_1Stub.html" title=" " alt="" coords="117,5,383,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="221,40,154,81,151,76,218,36"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Framework_1_1MockObject_1_1StubInternal.html" title=" " alt="" coords="263,79,496,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="282,36,350,76,347,81,279,40"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="340,129,280,169,277,164,338,124"/>
+</map>

@@ -1,0 +1,73 @@
+<map id="PHPUnit\TextUI\XmlConfiguration\Migration" name="PHPUnit\TextUI\XmlConfiguration\Migration">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,956,243,996"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1ConvertLogTypes.html" title=" " alt="" coords="330,5,567,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,942,134,759,145,630,161,492,182,354,210,229,226,173,245,125,266,86,289,55,307,41,329,31,331,35,310,45,293,59,270,88,250,128,231,175,215,230,187,355,166,492,150,631,139,759,129,942"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1IntroduceCacheDirectoryAttribute.html" title=" " alt="" coords="327,69,571,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,942,137,770,148,651,165,522,186,395,214,279,248,184,267,147,289,119,306,106,325,96,328,101,309,110,293,123,272,150,252,186,219,281,192,396,170,523,154,651,142,771,130,942"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1IntroduceCoverageElement.html" title=" " alt="" coords="330,133,567,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="125,942,139,782,169,554,191,437,218,330,250,243,269,209,289,183,307,169,329,159,331,164,310,174,293,187,273,212,255,245,223,332,196,438,174,554,144,783,130,943"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1LogToReportMigration.html" title=" " alt="" coords="330,197,567,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="126,942,142,793,173,584,195,478,222,381,253,301,270,271,289,247,308,233,329,223,331,228,310,238,293,251,274,274,257,303,227,382,200,479,178,585,147,794,131,943"/>
+<area shape="rect" id="Node000012" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1MoveAttributesFromFilterWhitelistToCoverage.html" title=" " alt="" coords="323,262,574,317"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="127,942,146,808,180,624,202,530,228,445,256,375,272,348,289,327,322,305,325,309,292,331,277,351,261,378,233,447,207,532,185,625,151,809,132,943"/>
+<area shape="rect" id="Node000013" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1MoveAttributesFromRootToCoverage.html" title=" " alt="" coords="316,341,581,381"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="128,942,148,820,183,654,205,571,230,495,258,433,273,409,289,391,314,374,317,379,292,395,278,413,263,436,235,497,210,572,188,656,153,821,133,943"/>
+<area shape="rect" id="Node000014" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1MoveCoverageDirectoriesToSource.html" title=" " alt="" coords="322,405,575,445"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="122,942,128,846,137,783,151,714,172,643,201,574,239,511,289,455,320,436,323,440,292,459,244,514,206,577,177,645,156,715,142,783,134,846,128,943"/>
+<area shape="rect" id="Node000015" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1MoveWhitelistExcludesToCoverage.html" title=" " alt="" coords="321,469,576,509"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="124,942,134,856,144,801,160,741,181,680,209,621,244,567,289,519,320,500,323,505,292,523,249,570,213,624,186,682,165,743,150,802,139,857,130,942"/>
+<area shape="rect" id="Node000016" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1MoveWhitelistIncludesToCoverage.html" title=" " alt="" coords="323,533,574,573"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="127,942,140,867,169,770,190,719,217,670,250,624,289,585,322,565,325,570,292,589,254,627,221,672,195,721,174,772,146,868,132,943"/>
+<area shape="rect" id="Node000017" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveBeStrictAboutResourceUsageDuringSmallTestsAttribute.html" title=" " alt="" coords="292,598,605,653"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="131,942,150,881,181,806,202,767,227,729,256,694,289,663,308,651,311,655,292,667,260,697,232,732,207,770,186,808,155,883,136,943"/>
+<area shape="rect" id="Node000018" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveBeStrictAboutTodoAnnotatedTestsAttribute.html" title=" " alt="" coords="299,677,598,731"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="137,942,160,897,194,843,237,788,262,763,289,742,312,729,314,734,292,746,265,767,241,792,198,846,165,900,142,945"/>
+<area shape="rect" id="Node000019" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveCacheResultFileAttribute.html" title=" " alt="" coords="328,756,569,796"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="145,943,204,873,244,836,289,806,327,790,329,795,292,810,248,840,208,876,149,946"/>
+<area shape="rect" id="Node000020" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveCacheTokensAttribute.html" title=" " alt="" coords="330,820,567,860"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="160,945,219,906,290,870,329,857,330,862,292,874,222,910,163,950"/>
+<area shape="rect" id="Node000021" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveConversionToExceptionsAttributes.html" title=" " alt="" coords="297,884,600,924"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="223,950,290,935,351,921,352,927,291,940,224,955"/>
+<area shape="rect" id="Node000022" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveCoverageElementCacheDirectoryAttribute.html" title=" " alt="" coords="301,949,597,1003"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="257,973,300,973,300,979,257,979"/>
+<area shape="rect" id="Node000023" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveCoverageElementProcessUncoveredFilesAttribute.html" title=" " alt="" coords="291,1027,607,1082"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="221,997,336,1025,334,1030,220,1002"/>
+<area shape="rect" id="Node000024" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveEmptyFilter.html" title=" " alt="" coords="330,1107,567,1147"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="159,1003,218,1050,254,1073,292,1092,331,1106,329,1111,290,1097,251,1077,215,1054,156,1007"/>
+<area shape="rect" id="Node000025" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveListeners.html" title=" " alt="" coords="330,1171,567,1211"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="147,1006,172,1042,205,1083,246,1123,292,1156,331,1173,329,1178,289,1161,242,1127,201,1087,168,1045,142,1009"/>
+<area shape="rect" id="Node000026" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveLogTypes.html" title=" " alt="" coords="330,1235,567,1275"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="140,1008,162,1056,195,1114,238,1172,264,1198,292,1220,331,1239,329,1244,289,1225,260,1202,234,1176,190,1117,157,1058,135,1010"/>
+<area shape="rect" id="Node000027" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveLoggingElements.html" title=" " alt="" coords="330,1299,567,1339"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="136,1009,154,1069,185,1145,206,1183,231,1221,259,1255,292,1284,331,1304,329,1309,289,1289,255,1259,226,1224,201,1186,180,1147,149,1071,131,1010"/>
+<area shape="rect" id="Node000028" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveNoInteractionAttribute.html" title=" " alt="" coords="330,1363,567,1403"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="132,1009,147,1081,176,1173,197,1222,223,1269,255,1312,292,1349,310,1360,331,1369,329,1374,308,1365,289,1353,250,1315,218,1272,192,1224,171,1175,142,1082,127,1010"/>
+<area shape="rect" id="Node000029" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemovePrinterAttributes.html" title=" " alt="" coords="330,1427,567,1467"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="130,1010,141,1093,151,1145,167,1202,188,1260,215,1316,250,1368,292,1413,311,1425,331,1434,329,1439,308,1430,289,1417,246,1371,211,1319,183,1262,162,1204,146,1147,135,1093,125,1010"/>
+<area shape="rect" id="Node000030" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveTestDoxGroupsElement.html" title=" " alt="" coords="330,1491,567,1531"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="128,1010,135,1103,144,1164,158,1230,179,1298,208,1363,245,1424,292,1477,310,1489,331,1499,329,1504,308,1494,289,1481,241,1427,203,1366,174,1299,153,1231,139,1165,130,1104,123,1010"/>
+<area shape="rect" id="Node000031" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveTestSuiteLoaderAttributes.html" title=" " alt="" coords="325,1555,572,1595"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="133,1009,154,1128,189,1289,212,1369,236,1442,264,1502,292,1541,327,1562,324,1566,289,1545,259,1504,231,1444,207,1371,184,1290,149,1129,128,1010"/>
+<area shape="rect" id="Node000032" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RemoveVerboseAttribute.html" title=" " alt="" coords="330,1619,567,1659"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="132,1009,151,1141,185,1320,207,1411,233,1493,261,1560,276,1586,292,1605,310,1618,331,1627,329,1632,308,1623,289,1609,272,1589,256,1563,228,1495,202,1413,180,1321,146,1141,127,1010"/>
+<area shape="rect" id="Node000033" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RenameBackupStaticAttributesAttribute.html" title=" " alt="" coords="306,1683,591,1723"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="131,1009,148,1152,181,1352,203,1453,229,1544,259,1619,275,1648,293,1669,308,1681,304,1685,289,1673,271,1651,254,1622,224,1546,197,1454,175,1353,143,1153,126,1010"/>
+<area shape="rect" id="Node000034" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RenameBeStrictAboutCoversAnnotationAttribute.html" title=" " alt="" coords="306,1747,591,1802"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="131,1009,146,1163,178,1381,199,1493,226,1594,257,1677,274,1709,293,1733,307,1745,304,1749,289,1737,270,1712,252,1679,221,1596,194,1494,172,1382,141,1164,125,1010"/>
+<area shape="rect" id="Node000035" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1RenameForceCoversAnnotationAttribute.html" title=" " alt="" coords="305,1827,593,1867"/>
+<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="130,1009,142,1178,154,1295,171,1421,193,1545,220,1659,253,1751,272,1786,293,1813,307,1825,304,1829,289,1817,268,1789,248,1753,215,1660,187,1546,166,1422,149,1296,137,1179,124,1010"/>
+<area shape="rect" id="Node000036" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1UpdateSchemaLocation.html" title=" " alt="" coords="330,1891,567,1931"/>
+<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="129,1010,140,1191,151,1317,167,1452,188,1587,216,1710,232,1763,251,1810,271,1848,293,1877,310,1891,331,1901,329,1905,307,1895,289,1881,266,1851,246,1812,227,1765,211,1711,183,1588,162,1453,146,1317,135,1191,124,1010"/>
+<area shape="rect" id="Node000006" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoverageCloverToReport.html" title=" " alt="" coords="655,37,892,77"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="579,198,605,183,616,172,622,161,628,137,634,112,641,99,653,87,671,75,674,80,656,91,646,103,639,114,634,138,627,163,620,176,608,187,582,203"/>
+<area shape="rect" id="Node000007" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoverageCrap4jToReport.html" title=" " alt="" coords="655,101,892,141"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="580,192,605,183,629,167,653,151,685,139,687,144,656,156,632,172,608,188,582,197"/>
+<area shape="rect" id="Node000008" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoverageHtmlToReport.html" title=" " alt="" coords="655,165,892,205"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="581,202,654,194,654,200,581,207"/>
+<area shape="rect" id="Node000009" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoveragePhpToReport.html" title=" " alt="" coords="655,229,892,269"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="581,228,654,235,654,240,581,233"/>
+<area shape="rect" id="Node000010" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoverageTextToReport.html" title=" " alt="" coords="655,293,892,333"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="582,237,608,247,632,263,656,279,687,291,685,296,653,284,629,267,605,252,580,242"/>
+<area shape="rect" id="Node000011" href="$classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1CoverageXmlToReport.html" title=" " alt="" coords="655,357,892,397"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="582,232,608,247,620,259,627,271,634,296,639,321,646,332,656,343,674,355,671,359,653,347,641,335,634,323,628,298,622,273,616,262,605,251,579,236"/>
+</map>

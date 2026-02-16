@@ -1,0 +1,27 @@
+<map id="PHPUnit\Event\Test\FinishedSubscriber" name="PHPUnit\Event\Test\FinishedSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="241,325,389,365"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestFinishedSubscriber.html" title=" " alt="" coords="475,5,649,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="318,311,330,255,351,186,366,150,385,116,408,83,436,55,454,43,474,34,476,39,456,48,439,59,412,87,390,118,371,153,356,188,335,256,324,312"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestSuiteFinishedSubscriber.html" title=" " alt="" coords="459,69,665,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="323,311,338,267,361,215,393,163,413,140,436,119,457,106,460,111,439,123,417,144,398,167,366,218,343,269,328,313"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Logging_1_1TeamCity_1_1TestFinishedSubscriber.html" title=" " alt="" coords="465,133,659,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="330,312,372,246,401,212,436,183,463,169,466,174,439,188,405,216,376,249,335,315"/>
+<area shape="rect" id="Node000006" href="$classPHPUnit_1_1Logging_1_1TeamCity_1_1TestSuiteFinishedSubscriber.html" title=" " alt="" coords="459,197,665,237"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="345,314,386,279,436,247,465,235,467,240,439,252,389,283,348,318"/>
+<area shape="rect" id="Node000007" href="$classPHPUnit_1_1Logging_1_1TestDox_1_1TestFinishedSubscriber.html" title=" " alt="" coords="469,261,655,301"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="402,320,437,311,482,299,484,304,438,316,403,325"/>
+<area shape="rect" id="Node000008" href="$classPHPUnit_1_1Runner_1_1GarbageCollection_1_1TestFinishedSubscriber.html" title=" " alt="" coords="437,325,687,365"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="404,343,437,343,437,348,404,348"/>
+<area shape="rect" id="Node000009" href="$classPHPUnit_1_1Runner_1_1ResultCache_1_1TestFinishedSubscriber.html" title=" " alt="" coords="457,389,667,429"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="403,366,438,375,484,387,482,392,437,380,402,371"/>
+<area shape="rect" id="Node000010" href="$classPHPUnit_1_1Runner_1_1ResultCache_1_1TestSuiteFinishedSubscriber.html" title=" " alt="" coords="457,453,667,493"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="348,373,389,408,439,439,467,451,465,456,436,444,386,412,345,377"/>
+<area shape="rect" id="Node000011" href="$classPHPUnit_1_1TestRunner_1_1TestResult_1_1TestFinishedSubscriber.html" title=" " alt="" coords="439,517,685,557"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="335,376,376,441,405,475,439,503,461,515,458,519,436,508,401,479,372,444,330,379"/>
+<area shape="rect" id="Node000012" href="$classPHPUnit_1_1TestRunner_1_1TestResult_1_1TestSuiteFinishedSubscriber.html" title=" " alt="" coords="457,582,667,637"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="329,378,344,421,367,472,398,523,439,567,458,580,455,585,436,571,394,527,362,475,339,423,324,380"/>
+<area shape="rect" id="Node000013" href="$classPHPUnit_1_1TextUI_1_1Output_1_1Default_1_1ProgressPrinter_1_1TestFinishedSubscriber.html" title=" " alt="" coords="473,661,651,715"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="323,379,334,437,355,509,370,547,389,583,412,617,439,647,456,660,474,669,472,674,453,664,436,651,408,621,384,586,365,549,350,511,329,438,318,380"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="5,333,193,358"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,343,241,343,241,348,207,348"/>
+</map>

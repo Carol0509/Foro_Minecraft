@@ -1,0 +1,27 @@
+<map id="PHPUnit\Logging\JUnit\Subscriber" name="PHPUnit\Logging\JUnit\Subscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,357,171,397"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestErroredSubscriber.html" title=" " alt="" coords="257,5,423,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,343,102,282,124,204,141,164,161,124,187,87,217,55,235,43,255,34,257,39,238,47,220,59,191,91,166,127,145,166,129,206,107,283,96,344"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestFailedSubscriber.html" title=" " alt="" coords="257,69,423,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,343,109,294,133,233,169,172,191,144,217,119,235,107,256,99,258,104,238,112,220,123,195,147,173,175,138,235,114,295,99,345"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestFinishedSubscriber.html" title=" " alt="" coords="253,133,427,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="100,344,118,306,144,263,177,220,217,183,251,166,254,171,220,188,181,223,148,266,123,309,105,346"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestMarkedIncompleteSubscriber.html" title=" " alt="" coords="219,197,461,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="111,345,156,294,186,269,217,247,243,235,246,240,220,252,189,273,160,298,115,348"/>
+<area shape="rect" id="Node000006" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestPreparationFailedSubscriber.html" title=" " alt="" coords="223,261,457,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="136,348,218,311,254,299,256,304,220,316,138,353"/>
+<area shape="rect" id="Node000007" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestPreparationStartedSubscriber.html" title=" " alt="" coords="219,325,461,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="184,362,218,358,219,363,185,368"/>
+<area shape="rect" id="Node000008" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestPreparedSubscriber.html" title=" " alt="" coords="251,389,429,429"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="185,387,251,395,250,401,184,392"/>
+<area shape="rect" id="Node000009" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestPrintedUnexpectedOutputSubscriber.html" title=" " alt="" coords="230,454,450,509"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="140,401,220,439,253,451,251,456,218,444,137,406"/>
+<area shape="rect" id="Node000010" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestRunnerExecutionFinishedSubscriber.html" title=" " alt="" coords="233,533,447,587"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="112,407,158,463,187,493,220,518,243,530,240,535,217,522,184,497,154,467,108,410"/>
+<area shape="rect" id="Node000011" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestSkippedSubscriber.html" title=" " alt="" coords="254,612,426,652"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="102,410,119,453,144,504,178,554,220,597,255,615,252,620,217,601,174,557,140,506,114,455,97,412"/>
+<area shape="rect" id="Node000012" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestSuiteFinishedSubscriber.html" title=" " alt="" coords="237,676,443,716"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="97,410,111,466,134,534,170,603,193,635,220,662,238,674,235,678,217,666,189,638,165,606,129,536,105,467,92,412"/>
+<area shape="rect" id="Node000013" href="$classPHPUnit_1_1Logging_1_1JUnit_1_1TestSuiteStartedSubscriber.html" title=" " alt="" coords="240,740,440,780"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="94,411,104,477,125,563,141,607,162,651,188,691,220,726,241,740,238,744,217,730,184,694,158,653,136,609,120,564,99,478,89,411"/>
+</map>

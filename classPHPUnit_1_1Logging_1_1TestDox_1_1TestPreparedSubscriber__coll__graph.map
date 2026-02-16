@@ -1,0 +1,9 @@
+<map id="PHPUnit\Logging\TestDox\TestPreparedSubscriber" name="PHPUnit\Logging\TestDox\TestPreparedSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="101,167,288,207"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Logging_1_1TestDox_1_1Subscriber.html" title=" " alt="" coords="5,79,192,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,126,175,164,172,168,129,130"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1Test_1_1PreparedSubscriber.html" title=" " alt="" coords="216,79,368,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,130,218,168,214,164,259,126"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="198,5,386,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="295,44,295,79,289,79,289,44"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="PhpParser\Node\Expr\ArrowFunction" name="PhpParser\Node\Expr\ArrowFunction">
+<area shape="rect" id="Node000001" title=" " alt="" coords="109,267,267,307"/>
+<area shape="rect" id="Node000002" href="$classPhpParser_1_1Node_1_1Expr.html" title=" " alt="" coords="27,179,184,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,216,130,241,157,264,153,268,126,244,111,218"/>
+<area shape="poly" id="edge8_Node000001_Node000002" title=" " alt="" coords="127,213,173,265,169,268,123,216"/>
+<area shape="rect" id="Node000003" href="$classPhpParser_1_1NodeAbstract.html" title=" " alt="" coords="5,80,184,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,119,107,178,101,179,95,119"/>
+<area shape="rect" id="Node000004" href="$interfacePhpParser_1_1Node.html" title=" " alt="" coords="171,5,295,31"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="232,45,199,243,194,267,189,266,193,242,227,44"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="200,40,118,82,116,77,198,35"/>
+<area shape="rect" id="Node000006" href="$interfacePhpParser_1_1Node_1_1FunctionLike.html" title=" " alt="" coords="310,129,519,155"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="264,36,399,127,396,131,261,41"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="21,5,147,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="90,44,96,79,90,80,85,45"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="386,164,219,269,216,264,383,160"/>
+</map>

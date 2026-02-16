@@ -1,0 +1,11 @@
+<map id="PHPUnit\Framework\TestSize\Known" name="PHPUnit\Framework\TestSize\Known">
+<area shape="rect" id="Node000001" title=" " alt="" coords="263,69,472,109"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Framework_1_1TestSize_1_1Large.html" title=" " alt="" coords="520,5,729,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="461,63,543,43,544,48,462,69"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Framework_1_1TestSize_1_1Medium.html" title=" " alt="" coords="520,69,729,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="486,87,520,87,520,92,486,92"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Framework_1_1TestSize_1_1Small.html" title=" " alt="" coords="520,133,729,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="462,110,544,131,543,136,461,115"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Framework_1_1TestSize_1_1TestSize.html" title=" " alt="" coords="5,69,215,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,87,263,87,263,92,228,92"/>
+</map>

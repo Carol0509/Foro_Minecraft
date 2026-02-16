@@ -1,0 +1,11 @@
+<map id="DeepCopy\Matcher\Matcher" name="DeepCopy\Matcher\Matcher">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,109,208,134"/>
+<area shape="rect" id="Node000002" href="$classDeepCopy_1_1Matcher_1_1Doctrine_1_1DoctrineProxyMatcher.html" title=" " alt="" coords="256,5,461,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,100,255,55,290,43,291,48,257,60,149,105"/>
+<area shape="rect" id="Node000003" href="$classDeepCopy_1_1Matcher_1_1PropertyMatcher.html" title=" " alt="" coords="256,69,461,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,104,255,100,256,105,221,110"/>
+<area shape="rect" id="Node000004" href="$classDeepCopy_1_1Matcher_1_1PropertyNameMatcher.html" title=" " alt="" coords="256,133,461,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="221,133,256,138,255,143,220,138"/>
+<area shape="rect" id="Node000005" href="$classDeepCopy_1_1Matcher_1_1PropertyTypeMatcher.html" title=" " alt="" coords="256,197,461,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="149,137,257,183,291,195,290,200,255,188,147,142"/>
+</map>

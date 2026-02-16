@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['foro_2ephp_0',['foro.php',['../foro_8php.html',1,'(Espacio de nombres global)'],['../web_2foro_8php.html',1,'(Espacio de nombres global)']]]
+  ['_2ephp_2dcs_2dfixer_2edist_2ephp_0',['.php-cs-fixer.dist.php',['../_8php-cs-fixer_8dist_8php.html',1,'']]]
 ];

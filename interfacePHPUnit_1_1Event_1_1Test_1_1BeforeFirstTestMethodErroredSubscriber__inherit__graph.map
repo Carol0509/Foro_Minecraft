@@ -1,0 +1,11 @@
+<map id="PHPUnit\Event\Test\BeforeFirstTestMethodErroredSubscriber" name="PHPUnit\Event\Test\BeforeFirstTestMethodErroredSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="241,84,460,139"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Logging_1_1TeamCity_1_1TestSuiteBeforeFirstTestMethodErroredSubscriber.html" title=" " alt="" coords="540,5,771,60"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="470,78,548,58,549,63,471,83"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1TestRunner_1_1TestResult_1_1BeforeTestClassMethodErroredSubscriber.html" title=" " alt="" coords="555,84,756,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="474,109,555,109,555,114,474,114"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1TextUI_1_1Output_1_1Default_1_1ProgressPrinter_1_1BeforeTestClassMethodErroredSubscriber.html" title=" " alt="" coords="508,163,803,217"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="471,140,549,160,548,165,470,145"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="5,99,193,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,109,241,109,241,114,207,114"/>
+</map>

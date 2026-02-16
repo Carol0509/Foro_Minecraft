@@ -1,0 +1,11 @@
+<map id="SebastianBergmann\LinesOfCode\Exception" name="SebastianBergmann\LinesOfCode\Exception">
+<area shape="rect" id="Node000001" title=" " alt="" coords="144,69,351,109"/>
+<area shape="rect" id="Node000003" href="$classSebastianBergmann_1_1LinesOfCode_1_1IllogicalValuesException.html" title=" " alt="" coords="399,5,617,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="342,63,425,43,427,48,343,69"/>
+<area shape="rect" id="Node000004" href="$classSebastianBergmann_1_1LinesOfCode_1_1NegativeValueException.html" title=" " alt="" coords="399,69,617,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="365,87,399,87,399,92,365,92"/>
+<area shape="rect" id="Node000005" href="$classSebastianBergmann_1_1LinesOfCode_1_1RuntimeException.html" title=" " alt="" coords="405,133,611,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="343,110,427,131,425,136,342,115"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,77,96,102"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,87,144,87,144,92,109,92"/>
+</map>

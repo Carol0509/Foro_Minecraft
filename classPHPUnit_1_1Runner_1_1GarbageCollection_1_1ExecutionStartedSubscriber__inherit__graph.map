@@ -1,0 +1,9 @@
+<map id="PHPUnit\Runner\GarbageCollection\ExecutionStartedSubscriber" name="PHPUnit\Runner\GarbageCollection\ExecutionStartedSubscriber">
+<area shape="rect" id="Node000001" title=" " alt="" coords="539,37,788,77"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Runner_1_1GarbageCollection_1_1Subscriber.html" title=" " alt="" coords="241,5,491,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="505,38,539,41,538,47,504,43"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Event_1_1TestRunner_1_1ExecutionStartedSubscriber.html" title=" " alt="" coords="264,69,468,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="481,74,538,68,538,73,482,80"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Event_1_1Subscriber.html" title=" " alt="" coords="5,77,193,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="207,87,264,87,264,92,207,92"/>
+</map>

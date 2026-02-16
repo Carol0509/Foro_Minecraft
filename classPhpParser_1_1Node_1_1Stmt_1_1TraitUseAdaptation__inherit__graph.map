@@ -1,0 +1,15 @@
+<map id="PhpParser\Node\Stmt\TraitUseAdaptation" name="PhpParser\Node\Stmt\TraitUseAdaptation">
+<area shape="rect" id="Node000001" title=" " alt="" coords="612,41,771,81"/>
+<area shape="rect" id="Node000006" href="$classPhpParser_1_1Node_1_1Stmt_1_1TraitUseAdaptation_1_1Alias.html" title=" " alt="" coords="819,5,1005,45"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="784,44,818,38,819,43,784,49"/>
+<area shape="rect" id="Node000007" href="$classPhpParser_1_1Node_1_1Stmt_1_1TraitUseAdaptation_1_1Precedence.html" title=" " alt="" coords="833,70,991,125"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="785,74,833,82,832,87,784,79"/>
+<area shape="rect" id="Node000002" href="$classPhpParser_1_1Node_1_1Stmt.html" title=" " alt="" coords="405,49,564,74"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="578,59,612,59,612,64,578,64"/>
+<area shape="rect" id="Node000003" href="$classPhpParser_1_1NodeAbstract.html" title=" " alt="" coords="179,49,357,74"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,59,405,59,405,64,371,64"/>
+<area shape="rect" id="Node000004" href="$interfacePhpParser_1_1Node.html" title=" " alt="" coords="6,23,130,49"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="144,43,179,47,178,53,143,48"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,73,131,98"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="144,74,178,69,179,75,144,79"/>
+</map>

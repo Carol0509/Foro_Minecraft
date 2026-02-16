@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>minecraft_forum: Deprecations</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">minecraft_forum<span id="projectnumber">&#160;0.1</span>
+   </div>
+   <div id="projectbrief">Para probar GitHub Actions</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div><div class="header">
+  <div class="headertitle"><div class="title">Deprecations</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="autotoc_md373"></a> </p>
+<h1><a class="anchor" id="autotoc_md374"></a>
+Soft Deprecations</h1>
+<p>This functionality is currently <a href="https://phpunit.de/backward-compatibility.html#soft-deprecation">soft-deprecated</a>:</p>
+<h2><a class="anchor" id="autotoc_md375"></a>
+Writing Tests</h2>
+<h3><a class="anchor" id="autotoc_md376"></a>
+Assertions, Constraints, and Expectations</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Issue   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">Since   </th><th class="markdownTableHeadNone">Replacement    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5472">#5472</a>   </td><td class="markdownTableBodyNone"><code>Assert::assertStringNotMatchesFormat()</code>   </td><td class="markdownTableBodyNone">10.4.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5472">#5472</a>   </td><td class="markdownTableBodyNone"><code>Assert::assertStringNotMatchesFormatFile()</code>   </td><td class="markdownTableBodyNone">10.4.0   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md377"></a>
+Test Double API</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Issue   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">Since   </th><th class="markdownTableHeadNone">Replacement    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5240">#5240</a>   </td><td class="markdownTableBodyNone"><code>TestCase::createTestProxy()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5241">#5241</a>   </td><td class="markdownTableBodyNone"><code>TestCase::getMockForAbstractClass()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5242">#5242</a>   </td><td class="markdownTableBodyNone"><code>TestCase::getMockFromWsdl()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5243">#5243</a>   </td><td class="markdownTableBodyNone"><code>TestCase::getMockForTrait()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5244">#5244</a>   </td><td class="markdownTableBodyNone"><code>TestCase::getObjectForTrait()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5305">#5305</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::getMockForAbstractClass()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5306">#5306</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::getMockForTrait()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5307">#5307</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::disableProxyingToOriginalMethods()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5307">#5307</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::enableProxyingToOriginalMethods()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5307">#5307</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::setProxyTarget()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5308">#5308</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::allowMockingUnknownTypes()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5308">#5308</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::disallowMockingUnknownTypes()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5309">#5309</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::disableAutoload()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5309">#5309</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::enableAutoload()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5315">#5315</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::disableArgumentCloning()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5315">#5315</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::enableArgumentCloning()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5320">#5320</a>   </td><td class="markdownTableBodyNone"><code>MockBuilder::addMethods()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5423">#5423</a>   </td><td class="markdownTableBodyNone"><code>TestCase::onConsecutiveCalls()</code>   </td><td class="markdownTableBodyNone">10.3.0   </td><td class="markdownTableBodyNone">Use <code>$double-&gt;willReturn()</code> instead of <code>$double-&gt;will($this-&gt;onConsecutiveCalls())</code>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5423">#5423</a>   </td><td class="markdownTableBodyNone"><code>TestCase::returnArgument()</code>   </td><td class="markdownTableBodyNone">10.3.0   </td><td class="markdownTableBodyNone">Use <code>$double-&gt;willReturnArgument()</code> instead of <code>$double-&gt;will($this-&gt;returnArgument())</code>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5423">#5423</a>   </td><td class="markdownTableBodyNone"><code>TestCase::returnCallback()</code>   </td><td class="markdownTableBodyNone">10.3.0   </td><td class="markdownTableBodyNone">Use <code>$double-&gt;willReturnCallback()</code> instead of <code>$double-&gt;will($this-&gt;returnCallback())</code>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5423">#5423</a>   </td><td class="markdownTableBodyNone"><code>TestCase::returnSelf()</code>   </td><td class="markdownTableBodyNone">10.3.0   </td><td class="markdownTableBodyNone">Use <code>$double-&gt;willReturnSelf()</code> instead of <code>$double-&gt;will($this-&gt;returnSelf())</code>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5423">#5423</a>   </td><td class="markdownTableBodyNone"><code>TestCase::returnValue()</code>   </td><td class="markdownTableBodyNone">10.3.0   </td><td class="markdownTableBodyNone">Use <code>$double-&gt;willReturn()</code> instead of <code>$double-&gt;will($this-&gt;returnValue())</code>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5423">#5423</a>   </td><td class="markdownTableBodyNone"><code>TestCase::returnValueMap()</code>   </td><td class="markdownTableBodyNone">10.3.0   </td><td class="markdownTableBodyNone">Use <code>$double-&gt;willReturnMap()</code> instead of <code>$double-&gt;will($this-&gt;returnValueMap())</code>   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md378"></a>
+Miscellaneous</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Issue   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">Since   </th><th class="markdownTableHeadNone">Replacement    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5236">#5236</a>   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Framework\Attributes\CodeCoverageIgnore()</code>   </td><td class="markdownTableBodyNone">10.1.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5214">#5214</a>   </td><td class="markdownTableBodyNone"><code>TestCase::iniSet()</code>   </td><td class="markdownTableBodyNone">10.3.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5216">#5216</a>   </td><td class="markdownTableBodyNone"><code>TestCase::setLocale()</code>   </td><td class="markdownTableBodyNone">10.3.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5513">#5236</a>   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Framework\Attributes\IgnoreClassForCodeCoverage()</code>   </td><td class="markdownTableBodyNone">10.4.0   </td><td class="markdownTableBodyNone">Use <code>@codeCoverageIgnore</code> annotation in the class' doc-comment    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5513">#5236</a>   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Framework\Attributes\IgnoreMethodForCodeCoverage()</code>   </td><td class="markdownTableBodyNone">10.4.0   </td><td class="markdownTableBodyNone">Use <code>@codeCoverageIgnore</code> annotation in the method's doc-comment    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5513">#5236</a>   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Framework\Attributes\IgnoreFunctionForCodeCoverage()</code>   </td><td class="markdownTableBodyNone">10.4.0   </td><td class="markdownTableBodyNone">Use <code>@codeCoverageIgnore</code> annotation in the function's doc-comment   </td></tr>
+</table>
+<h2><a class="anchor" id="autotoc_md379"></a>
+Running Tests</h2>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Issue   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">Since   </th><th class="markdownTableHeadNone">Replacement    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5481">#5481</a>   </td><td class="markdownTableBodyNone"><code>dataSet</code> attribute for <code>testCaseMethod</code> elements in the XML document generated by <code>--list-tests-xml</code>   </td><td class="markdownTableBodyNone">10.4.0   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<h2><a class="anchor" id="autotoc_md380"></a>
+Extending PHPUnit</h2>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Issue   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">Since   </th><th class="markdownTableHeadNone">Replacement    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::coverageExcludeDirectories()</code>   </td><td class="markdownTableBodyNone">10.2.0   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::source()-&gt;excludeDirectories()</code>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::coverageExcludeFiles()</code>   </td><td class="markdownTableBodyNone">10.2.0   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::source()-&gt;excludeFiles()</code>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::coverageIncludeDirectories()</code>   </td><td class="markdownTableBodyNone">10.2.0   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::source()-&gt;includeDirectories()</code>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::coverageIncludeFiles()</code>   </td><td class="markdownTableBodyNone">10.2.0   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::source()-&gt;includeFiles()</code>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::loadPharExtensions()</code>   </td><td class="markdownTableBodyNone">10.2.0   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::noExtensions()</code>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::hasNonEmptyListOfFilesToBeIncludedInCodeCoverageReport()</code>   </td><td class="markdownTableBodyNone">10.2.0   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::source()-&gt;notEmpty()</code>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::restrictDeprecations()</code>   </td><td class="markdownTableBodyNone">10.2.0   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::source()-&gt;restrictDeprecations()</code>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::restrictNotices()</code>   </td><td class="markdownTableBodyNone">10.2.0   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::source()-&gt;restrictNotices()</code>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::restrictWarnings()</code>   </td><td class="markdownTableBodyNone">10.2.0   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::source()-&gt;restrictWarnings()</code>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::cliArgument()</code>   </td><td class="markdownTableBodyNone">10.4.0   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::cliArguments()[0]</code>    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::hasCliArgument()</code>   </td><td class="markdownTableBodyNone">10.4.0   </td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::hasCliArguments()</code>    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Framework\Constraint\Constraint::exporter()</code>   </td><td class="markdownTableBodyNone">10.4.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\TextUI\Configuration\Configuration::registerMockObjectsFromTestArgumentsRecursively()</code>   </td><td class="markdownTableBodyNone">10.5.3   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code>Test\AssertionFailed</code> and <code>Test\AssertionSucceeded</code> events   </td><td class="markdownTableBodyNone">10.5.3   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone"><code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Runner\Extension\Facade::requireExportOfObjects()</code> and <code><a class="el" href="namespacePHPUnit.html">PHPUnit</a>\Runner\Extension\Facade::requiresExportOfObjects()</code>   </td><td class="markdownTableBodyNone">10.5.3   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+<h1><a class="anchor" id="autotoc_md381"></a>
+Hard Deprecations</h1>
+<p>This functionality is currently <a href="https://phpunit.de/backward-compatibility.html#hard-deprecation">hard-deprecated</a>:</p>
+<h2><a class="anchor" id="autotoc_md382"></a>
+Writing Tests</h2>
+<h3><a class="anchor" id="autotoc_md383"></a>
+Miscellaneous</h3>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Issue   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">Since   </th><th class="markdownTableHeadNone">Replacement    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/issues/5100">#5100</a>   </td><td class="markdownTableBodyNone">Support for non-static data provider methods, non-public data provider methods, and data provider methods that declare parameters   </td><td class="markdownTableBodyNone">10.0.0   </td><td class="markdownTableBodyNone"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/sebastianbergmann/phpunit/pull/5812">#5812</a>   </td><td class="markdownTableBodyNone">Support for string array keys in data sets returned by data provider methods that do not match the parameter names of the test method(s) that use(s) them   </td><td class="markdownTableBodyNone">10.5.18   </td><td class="markdownTableBodyNone"></td></tr>
+</table>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>

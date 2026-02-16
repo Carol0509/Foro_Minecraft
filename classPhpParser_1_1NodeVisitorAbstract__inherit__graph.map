@@ -1,0 +1,31 @@
+<map id="PhpParser\NodeVisitorAbstract" name="PhpParser\NodeVisitorAbstract">
+<area shape="rect" id="Node000001" title=" " alt="" coords="220,397,440,422"/>
+<area shape="rect" id="Node000003" href="$classPhpParser_1_1NodeVisitor_1_1CloningVisitor.html" title=" " alt="" coords="542,5,709,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="332,382,346,316,373,227,394,180,419,134,450,92,486,55,512,39,541,30,543,35,515,44,490,59,454,95,423,137,398,183,378,229,351,317,338,384"/>
+<area shape="rect" id="Node000004" href="$classPhpParser_1_1NodeVisitor_1_1CommentAnnotatingVisitor.html" title=" " alt="" coords="524,69,727,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="335,383,352,327,382,256,402,218,426,182,454,148,486,119,523,100,525,105,490,124,458,152,431,185,407,221,387,258,357,329,340,384"/>
+<area shape="rect" id="Node000005" href="$classPhpParser_1_1NodeVisitor_1_1FindingVisitor.html" title=" " alt="" coords="542,133,709,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="340,382,361,338,392,284,434,229,459,205,487,183,513,169,541,160,543,165,515,174,489,188,463,209,438,233,397,287,365,341,344,384"/>
+<area shape="rect" id="Node000006" href="$classPhpParser_1_1NodeVisitor_1_1FirstFindingVisitor.html" title=" " alt="" coords="542,197,709,237"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="346,384,403,315,442,278,487,247,513,235,541,226,543,231,515,240,489,252,445,282,406,319,350,387"/>
+<area shape="rect" id="Node000007" href="$classPhpParser_1_1NodeVisitor_1_1NameResolver.html" title=" " alt="" coords="542,261,709,301"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="358,386,415,348,487,311,541,294,543,299,489,316,418,352,361,391"/>
+<area shape="rect" id="Node000008" href="$classPhpParser_1_1NodeVisitor_1_1NodeConnectingVisitor.html" title=" " alt="" coords="538,325,713,365"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="402,391,537,362,538,367,403,396"/>
+<area shape="rect" id="Node000009" href="$classPhpParser_1_1NodeVisitor_1_1ParentConnectingVisitor.html" title=" " alt="" coords="534,389,717,429"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="454,407,534,407,534,412,454,412"/>
+<area shape="rect" id="Node000010" href="$classSebastianBergmann_1_1CodeCoverage_1_1StaticAnalysis_1_1CodeUnitFindingVisitor.html" title=" " alt="" coords="490,453,761,493"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="403,422,533,451,532,456,402,428"/>
+<area shape="rect" id="Node000011" href="$classSebastianBergmann_1_1CodeCoverage_1_1StaticAnalysis_1_1ExecutableLinesFindingVisitor.html" title=" " alt="" coords="488,518,763,573"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="361,428,419,465,489,503,521,515,519,520,487,508,416,470,358,432"/>
+<area shape="rect" id="Node000012" href="$classSebastianBergmann_1_1CodeCoverage_1_1StaticAnalysis_1_1IgnoredLinesFindingVisitor.html" title=" " alt="" coords="499,597,751,651"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="348,432,405,507,444,548,489,583,510,594,508,599,487,588,441,552,400,511,344,435"/>
+<area shape="rect" id="Node000013" href="$classSebastianBergmann_1_1Complexity_1_1ComplexityCalculatingVisitor.html" title=" " alt="" coords="509,676,741,716"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="342,434,361,484,392,546,435,609,461,637,490,662,511,674,508,679,486,666,457,641,431,612,387,548,356,486,337,436"/>
+<area shape="rect" id="Node000014" href="$classSebastianBergmann_1_1Complexity_1_1CyclomaticComplexityCalculatingVisitor.html" title=" " alt="" coords="502,741,749,795"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="339,435,355,495,384,574,404,615,428,656,457,693,490,726,508,738,505,743,486,730,453,697,424,659,400,618,379,576,350,497,334,436"/>
+<area shape="rect" id="Node000015" href="$classSebastianBergmann_1_1LinesOfCode_1_1LineCountingVisitor.html" title=" " alt="" coords="522,820,729,860"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="336,435,347,509,372,610,392,664,418,716,450,764,490,806,523,825,520,830,486,810,446,768,413,719,387,666,367,612,342,510,331,436"/>
+<area shape="rect" id="Node000002" href="$interfacePhpParser_1_1NodeVisitor.html" title=" " alt="" coords="5,397,172,422"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,407,220,407,220,412,186,412"/>
+</map>

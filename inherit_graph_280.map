@@ -1,0 +1,5 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$classPHPUnit_1_1Util_1_1PHP_1_1AbstractPhpProcess.html" title=" " alt="" coords="5,5,196,45"/>
+<area shape="rect" id="Node000001" href="$classPHPUnit_1_1Util_1_1PHP_1_1DefaultPhpProcess.html" title=" " alt="" coords="244,5,428,45"/>
+<area shape="poly" id="edge1315_Node000000_Node000001" title=" " alt="" coords="210,23,244,23,244,28,210,28"/>
+</map>

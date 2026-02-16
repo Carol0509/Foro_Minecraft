@@ -1,0 +1,15 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,141,172,166"/>
+<area shape="rect" id="Node000001" href="$classPHPUnit_1_1Runner_1_1Filter_1_1GroupFilterIterator.html" title=" " alt="" coords="253,37,415,77"/>
+<area shape="poly" id="edge1316_Node000000_Node000001" title=" " alt="" coords="124,132,219,87,254,75,256,80,221,92,126,137"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Runner_1_1Filter_1_1NameFilterIterator.html" title=" " alt="" coords="253,101,415,141"/>
+<area shape="poly" id="edge1319_Node000000_Node000004" title=" " alt="" coords="185,138,252,129,253,135,186,143"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Runner_1_1Filter_1_1TestIdFilterIterator.html" title=" " alt="" coords="253,165,415,205"/>
+<area shape="poly" id="edge1320_Node000000_Node000005" title=" " alt="" coords="186,163,253,172,252,177,185,169"/>
+<area shape="rect" id="Node000006" href="$classSebastianBergmann_1_1FileIterator_1_1ExcludeIterator.html" title=" " alt="" coords="220,229,448,269"/>
+<area shape="poly" id="edge1321_Node000000_Node000006" title=" " alt="" coords="126,170,221,215,256,227,254,232,219,220,124,175"/>
+<area shape="rect" id="Node000002" href="$classPHPUnit_1_1Runner_1_1Filter_1_1ExcludeGroupFilterIterator.html" title=" " alt="" coords="496,5,693,45"/>
+<area shape="poly" id="edge1317_Node000001_Node000002" title=" " alt="" coords="429,43,496,35,496,40,429,48"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Runner_1_1Filter_1_1IncludeGroupFilterIterator.html" title=" " alt="" coords="498,69,691,109"/>
+<area shape="poly" id="edge1318_Node000001_Node000003" title=" " alt="" coords="430,66,498,75,497,80,429,72"/>
+</map>

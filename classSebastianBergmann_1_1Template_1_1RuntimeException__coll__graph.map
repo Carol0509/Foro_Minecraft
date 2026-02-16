@@ -1,0 +1,12 @@
+<map id="SebastianBergmann\Template\RuntimeException" name="SebastianBergmann\Template\RuntimeException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="675,35,892,75"/>
+<area shape="rect" id="Node000002" href="$classSebastianBergmann_1_1Template_1_1InvalidArgumentException.html" title=" " alt="" coords="409,5,627,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="641,36,675,40,674,45,640,41"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="155,13,350,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="364,23,409,23,409,28,364,28"/>
+<area shape="rect" id="Node000004" href="$interfaceSebastianBergmann_1_1Template_1_1Exception.html" title=" " alt="" coords="144,63,361,103"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="375,74,675,58,675,63,375,79"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="359,57,424,43,425,48,360,62"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,70,96,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="110,80,144,80,144,85,110,85"/>
+</map>

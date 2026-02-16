@@ -1,0 +1,10 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$interfacePHPUnit_1_1Framework_1_1MockObject_1_1Stub.html" title=" " alt="" coords="5,45,272,70"/>
+<area shape="rect" id="Node000001" href="$interfacePHPUnit_1_1Framework_1_1MockObject_1_1MockObject.html" title=" " alt="" coords="320,5,553,45"/>
+<area shape="poly" id="edge1189_Node000000_Node000001" title=" " alt="" coords="270,41,319,35,320,41,271,46"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Framework_1_1MockObject_1_1StubInternal.html" title=" " alt="" coords="320,69,553,109"/>
+<area shape="poly" id="edge1191_Node000000_Node000003" title=" " alt="" coords="271,69,320,74,319,79,270,74"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Framework_1_1MockObject_1_1MockObjectInternal.html" title=" " alt="" coords="601,37,835,77"/>
+<area shape="poly" id="edge1190_Node000001_Node000002" title=" " alt="" coords="567,37,601,41,601,47,566,43"/>
+<area shape="poly" id="edge1192_Node000003_Node000002" title=" " alt="" coords="566,72,601,68,601,73,567,77"/>
+</map>

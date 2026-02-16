@@ -78,7 +78,7 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a0a3f4c77a0718865e55ed76379224869" id="r_a0a3f4c77a0718865e55ed76379224869"><td class="memItemLeft" align="right" valign="top">if(!isset($_SESSION['user']))&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="perfil_8php.html#a0a3f4c77a0718865e55ed76379224869">$host</a> = 'localhost'</td></tr>
+<tr class="memitem:a0a3f4c77a0718865e55ed76379224869" id="r_a0a3f4c77a0718865e55ed76379224869"><td class="memItemLeft" align="right" valign="top"><a class="el" href="autoload_8php.html#ae4dd496b0f39307b4d12d66e26c51847">if</a>(!isset($_SESSION['user']))&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="perfil_8php.html#a0a3f4c77a0718865e55ed76379224869">$host</a> = 'localhost'</td></tr>
 <tr class="separator:a0a3f4c77a0718865e55ed76379224869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fa3127fc82f96b1436d871ef02be319" id="r_a1fa3127fc82f96b1436d871ef02be319"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="perfil_8php.html#a1fa3127fc82f96b1436d871ef02be319">$db</a> = 'minecraft_forum'</td></tr>
 <tr class="separator:a1fa3127fc82f96b1436d871ef02be319"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -98,7 +98,7 @@ Variables</h2></td></tr>
 <tr class="separator:af0fcd925f00973e32f7214859dfb3c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac62167326fcdc762297fe76407218b55" id="r_ac62167326fcdc762297fe76407218b55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="perfil_8php.html#ac62167326fcdc762297fe76407218b55">$avatar</a> = $_SESSION['avatar'] ?? 'avatar1.webp'</td></tr>
 <tr class="separator:ac62167326fcdc762297fe76407218b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac16d56c3066822a3d9f67a292ef2e79e" id="r_ac16d56c3066822a3d9f67a292ef2e79e"><td class="memItemLeft" align="right" valign="top">if(isset($_POST['change_avatar'], $_POST['new_avatar'])) if(isset( $_POST[ 'change_password'], $_POST[ 'new_password'])) if(isset($_POST['delete_account']))&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="perfil_8php.html#ac16d56c3066822a3d9f67a292ef2e79e">$stmt</a> = $pdo-&gt;prepare(&quot;SELECT * FROM posts WHERE user_id = ? ORDER BY created_at DESC&quot;)</td></tr>
+<tr class="memitem:ac16d56c3066822a3d9f67a292ef2e79e" id="r_ac16d56c3066822a3d9f67a292ef2e79e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="autoload_8php.html#ae4dd496b0f39307b4d12d66e26c51847">if</a>(isset($_POST['change_avatar'], $_POST['new_avatar'])) <a class="el" href="autoload_8php.html#ae4dd496b0f39307b4d12d66e26c51847">if</a>(isset( $_POST[ 'change_password'], $_POST[ 'new_password'])) <a class="el" href="autoload_8php.html#ae4dd496b0f39307b4d12d66e26c51847">if</a>(isset($_POST['delete_account']))&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="perfil_8php.html#ac16d56c3066822a3d9f67a292ef2e79e">$stmt</a> = $pdo-&gt;prepare(&quot;SELECT * FROM posts WHERE user_id = ? ORDER BY created_at DESC&quot;)</td></tr>
 <tr class="separator:ac16d56c3066822a3d9f67a292ef2e79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49564e1c71bb65bd9f413fe5df2f3925" id="r_a49564e1c71bb65bd9f413fe5df2f3925"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="perfil_8php.html#a49564e1c71bb65bd9f413fe5df2f3925">$myPosts</a> = $stmt-&gt;fetchAll(PDO::FETCH_ASSOC)</td></tr>
 <tr class="separator:a49564e1c71bb65bd9f413fe5df2f3925"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,7 +167,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">if (!isset( $_SESSION[ 'user'])) $host = 'localhost'</td>
+          <td class="memname"><a class="el" href="autoload_8php.html#ae4dd496b0f39307b4d12d66e26c51847">if</a> (!isset( $_SESSION[ 'user'])) $host = 'localhost'</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -209,7 +209,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">if(isset( $_POST[ 'change_avatar'], $_POST[ 'new_avatar'])) if(isset($_POST['change_password'], $_POST['new_password'])) if (isset( $_POST[ 'delete_account'])) $stmt = $pdo-&gt;prepare(&quot;SELECT * FROM posts WHERE user_id = ? ORDER BY created_at DESC&quot;)</td>
+          <td class="memname"><a class="el" href="autoload_8php.html#ae4dd496b0f39307b4d12d66e26c51847">if</a>(isset( $_POST[ 'change_avatar'], $_POST[ 'new_avatar'])) <a class="el" href="autoload_8php.html#ae4dd496b0f39307b4d12d66e26c51847">if</a>(isset($_POST['change_password'], $_POST['new_password'])) <a class="el" href="autoload_8php.html#ae4dd496b0f39307b4d12d66e26c51847">if</a> (isset( $_POST[ 'delete_account'])) $stmt = $pdo-&gt;prepare(&quot;SELECT * FROM posts WHERE user_id = ? ORDER BY created_at DESC&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

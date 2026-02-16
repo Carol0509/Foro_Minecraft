@@ -1,0 +1,5 @@
+<map id="Gráfico de jerarquía de clases" name="Gráfico de jerarquía de clases">
+<area shape="rect" id="Node000000" href="$interfacePHPUnit_1_1Event_1_1Emitter.html" title=" " alt="" coords="5,13,173,38"/>
+<area shape="rect" id="Node000001" href="$classPHPUnit_1_1Event_1_1DispatchingEmitter.html" title=" " alt="" coords="221,5,419,45"/>
+<area shape="poly" id="edge299_Node000000_Node000001" title=" " alt="" coords="187,23,221,23,221,28,187,28"/>
+</map>

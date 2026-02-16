@@ -1,0 +1,19 @@
+<map id="PharIo\Version\VersionConstraint" name="PharIo\Version\VersionConstraint">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,205,240,230"/>
+<area shape="rect" id="Node000002" href="$classPharIo_1_1Version_1_1AbstractVersionConstraint.html" title=" " alt="" coords="288,165,509,205"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,200,287,196,288,201,246,206"/>
+<area shape="rect" id="Node000009" href="$classPharIo_1_1Version_1_1AnyVersionConstraint.html" title=" " alt="" coords="303,229,495,269"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="246,229,303,236,302,241,246,234"/>
+<area shape="rect" id="Node000003" href="$classPharIo_1_1Version_1_1AndVersionConstraintGroup.html" title=" " alt="" coords="565,5,757,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="428,154,484,104,519,78,556,55,583,43,585,48,559,60,522,82,488,108,431,158"/>
+<area shape="rect" id="Node000004" href="$classPharIo_1_1Version_1_1ExactVersionConstraint.html" title=" " alt="" coords="559,69,762,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="458,158,556,119,592,107,594,112,558,124,460,162"/>
+<area shape="rect" id="Node000005" href="$classPharIo_1_1Version_1_1GreaterThanOrEqualToVersionConstraint.html" title=" " alt="" coords="559,133,762,173"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="523,167,559,163,560,168,524,173"/>
+<area shape="rect" id="Node000006" href="$classPharIo_1_1Version_1_1OrVersionConstraintGroup.html" title=" " alt="" coords="569,197,752,237"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="524,198,570,204,569,209,523,203"/>
+<area shape="rect" id="Node000007" href="$classPharIo_1_1Version_1_1SpecificMajorAndMinorVersionConstraint.html" title=" " alt="" coords="557,261,764,301"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="493,208,511,215,535,231,559,247,587,259,585,264,556,252,532,235,508,220,491,213"/>
+<area shape="rect" id="Node000008" href="$classPharIo_1_1Version_1_1SpecificMajorVersionConstraint.html" title=" " alt="" coords="557,325,764,365"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="505,210,511,215,523,227,530,240,536,265,542,289,549,300,559,311,577,323,574,327,556,315,544,303,537,291,531,266,525,242,518,231,508,219,501,215"/>
+</map>

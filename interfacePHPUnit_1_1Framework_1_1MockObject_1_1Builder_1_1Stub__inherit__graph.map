@@ -1,0 +1,11 @@
+<map id="PHPUnit\Framework\MockObject\Builder\Stub" name="PHPUnit\Framework\MockObject\Builder\Stub">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,93,239,133"/>
+<area shape="rect" id="Node000003" href="$interfacePHPUnit_1_1Framework_1_1MockObject_1_1Builder_1_1ParametersMatch.html" title=" " alt="" coords="5,181,239,221"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="125,147,125,181,119,181,119,147"/>
+<area shape="rect" id="Node000002" href="$interfacePHPUnit_1_1Framework_1_1MockObject_1_1Builder_1_1Identity.html" title=" " alt="" coords="5,5,239,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,59,125,93,119,93,119,59"/>
+<area shape="rect" id="Node000004" href="$interfacePHPUnit_1_1Framework_1_1MockObject_1_1Builder_1_1MethodNameMatch.html" title=" " alt="" coords="5,269,239,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,235,125,269,119,269,119,235"/>
+<area shape="rect" id="Node000005" href="$classPHPUnit_1_1Framework_1_1MockObject_1_1Builder_1_1InvocationMocker.html" title=" " alt="" coords="5,357,239,397"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="125,323,125,357,119,357,119,323"/>
+</map>

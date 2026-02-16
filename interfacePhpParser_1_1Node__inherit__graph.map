@@ -1,0 +1,104 @@
+<map id="PhpParser\Node" name="PhpParser\Node">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,1717,129,1742"/>
+<area shape="rect" id="Node000002" href="$interfacePhpParser_1_1Node_1_1FunctionLike.html" title=" " alt="" coords="427,1279,637,1305"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,1704,126,1632,198,1532,243,1478,292,1425,345,1376,403,1332,436,1315,471,1302,472,1307,438,1319,405,1337,349,1380,296,1429,247,1482,202,1535,130,1635,85,1706"/>
+<area shape="rect" id="Node000008" href="$classPhpParser_1_1NodeAbstract.html" title=" " alt="" coords="177,1742,356,1767"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="143,1736,177,1741,177,1746,143,1742"/>
+<area shape="rect" id="Node000003" href="$classPhpParser_1_1Node_1_1Expr_1_1ArrowFunction.html" title=" " alt="" coords="747,1208,904,1248"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="604,1274,746,1242,747,1248,605,1279"/>
+<area shape="rect" id="Node000004" href="$classPhpParser_1_1Node_1_1Expr_1_1Closure.html" title=" " alt="" coords="747,1272,904,1312"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="651,1289,746,1289,746,1295,651,1295"/>
+<area shape="rect" id="Node000005" href="$classPhpParser_1_1Node_1_1PropertyHook.html" title=" " alt="" coords="717,1337,934,1362"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="612,1305,760,1334,759,1339,611,1310"/>
+<area shape="rect" id="Node000006" href="$classPhpParser_1_1Node_1_1Stmt_1_1ClassMethod.html" title=" " alt="" coords="746,1528,905,1568"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="573,1309,617,1334,662,1366,707,1407,749,1452,811,1526,807,1530,745,1455,704,1411,658,1370,614,1339,570,1313"/>
+<area shape="rect" id="Node000007" href="$classPhpParser_1_1Node_1_1Stmt_1_1Function__.html" title=" " alt="" coords="746,1664,905,1704"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="584,1308,626,1332,645,1348,662,1366,679,1395,687,1422,690,1472,690,1522,697,1549,710,1579,728,1604,750,1626,794,1662,790,1666,746,1630,724,1607,706,1581,692,1551,685,1523,684,1472,682,1423,674,1397,658,1370,642,1351,623,1336,581,1312"/>
+<area shape="poly" id="edge46_Node000008_Node000005" title=" " alt="" coords="275,1728,353,1517,363,1472,365,1433,374,1399,385,1382,402,1366,426,1354,457,1345,537,1336,629,1334,716,1338,716,1343,628,1340,537,1341,458,1350,428,1359,406,1370,389,1386,379,1401,370,1434,368,1473,359,1518,280,1730"/>
+<area shape="rect" id="Node000009" href="$classPhpParser_1_1Node_1_1Arg.html" title=" " alt="" coords="457,1479,607,1505"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="272,1728,288,1681,314,1623,352,1563,376,1537,403,1514,428,1500,455,1493,457,1498,430,1505,405,1518,379,1540,356,1567,319,1625,293,1683,277,1730"/>
+<area shape="rect" id="Node000010" href="$classPhpParser_1_1Node_1_1ArrayItem.html" title=" " alt="" coords="435,1529,629,1554"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="276,1728,295,1691,322,1646,358,1600,403,1563,434,1549,436,1554,405,1568,362,1604,326,1649,299,1693,281,1731"/>
+<area shape="rect" id="Node000011" href="$classPhpParser_1_1Node_1_1Attribute.html" title=" " alt="" coords="439,1578,625,1603"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="282,1729,331,1670,365,1639,403,1614,438,1600,440,1605,405,1618,368,1643,335,1674,286,1732"/>
+<area shape="rect" id="Node000012" href="$classPhpParser_1_1Node_1_1AttributeGroup.html" title=" " alt="" coords="439,1628,625,1668"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="297,1732,346,1704,403,1678,439,1666,440,1671,405,1682,349,1709,300,1737"/>
+<area shape="rect" id="Node000013" href="$classPhpParser_1_1Node_1_1ClosureUse.html" title=" " alt="" coords="431,1693,633,1718"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="348,1737,462,1715,463,1721,349,1742"/>
+<area shape="rect" id="Node000014" href="$classPhpParser_1_1Node_1_1ComplexType.html" title=" " alt="" coords="424,2251,640,2277"/>
+<area shape="poly" id="edge13_Node000008_Node000014" title=" " alt="" coords="274,1781,291,1882,319,2020,338,2090,358,2153,381,2204,406,2238,425,2251,422,2256,402,2242,377,2207,353,2155,332,2092,314,2022,286,1883,269,1782"/>
+<area shape="rect" id="Node000018" href="$classPhpParser_1_1Node_1_1Const__.html" title=" " alt="" coords="446,1791,618,1817"/>
+<area shape="poly" id="edge17_Node000008_Node000018" title=" " alt="" coords="349,1767,463,1789,462,1794,348,1772"/>
+<area shape="rect" id="Node000019" href="$classPhpParser_1_1Node_1_1DeclareItem.html" title=" " alt="" coords="428,1841,636,1866"/>
+<area shape="poly" id="edge18_Node000008_Node000019" title=" " alt="" coords="299,1773,348,1801,405,1827,445,1838,443,1843,403,1832,345,1806,297,1777"/>
+<area shape="rect" id="Node000020" href="$classPhpParser_1_1Node_1_1Expr.html" title=" " alt="" coords="453,671,611,697"/>
+<area shape="poly" id="edge19_Node000008_Node000020" title=" " alt="" coords="272,1728,525,696,530,698,277,1730"/>
+<area shape="rect" id="Node000130" href="$classPhpParser_1_1Node_1_1Identifier.html" title=" " alt="" coords="439,1890,625,1915"/>
+<area shape="poly" id="edge41_Node000008_Node000130" title=" " alt="" coords="289,1776,338,1828,370,1855,405,1876,439,1889,437,1894,403,1881,367,1859,334,1832,285,1780"/>
+<area shape="rect" id="Node000132" href="$classPhpParser_1_1Node_1_1InterpolatedStringPart.html" title=" " alt="" coords="429,1940,635,1980"/>
+<area shape="poly" id="edge42_Node000008_Node000132" title=" " alt="" coords="283,1778,302,1812,330,1852,365,1892,405,1926,430,1938,427,1943,403,1930,361,1896,326,1855,298,1815,278,1781"/>
+<area shape="rect" id="Node000133" href="$classPhpParser_1_1Node_1_1MatchArm.html" title=" " alt="" coords="435,2005,629,2030"/>
+<area shape="poly" id="edge43_Node000008_Node000133" title=" " alt="" coords="278,1780,294,1826,320,1884,357,1942,380,1968,405,1990,435,2005,433,2010,403,1994,376,1971,352,1945,315,1886,289,1828,273,1782"/>
+<area shape="rect" id="Node000134" href="$classPhpParser_1_1Node_1_1Name.html" title=" " alt="" coords="449,2054,615,2079"/>
+<area shape="poly" id="edge44_Node000008_Node000134" title=" " alt="" coords="275,1780,288,1836,312,1907,329,1944,350,1980,376,2013,406,2041,426,2052,449,2060,447,2065,424,2057,402,2045,372,2016,346,1983,325,1947,307,1909,283,1837,270,1782"/>
+<area shape="rect" id="Node000137" href="$classPhpParser_1_1Node_1_1Param.html" title=" " alt="" coords="447,2103,617,2129"/>
+<area shape="poly" id="edge45_Node000008_Node000137" title=" " alt="" coords="273,1781,283,1845,305,1929,322,1974,344,2017,372,2056,406,2090,425,2102,448,2110,446,2115,423,2107,402,2094,368,2060,340,2019,317,1976,300,1931,278,1846,268,1781"/>
+<area shape="rect" id="Node000138" href="$classPhpParser_1_1Node_1_1PropertyItem.html" title=" " alt="" coords="425,2153,639,2178"/>
+<area shape="poly" id="edge47_Node000008_Node000138" title=" " alt="" coords="271,1781,278,1853,298,1951,315,2003,339,2053,368,2099,406,2139,426,2152,424,2157,402,2143,364,2103,334,2056,310,2005,293,1952,273,1854,266,1781"/>
+<area shape="rect" id="Node000139" href="$classPhpParser_1_1Node_1_1StaticVar.html" title=" " alt="" coords="439,2202,625,2227"/>
+<area shape="poly" id="edge48_Node000008_Node000139" title=" " alt="" coords="270,1781,274,1861,281,1915,292,1972,309,2032,333,2089,365,2143,406,2189,422,2200,440,2207,438,2212,419,2204,402,2193,360,2146,328,2092,304,2033,287,1974,275,1915,269,1862,265,1781"/>
+<area shape="rect" id="Node000140" href="$classPhpParser_1_1Node_1_1Stmt.html" title=" " alt="" coords="453,1742,611,1767"/>
+<area shape="poly" id="edge49_Node000008_Node000140" title=" " alt="" coords="370,1752,452,1752,452,1757,370,1757"/>
+<area shape="rect" id="Node000184" href="$classPhpParser_1_1Node_1_1UseItem.html" title=" " alt="" coords="441,1381,623,1406"/>
+<area shape="poly" id="edge52_Node000008_Node000184" title=" " alt="" coords="275,1728,344,1547,380,1459,402,1416,420,1404,440,1396,441,1401,422,1409,406,1419,385,1461,349,1549,280,1730"/>
+<area shape="rect" id="Node000185" href="$classPhpParser_1_1Node_1_1VariadicPlaceholder.html" title=" " alt="" coords="404,1430,660,1455"/>
+<area shape="poly" id="edge53_Node000008_Node000185" title=" " alt="" coords="274,1728,329,1586,366,1512,384,1484,402,1465,421,1453,424,1458,406,1469,389,1487,371,1515,334,1588,279,1730"/>
+<area shape="rect" id="Node000015" href="$classPhpParser_1_1Node_1_1IntersectionType.html" title=" " alt="" coords="708,2251,943,2277"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="654,2261,708,2261,708,2267,654,2267"/>
+<area shape="rect" id="Node000016" href="$classPhpParser_1_1Node_1_1NullableType.html" title=" " alt="" coords="719,2301,931,2326"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="622,2276,749,2298,748,2303,621,2282"/>
+<area shape="rect" id="Node000017" href="$classPhpParser_1_1Node_1_1UnionType.html" title=" " alt="" coords="727,2202,923,2227"/>
+<area shape="poly" id="edge16_Node000014_Node000017" title=" " alt="" coords="621,2246,748,2225,749,2230,622,2252"/>
+<area shape="poly" id="edge23_Node000020_Node000003" title=" " alt="" coords="537,710,545,802,555,865,570,933,592,1003,622,1073,661,1138,710,1194,727,1207,747,1215,745,1220,724,1211,706,1198,657,1141,618,1075,587,1005,565,934,550,866,540,803,531,711"/>
+<area shape="poly" id="edge34_Node000020_Node000004" title=" " alt="" coords="536,710,540,812,548,882,563,959,584,1040,615,1119,656,1193,681,1227,710,1258,727,1271,748,1280,745,1285,725,1276,706,1262,677,1231,652,1196,610,1121,579,1041,557,961,543,883,535,812,530,710"/>
+<area shape="rect" id="Node000021" href="$classPhpParser_1_1Internal_1_1PrintableNewAnonClassNode.html" title=" " alt="" coords="718,760,933,800"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="579,699,709,745,748,757,747,762,707,751,578,704"/>
+<area shape="rect" id="Node000022" href="$classPhpParser_1_1Node_1_1Expr_1_1ArrayDimFetch.html" title=" " alt="" coords="747,824,904,864"/>
+<area shape="poly" id="edge21_Node000020_Node000022" title=" " alt="" coords="559,704,624,757,665,785,709,810,747,824,745,829,707,814,663,790,621,761,556,708"/>
+<area shape="rect" id="Node000023" href="$classPhpParser_1_1Node_1_1Expr_1_1Array__.html" title=" " alt="" coords="747,888,904,928"/>
+<area shape="poly" id="edge22_Node000020_Node000023" title=" " alt="" coords="551,707,577,744,613,789,658,835,709,874,748,891,745,896,707,878,655,839,609,793,573,747,546,710"/>
+<area shape="rect" id="Node000024" href="$classPhpParser_1_1Node_1_1Expr_1_1Assign.html" title=" " alt="" coords="747,952,904,992"/>
+<area shape="poly" id="edge24_Node000020_Node000024" title=" " alt="" coords="546,709,569,758,604,820,651,884,679,913,709,938,747,956,745,961,707,942,675,917,647,887,600,823,564,760,541,711"/>
+<area shape="rect" id="Node000025" href="$classPhpParser_1_1Node_1_1Expr_1_1AssignOp.html" title=" " alt="" coords="747,1016,904,1056"/>
+<area shape="poly" id="edge25_Node000020_Node000025" title=" " alt="" coords="542,709,562,769,595,849,617,891,644,931,675,969,710,1002,727,1013,747,1021,745,1026,725,1018,706,1006,671,973,640,935,613,893,590,851,557,771,537,711"/>
+<area shape="rect" id="Node000039" href="$classPhpParser_1_1Node_1_1Expr_1_1AssignRef.html" title=" " alt="" coords="747,1080,904,1120"/>
+<area shape="poly" id="edge26_Node000020_Node000039" title=" " alt="" coords="540,710,556,781,587,877,609,929,637,979,670,1026,710,1066,727,1078,747,1086,745,1091,725,1082,706,1070,666,1029,632,982,604,931,582,879,550,782,535,711"/>
+<area shape="rect" id="Node000040" href="$classPhpParser_1_1Node_1_1Expr_1_1BinaryOp.html" title=" " alt="" coords="747,1144,904,1184"/>
+<area shape="poly" id="edge27_Node000020_Node000040" title=" " alt="" coords="538,710,550,792,562,846,578,905,601,966,629,1026,666,1082,710,1130,727,1142,748,1151,745,1156,725,1147,706,1134,661,1085,625,1029,596,968,573,907,557,847,545,793,533,711"/>
+<area shape="rect" id="Node000069" href="$classPhpParser_1_1Node_1_1Expr_1_1BitwiseNot.html" title=" " alt="" coords="747,5,904,45"/>
+<area shape="poly" id="edge28_Node000020_Node000069" title=" " alt="" coords="535,657,556,530,593,349,617,257,644,172,674,103,690,76,706,55,724,42,745,32,747,37,727,46,710,59,694,79,678,105,649,174,622,258,598,350,561,531,540,658"/>
+<area shape="rect" id="Node000070" href="$classPhpParser_1_1Node_1_1Expr_1_1BooleanNot.html" title=" " alt="" coords="747,69,904,109"/>
+<area shape="poly" id="edge29_Node000020_Node000070" title=" " alt="" coords="531,658,536,558,545,489,559,413,581,334,612,256,653,183,678,150,706,119,725,106,745,97,748,102,727,110,710,123,682,153,657,186,616,258,586,336,564,414,550,490,541,558,536,658"/>
+<area shape="rect" id="Node000071" href="$classPhpParser_1_1Node_1_1Expr_1_1CallLike.html" title=" " alt="" coords="747,133,904,173"/>
+<area shape="poly" id="edge30_Node000020_Node000071" title=" " alt="" coords="532,657,541,567,551,506,567,440,589,371,619,302,658,239,706,183,725,170,745,161,747,166,727,175,710,187,662,242,624,305,594,372,572,441,556,507,546,568,537,658"/>
+<area shape="rect" id="Node000077" href="$classPhpParser_1_1Node_1_1Expr_1_1Cast.html" title=" " alt="" coords="730,198,921,223"/>
+<area shape="poly" id="edge31_Node000020_Node000077" title=" " alt="" coords="533,658,544,575,555,520,572,460,594,398,623,338,660,282,706,234,728,220,731,225,710,238,665,285,628,341,599,400,577,462,560,521,549,576,538,658"/>
+<area shape="rect" id="Node000086" href="$classPhpParser_1_1Node_1_1Expr_1_1ClassConstFetch.html" title=" " alt="" coords="747,248,904,288"/>
+<area shape="poly" id="edge32_Node000020_Node000086" title=" " alt="" coords="535,657,550,586,582,489,604,437,632,386,666,339,706,298,725,286,745,277,747,282,727,290,710,302,670,342,637,389,609,439,587,491,556,587,540,658"/>
+<area shape="rect" id="Node000087" href="$classPhpParser_1_1Node_1_1Expr_1_1Clone__.html" title=" " alt="" coords="747,312,904,352"/>
+<area shape="poly" id="edge33_Node000020_Node000087" title=" " alt="" coords="537,657,557,597,590,517,613,475,640,433,671,395,706,362,725,350,745,342,747,347,727,355,710,366,675,399,644,437,617,477,595,519,562,599,542,659"/>
+<area shape="rect" id="Node000088" href="$classPhpParser_1_1Node_1_1Expr_1_1ConstFetch.html" title=" " alt="" coords="747,376,904,416"/>
+<area shape="poly" id="edge35_Node000020_Node000088" title=" " alt="" coords="541,657,564,608,600,545,647,481,675,451,707,426,745,407,747,412,709,430,679,455,651,484,604,548,569,610,546,659"/>
+<area shape="rect" id="Node000089" href="$classPhpParser_1_1Node_1_1Expr_1_1Empty__.html" title=" " alt="" coords="747,440,904,480"/>
+<area shape="poly" id="edge36_Node000020_Node000089" title=" " alt="" coords="546,658,573,621,609,575,655,529,707,490,745,472,748,477,709,494,658,533,613,579,577,624,551,661"/>
+<area shape="rect" id="Node000090" href="$classPhpParser_1_1Node_1_1Expr_1_1Error.html" title=" " alt="" coords="747,504,904,544"/>
+<area shape="poly" id="edge37_Node000020_Node000090" title=" " alt="" coords="556,660,621,607,663,578,707,554,745,539,747,544,709,558,665,583,624,611,559,664"/>
+<area shape="rect" id="Node000091" href="$classPhpParser_1_1Node_1_1Expr_1_1ErrorSuppress.html" title=" " alt="" coords="747,568,904,608"/>
+<area shape="poly" id="edge38_Node000020_Node000091" title=" " alt="" coords="578,664,707,617,747,606,748,611,709,623,579,669"/>
+<area shape="rect" id="Node000092" href="$classPhpParser_1_1Node_1_1Expr_1_1Eval__.html" title=" " alt="" coords="747,632,904,672"/>
+<area shape="poly" id="edge39_Node000020_Node000092" title=" " alt="" coords="624,671,746,658,746,663,625,677"/>
+<area shape="rect" id="Node000093" href="$classPhpParser_1_1Node_1_1Expr_1_1Exit__.html" title=" " alt="" coords="747,696,904,736"/>
+<area shape="poly" id="edge40_Node000020_Node000093" title=" " alt="" coords="625,691,746,705,746,710,624,697"/>
+<area shape="poly" id="edge50_Node000140_Node000006" title=" " alt="" coords="624,1744,658,1728,676,1711,684,1693,692,1673,706,1650,751,1603,795,1566,799,1570,755,1607,710,1654,697,1675,689,1695,680,1715,662,1733,626,1749"/>
+<area shape="poly" id="edge51_Node000140_Node000007" title=" " alt="" coords="619,1737,659,1728,758,1702,759,1707,661,1733,620,1742"/>
+</map>

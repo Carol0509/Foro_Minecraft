@@ -1,0 +1,18 @@
+<map id="PHPUnit\Framework\MockObject\BadMethodCallException" name="PHPUnit\Framework\MockObject\BadMethodCallException">
+<area shape="rect" id="Node000001" title=" " alt="" coords="95,372,328,412"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,299,191,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,330,186,370,182,374,125,334"/>
+<area shape="rect" id="Node000003" href="$classPHPUnit_1_1Framework_1_1Exception.html" title=" " alt="" coords="215,299,435,324"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="298,334,240,374,237,370,295,330"/>
+<area shape="rect" id="Node000004" href="$classPHPUnit_1_1Event_1_1RuntimeException.html" title=" " alt="" coords="127,225,365,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="271,258,314,296,310,300,267,262"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="17,152,158,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="126,180,221,223,219,228,124,185"/>
+<area shape="rect" id="Node000006" href="$interfacePHPUnit_1_1Event_1_1Exception.html" title=" " alt="" coords="182,152,366,177"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="267,191,253,226,248,224,262,189"/>
+<area shape="rect" id="Node000007" href="$interfacePHPUnit_1_1Exception.html" title=" " alt="" coords="267,79,409,104"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="360,113,372,131,381,151,391,202,389,224,380,252,363,279,342,300,338,296,359,276,376,250,384,223,386,202,375,153,367,134,355,116"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="320,116,286,154,282,150,316,113"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="293,5,383,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="341,44,341,79,335,79,335,44"/>
+</map>
