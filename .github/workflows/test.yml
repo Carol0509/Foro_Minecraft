@@ -12,7 +12,7 @@ jobs:
       mysql:
         image: mysql:8.0
         env:
-          MYSQL_ROOT_PASSWORD: 
+          MYSQL_ALLOW_EMPTY_PASSWORD: ye
           MYSQL_DATABASE: minecraft_forum
         ports:
           - 3306:3306
@@ -37,7 +37,7 @@ jobs:
 
     - name: Import database schema
       run: |
-        mysql -h 127.0.0.1 -u root -proot b420chan < Base_datos_420.sql
+        mysql -h 127.0.0.1 -u root minecraft_forum < sql/database.sql
 
     - name: Run PHPUnit tests
       run: php vendor/bin/phpunit
