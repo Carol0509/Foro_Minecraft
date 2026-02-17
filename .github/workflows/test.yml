@@ -37,7 +37,8 @@ jobs:
 
     - name: Import database schema
       run: |
-        mysql -h 127.0.0.1 -u root minecraft_forum < sql/database.sql
+        mysql -h 127.0.0.1 -u root -e "DROP DATABASE IF EXISTS minecraft_forum;"
+        mysql -h 127.0.0.1 -u root < sql/database.sql
 
     - name: Run PHPUnit tests
       run: php vendor/bin/phpunit --configuration phpunit.xml
